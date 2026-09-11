@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Documents & Receipts — WarrantyVault AI</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="dashboard.css" />
+  <link rel="stylesheet" href="documents.css" />
+  <link rel="stylesheet" href="premium.css" />
+</head>
+<body>
+
+  <!-- Background Shapes -->
+  <div class="geo-container">
+    <div class="geo-shape geo-1"></div>
+    <div class="geo-shape geo-2"></div>
+    <div class="geo-shape geo-3"></div>
+    <div class="geo-shape geo-4"></div>
+    <div class="geo-grid"></div>
+  </div>
+
+  <div class="app-shell" id="appShell">
+
+    <!-- Collapsible Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-logo"><i class="fa-solid fa-shield-halved"></i></div>
+        <div class="brand-title-wrap">
+          <span class="brand-name">SmartPurchaseAI</span>
+          <small class="brand-sub">AI Purchase Intelligence</small>
+        </div>
+      </div>
+
+      <div class="user-profile-summary">
+        <img id="userAvatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Avatar" class="avatar" />
+        <div class="user-info">
+          <span id="userName" class="user-name">Loading...</span>
+          <span id="userRole" class="user-role">---</span>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <a href="dashboard.html" class="nav-link"><i class="fa-solid fa-house"></i> <span>Dashboard</span></a>
+        <a href="products.html" class="nav-link"><i class="fa-solid fa-vault"></i> <span>Purchases & Vault</span></a>
+        <a href="dashboard.html#scanSection" class="nav-link"><i class="fa-solid fa-receipt"></i> <span>Scan Receipt (AI)</span></a>
+        <a href="dashboard.html#analyticsSection" class="nav-link"><i class="fa-solid fa-chart-line"></i> <span>Expense Analytics</span></a>
+        <a href="claims.html" class="nav-link"><i class="fa-solid fa-file-signature"></i> <span>Warranty Claims</span></a>
+        <a href="notifications.html" class="nav-link"><i class="fa-solid fa-bell"></i> <span>Notifications</span></a>
+        <button type="button" class="nav-link nav-link-btn" id="copilotNavBtn"><i class="fa-solid fa-wand-magic-sparkles"></i> <span>Purchase Copilot</span></button>
+        <a href="documents.html" class="nav-link active"><i class="fa-solid fa-folder-open"></i> <span>Documents & Receipts</span></a>
+        <a href="profile.html" class="nav-link"><i class="fa-solid fa-gear"></i> <span>Settings</span></a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <button id="themeToggle" class="sidebar-action-btn">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+          <span id="themeLabel">Dark Theme</span>
+        </button>
+
+        <button id="logoutBtn" class="sidebar-action-btn logout">
+          <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          <span>Log Out</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+
+      <header class="top-header">
+        <div class="header-title-block">
+          <h1 class="page-title"><i class="fa-solid fa-folder-open" style="color: #60a5fa;"></i> Documents & Receipts</h1>
+          <p class="page-subtitle">Uploaded bills and receipts — stored in MongoDB and linked to your purchases.</p>
+        </div>
+        <div class="header-actions">
+          <button class="primary-btn" id="openUploadBtn">
+            <i class="fa-solid fa-cloud-arrow-up"></i> <span>Upload Document</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Upload Dropzone -->
+      <section class="upload-dropzone" id="uploadDropzone">
+        <input type="file" id="documentFileInput" accept="image/*,.pdf" hidden />
+        <div class="dropzone-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+        <h3>Drag & drop your receipt here</h3>
+        <p>JPG, PNG, WebP, BMP, HEIC or PDF · up to 15 MB · optionally link it to a purchase below</p>
+        <div class="upload-link-row">
+          <select id="uploadPurchaseSelect">
+            <option value="">Link to a purchase (optional)</option>
+          </select>
+          <button class="primary-btn" id="chooseFileBtn"><i class="fa-solid fa-folder-open"></i> Browse Files</button>
+        </div>
+        <div class="upload-progress" id="uploadProgress" style="display: none;">
+          <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+          <span id="progressText">Uploading...</span>
+        </div>
+      </section>
+
+      <!-- Documents Grid -->
+      <section class="documents-grid" id="documentsGrid">
+        <!-- Rendered via documents.js -->
+      </section>
+
+      <section class="empty-state" id="documentsEmptyState" style="display: none;">
+        <div class="empty-icon"><i class="fa-solid fa-folder-open"></i></div>
+        <h3>No Documents Yet</h3>
+        <p>Upload a receipt photo or PDF and it will be stored here, linked to the matching purchase for easy reference.</p>
+        <button class="primary-btn" id="emptyUploadBtn"><i class="fa-solid fa-cloud-arrow-up"></i> Upload Your First Document</button>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- AI Bill Summary Modal -->
+  <div class="summary-modal-overlay" id="summaryModalOverlay" style="display: none;">
+    <div class="summary-modal-card glass" id="summaryModalCard">
+      <div class="summary-modal-header">
+        <div class="summary-modal-title">
+          <div class="summary-modal-sparkle-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <div>
+            <h3>AI Bill Summary</h3>
+            <span id="summaryModalDocName" class="summary-modal-docname">test_scan.png</span>
+          </div>
+        </div>
+        <button class="summary-modal-close" id="summaryModalCloseBtn" aria-label="Close modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="summary-modal-body">
+        <div class="summary-modal-preview" id="summaryModalPreview">
+          <img id="summaryModalImg" src="" alt="Receipt Preview" />
+        </div>
+        <div class="summary-modal-content-wrap">
+          <div class="summary-modal-top-bar">
+            <div class="summary-modal-badge"><i class="fa-solid fa-robot"></i> Grounded AI Analysis</div>
+            <div class="summary-tools-group">
+              <div class="summary-lang-select-wrap" title="Translate Bill Summary">
+                <span class="lang-icon-badge"><i class="fa-solid fa-language"></i></span>
+                <select id="summaryModalLangSelect" class="summary-lang-select" aria-label="Select Summary Language">
+                  <option value="en" selected>English (Default)</option>
+                  <option value="mr">Marathi (मराठी)</option>
+                  <option value="hi">Hindi (हिंदी)</option>
+                  <option value="gu">Gujarati (ગુજરાતી)</option>
+                  <option value="bho">Bhojpuri (भोजपुरी)</option>
+                  <option value="bn">Bengali (বাংলা)</option>
+                  <option value="ta">Tamil (தமிழ்)</option>
+                </select>
+                <i class="fa-solid fa-chevron-down lang-chevron"></i>
+              </div>
+              <button type="button" class="summary-voice-btn" id="summaryModalVoiceBtn" title="Listen to summary in Marathi & Indian languages">
+                <span class="voice-btn-icon-wrap">
+                  <i class="fa-solid fa-volume-high" id="summaryModalVoiceIcon"></i>
+                </span>
+                <span id="summaryModalVoiceLabel" class="voice-btn-label">Voice</span>
+                <span class="voice-equalizer-bars" id="summaryVoiceBars" aria-hidden="true">
+                  <span class="bar bar-1"></span>
+                  <span class="bar bar-2"></span>
+                  <span class="bar bar-3"></span>
+                  <span class="bar bar-4"></span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="summary-modal-content" id="summaryModalContent">
+            <!-- Populated dynamically with bullet points -->
+          </div>
+        </div>
+      </div>
+
+      <div class="summary-modal-footer">
+        <button class="modal-secondary-btn" id="copySummaryBtn">
+          <i class="fa-regular fa-copy"></i> Copy Summary
+        </button>
+        <a class="modal-primary-btn" id="summaryModalViewBtn" href="#" target="_blank">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> Open Full Receipt
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/toast.js"></script>
+  <script src="js/route-guard.js"></script>
+  <script src="js/components/chatbot.js"></script>
+  <script src="js/components/ui-helpers.js"></script>
+  <script src="documents.js"></script>
+</body>
+</html>

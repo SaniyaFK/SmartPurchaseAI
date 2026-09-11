@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notification Center — SmartPurchase & Warranty AI</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="dashboard.css" />
+  <link rel="stylesheet" href="notifications.css" />
+  <link rel="stylesheet" href="premium.css" />
+</head>
+<body>
+
+  <!-- Floating Background Ambient Shapes -->
+  <div class="geo-container">
+    <div class="geo-shape geo-1"></div>
+    <div class="geo-shape geo-2"></div>
+    <div class="geo-shape geo-3"></div>
+    <div class="geo-shape geo-4"></div>
+    <div class="geo-grid"></div>
+  </div>
+
+  <div class="app-shell" id="appShell">
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-logo"><i class="fa-solid fa-shield-halved"></i></div>
+        <div class="brand-title-wrap">
+          <span class="brand-name">SmartPurchaseAI</span>
+          <small class="brand-sub">AI Purchase Intelligence</small>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <a href="dashboard.html" class="nav-link"><i class="fa-solid fa-house"></i> <span>Dashboard</span></a>
+        <a href="products.html" class="nav-link"><i class="fa-solid fa-vault"></i> <span>Purchases & Vault</span></a>
+        <a href="products.html?action=add" class="nav-link"><i class="fa-solid fa-receipt"></i> <span>Scan Receipt</span></a>
+        <a href="dashboard.html#analyticsSection" class="nav-link"><i class="fa-solid fa-chart-line"></i> <span>Expense Analytics</span></a>
+        <a href="claims.html" class="nav-link"><i class="fa-solid fa-file-signature"></i> <span>Warranty Claims</span></a>
+        <a href="notifications.html" class="nav-link active"><i class="fa-solid fa-bell"></i> <span>Notifications</span></a>
+        <button type="button" class="nav-link nav-link-btn" id="copilotNavBtn"><i class="fa-solid fa-wand-magic-sparkles"></i> <span>Purchase Copilot</span></button>
+        <a href="documents.html" class="nav-link"><i class="fa-solid fa-folder-open"></i> <span>Documents & Receipts</span></a>
+        <a href="contact.html" class="nav-link"><i class="fa-solid fa-circle-question"></i> <span>Support</span></a>
+        <a href="profile.html" class="nav-link"><i class="fa-solid fa-gear"></i> <span>Settings</span></a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <!-- MongoDB Compass Connection Status -->
+        <div class="db-status-pill" id="dbStatusPill" title="MongoDB Compass Connection Health">
+          <span class="status-dot"></span>
+          <span id="dbStatusText">MongoDB: smart_warranty_db</span>
+        </div>
+
+        <button id="sidebarThemeToggle" class="sidebar-action-btn">
+          <i class="fa-solid fa-moon" id="sidebarThemeIcon"></i>
+          <span id="sidebarThemeLabel">Dark Theme</span>
+        </button>
+
+        <button id="sidebarLogoutBtn" class="sidebar-action-btn logout">
+          <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          <span>Log Out</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+
+      <!-- Top Header -->
+      <header class="top-header">
+        <div class="page-title-wrap">
+          <h1 class="page-title"><i class="fa-solid fa-bell"></i> Notification Center</h1>
+          <p class="page-subtitle">Return deadlines, warranty expiries and claim updates — all in one place.</p>
+        </div>
+
+        <div class="header-right-corner">
+          <!-- DEDICATED USER PROFILE CORNER -->
+          <div class="corner-dropdown-wrap" id="profileCornerWrap">
+            <button class="profile-corner-btn" id="profilePillBtn" title="Account Menu">
+              <img id="userAvatarHeader" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Avatar" class="avatar-sm" />
+              <div class="profile-btn-info">
+                <span class="profile-header-name" id="userName">User</span>
+                <span class="profile-header-role" id="userRole">USER</span>
+              </div>
+              <i class="fa-solid fa-chevron-down caret-icon"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <!-- Notification Center Content -->
+      <section class="notif-center glass" id="notifCenter">
+
+        <!-- Toolbar -->
+        <div class="notif-toolbar">
+          <div class="notif-tabs" id="notifTabs">
+            <button class="notif-tab active" data-filter="all">All <span class="tab-count" id="tabCountAll">0</span></button>
+            <button class="notif-tab" data-filter="unread">Unread <span class="tab-count" id="tabCountUnread">0</span></button>
+            <button class="notif-tab" data-filter="RETURN_DEADLINE_ALERT">Returns</button>
+            <button class="notif-tab" data-filter="WARRANTY_EXPIRY_ALERT">Warranties</button>
+            <button class="notif-tab" data-filter="CLAIM_UPDATE">Claims</button>
+          </div>
+
+          <div class="notif-actions">
+            <button class="notif-action-btn" id="refreshNotifBtn" title="Refresh from live data">
+              <i class="fa-solid fa-rotate"></i> <span>Refresh</span>
+            </button>
+            <button class="notif-action-btn primary" id="markAllReadBtn">
+              <i class="fa-solid fa-check-double"></i> <span>Mark all as read</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Skeleton Loading -->
+        <div class="notif-skeleton" id="notifSkeleton">
+          <div class="skeleton-row"></div>
+          <div class="skeleton-row"></div>
+          <div class="skeleton-row"></div>
+          <div class="skeleton-row"></div>
+        </div>
+
+        <!-- Notification List -->
+        <div class="notif-list" id="notifList">
+          <!-- Dynamically populated via notifications.js -->
+        </div>
+
+        <!-- Empty State -->
+        <div class="notif-empty" id="notifEmpty" style="display: none;">
+          <div class="empty-icon"><i class="fa-regular fa-bell-slash"></i></div>
+          <h3>You're all caught up!</h3>
+          <p>No notifications here. When return windows or warranties approach, alerts will appear in this center.</p>
+          <button class="notif-action-btn primary" id="emptySeedBtn"><i class="fa-solid fa-wand-magic-sparkles"></i> Check for alerts</button>
+        </div>
+
+      </section>
+    </main>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/toast.js"></script>
+  <script src="js/route-guard.js"></script>
+  <script src="js/components/chatbot.js"></script>
+  <script src="js/components/ui-helpers.js"></script>
+  <script src="notifications.js"></script>
+</body>
+</html>

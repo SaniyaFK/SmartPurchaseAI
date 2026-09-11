@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard — SmartPurchase & Warranty AI</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="dashboard.css" />
+  <link rel="stylesheet" href="premium.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- Floating Background Ambient Shapes -->
+  <div class="geo-container">
+    <div class="geo-shape geo-1"></div>
+    <div class="geo-shape geo-2"></div>
+    <div class="geo-shape geo-3"></div>
+    <div class="geo-shape geo-4"></div>
+    <div class="geo-grid"></div>
+  </div>
+
+  <div class="app-shell" id="appShell">
+    
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-logo"><i class="fa-solid fa-shield-halved"></i></div>
+        <div class="brand-title-wrap">
+          <span class="brand-name">SmartPurchaseAI</span>
+          <small class="brand-sub">AI Purchase Intelligence</small>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <a href="dashboard.html" class="nav-link active"><i class="fa-solid fa-house"></i> <span>Dashboard</span></a>
+        <a href="products.html" class="nav-link"><i class="fa-solid fa-vault"></i> <span>Purchases & Vault</span></a>
+        <a href="products.html?action=add" class="nav-link"><i class="fa-solid fa-receipt"></i> <span>Scan Receipt</span></a>
+        <a href="dashboard.html#analyticsSection" class="nav-link"><i class="fa-solid fa-chart-line"></i> <span>Expense Analytics</span></a>
+        <a href="claims.html" class="nav-link"><i class="fa-solid fa-file-signature"></i> <span>Warranty Claims</span></a>
+        <a href="notifications.html" class="nav-link"><i class="fa-solid fa-bell"></i> <span>Notifications</span></a>
+        <button type="button" class="nav-link nav-link-btn" id="copilotNavBtn"><i class="fa-solid fa-wand-magic-sparkles"></i> <span>Purchase Copilot</span></button>
+        <a href="documents.html" class="nav-link"><i class="fa-solid fa-folder-open"></i> <span>Documents & Receipts</span></a>
+        <a href="contact.html" class="nav-link"><i class="fa-solid fa-circle-question"></i> <span>Support</span></a>
+        <a href="profile.html" class="nav-link"><i class="fa-solid fa-gear"></i> <span>Settings</span></a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <!-- MongoDB Compass Connection Status -->
+        <div class="db-status-pill" id="dbStatusPill" title="MongoDB Compass Connection Health">
+          <span class="status-dot"></span>
+          <span id="dbStatusText">MongoDB: smart_warranty_db</span>
+        </div>
+
+        <button id="sidebarThemeToggle" class="sidebar-action-btn">
+          <i class="fa-solid fa-moon" id="sidebarThemeIcon"></i>
+          <span id="sidebarThemeLabel">Dark Theme</span>
+        </button>
+
+        <button id="sidebarLogoutBtn" class="sidebar-action-btn logout">
+          <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          <span>Log Out</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      
+      <!-- Top Clean Header with Dedicated Notification Corner & Profile Corner -->
+      <header class="top-header">
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="globalSearchInput" placeholder="Search purchases, serial numbers, retailers, invoices..." />
+        </div>
+
+        <div class="header-right-corner">
+          <!-- Quick Action Buttons -->
+          <button class="primary-scan-btn" id="headerScanBtn">
+            <i class="fa-solid fa-wand-magic-sparkles"></i> <span>Scan Receipt</span>
+          </button>
+
+          <a href="products.html?action=add" class="secondary-add-btn">
+            <i class="fa-solid fa-plus"></i> <span>Add Manual</span>
+          </a>
+
+          <!-- DEDICATED NOTIFICATION CORNER -->
+          <div class="corner-dropdown-wrap" id="notifCornerWrap">
+            <button class="corner-icon-btn" id="notifBellBtn" title="Urgent Deadlines & Notifications" aria-label="Notifications">
+              <i class="fa-regular fa-bell"></i>
+              <span class="notif-badge-count" id="urgentAlertBadge">2</span>
+            </button>
+
+            <!-- Dropdown Menu (Hidden by default, shown on click) -->
+            <div class="corner-dropdown-menu notif-menu glass" id="notifDropdown">
+              <div class="dropdown-header">
+                <div style="display: flex; align-items: center; gap: 8px;">
+                  <i class="fa-solid fa-bell" style="color: #60a5fa;"></i>
+                  <h4>Notifications</h4>
+                </div>
+                <button type="button" class="mark-read-btn" id="markAllReadBtn">Mark all as read</button>
+              </div>
+              <div class="dropdown-body" id="notifDropdownList">
+                <div class="notif-item unread">
+                  <div class="notif-icon-badge pink"><i class="fa-solid fa-triangle-exclamation"></i></div>
+                  <div class="notif-content">
+                    <strong>Return Window Ending Soon!</strong>
+                    <p>MacBook Pro 16" (8 days left to return for 100% refund)</p>
+                    <small>Apple Store Policy</small>
+                  </div>
+                </div>
+                <div class="notif-item unread">
+                  <div class="notif-icon-badge blue"><i class="fa-solid fa-shield-halved"></i></div>
+                  <div class="notif-content">
+                    <strong>Warranty Expiring in 25 Days</strong>
+                    <p>Sony 65" BRAVIA OLED TV (2-Year coverage ends soon)</p>
+                    <small>Check OLED panel condition</small>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-footer">
+                <a href="#deadlinesSection" class="view-all-link" id="viewAllAlertsLink">View all deadline alerts &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- DEDICATED USER PROFILE CORNER -->
+          <div class="corner-dropdown-wrap" id="profileCornerWrap">
+            <button class="profile-corner-btn" id="profilePillBtn" title="Account Menu">
+              <img id="userAvatarHeader" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Avatar" class="avatar-sm" />
+              <div class="profile-btn-info">
+                <span class="profile-header-name" id="userName">User</span>
+                <span class="profile-header-role" id="userRole">USER</span>
+              </div>
+              <i class="fa-solid fa-chevron-down caret-icon"></i>
+            </button>
+
+            <!-- Profile Dropdown Menu (Hidden by default, shown on click) -->
+            <div class="corner-dropdown-menu profile-menu glass" id="profileDropdown">
+              <div class="profile-menu-header">
+                <img id="menuAvatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Avatar" class="avatar-md" />
+                <div class="menu-user-details">
+                  <strong id="menuUserName">Account</strong>
+                  <span id="menuUserEmail">Loading account...</span>
+                  <span class="role-pill-badge" id="menuRoleBadge">USER</span>
+                </div>
+              </div>
+              <div class="dropdown-divider"></div>
+              <div class="dropdown-actions">
+                <a href="profile.html" class="menu-action-item" id="openEditProfileBtn">
+                  <i class="fa-solid fa-user-pen"></i> <span>Profile & Settings</span>
+                </a>
+                <a href="notifications.html" class="menu-action-item">
+                  <i class="fa-solid fa-bell"></i> <span>Notification Center</span>
+                </a>
+                <button type="button" class="menu-action-item" id="headerThemeToggle">
+                  <i class="fa-solid fa-moon" id="headerThemeIcon"></i> <span id="headerThemeLabel">Toggle Dark/Light</span>
+                </button>
+                <a href="products.html" class="menu-action-item">
+                  <i class="fa-solid fa-vault"></i> <span>My Purchases Vault</span>
+                </a>
+              </div>
+              <div class="dropdown-divider"></div>
+              <button type="button" class="menu-action-item logout" id="headerLogoutBtn">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i> <span>Log Out</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </header>
+
+      <!-- Welcome Banner -->
+      <div class="welcome-bar glass">
+        <div class="welcome-text">
+          <h2>Welcome back, <span id="greetingUserName" style="color: #60a5fa;">there</span> 👋</h2>
+          <p>Here is your smart purchase intelligence, return deadlines, and warranty coverage status.</p>
+        </div>
+        <div class="welcome-stats">
+          <div class="quick-stat-box">
+            <span class="stat-num" id="welcomeTotalPurchases">5</span>
+            <span class="stat-lbl">Tracked Items</span>
+          </div>
+          <div class="quick-stat-box">
+            <span class="stat-num text-positive" id="welcomeProtectedVal">₹8,932</span>
+            <span class="stat-lbl">Protected Value</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dashboard Grid -->
+      <div class="dashboard-grid">
+
+        <!-- AI Receipt Scanner Drop Zone Card -->
+        <div class="card glass scanner-dropzone-card" id="scannerWidget">
+          <div class="scanner-dropzone-inner" id="dropZoneContainer">
+            <div class="scanner-icon-wrap">
+              <i class="fa-solid fa-file-invoice-dollar"></i>
+            </div>
+            <div class="scanner-text-wrap">
+              <h3>Smart AI Receipt & Bill Scanner</h3>
+              <p>Drag and drop any receipt image/PDF, or click to upload. Our AI extracts store, price, warranty duration & return deadlines instantly.</p>
+              
+              <!-- AI Engine Status Badge -->
+              <div class="ai-engine-badge" id="aiEngineBadge">
+                <i class="fa-solid fa-receipt"></i>
+                <span id="aiEngineText">Receipt Scanner</span>
+              </div>
+
+              <!-- Quick 1-Click Judge Sample Demo Buttons -->
+              <div class="demo-samples-group">
+                <span class="demo-label"><i class="fa-solid fa-bolt" style="color: #fbbf24;"></i> Judge Quick Demo:</span>
+                <button type="button" class="sample-chip-btn" data-sample="sample-apple-macbook">
+                  <i class="fa-brands fa-apple"></i> Apple MacBook Pro ($3,499)
+                </button>
+                <button type="button" class="sample-chip-btn" data-sample="sample-sony-bravia">
+                  <i class="fa-solid fa-tv"></i> Sony OLED 4K TV ($1,899)
+                </button>
+                <button type="button" class="sample-chip-btn" data-sample="sample-samsung-fridge">
+                  <i class="fa-solid fa-snowflake"></i> Samsung Fridge ($2,499)
+                </button>
+                <button type="button" class="sample-chip-btn" data-sample="sample-dyson-vacuum">
+                  <i class="fa-solid fa-wind"></i> Dyson V15 Vacuum ($749)
+                </button>
+                <button type="button" class="sample-chip-btn" data-sample="sample-nike-alphafly">
+                  <i class="fa-solid fa-shoe-prints"></i> Nike Alphafly ($285)
+                </button>
+              </div>
+            </div>
+            <div class="scanner-action-btn-wrap">
+              <input type="file" id="receiptFileInput" accept="image/*,application/pdf" style="display: none;" />
+              <button class="scanner-upload-btn" id="triggerFileBrowseBtn">
+                <i class="fa-solid fa-cloud-arrow-up"></i> Upload Receipt
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7 Smart Dynamic Metric Cards (Task 4) -->
+        <div class="card glass metric-card" id="card-total-spend">
+          <div class="skeleton-overlay"></div>
+          <div class="metric-header">
+            <span>Total Spending</span>
+            <i class="fa-solid fa-receipt icon-accent"></i>
+          </div>
+          <div class="metric-value" id="val-total-spend">₹0.00</div>
+          <div class="metric-sub text-positive" id="sub-total-spend">All-time tracked value</div>
+        </div>
+
+        <div class="card glass metric-card" id="card-this-month">
+          <div class="skeleton-overlay"></div>
+          <div class="metric-header">
+            <span>This Month</span>
+            <i class="fa-solid fa-calendar-days icon-accent"></i>
+          </div>
+          <div class="metric-value" id="val-this-month">₹0.00</div>
+          <div class="metric-sub" id="sub-this-month">Spent this month</div>
+        </div>
+
+        <div class="card glass metric-card" id="card-total-purchases">
+          <div class="skeleton-overlay"></div>
+          <div class="metric-header">
+            <span>Purchases</span>
+            <i class="fa-solid fa-boxes-stacked icon-green"></i>
+          </div>
+          <div class="metric-value" id="val-total-purchases">0</div>
+          <div class="metric-sub" id="sub-total-purchases">Items tracked in vault</div>
+        </div>
+
+        <div class="card glass metric-card" id="card-active-warranties">
+          <div class="skeleton-overlay"></div>
+          <div class="metric-header">
+            <span>Active Warranties</span>
+            <i class="fa-solid fa-shield-heart icon-green"></i>
+          </div>
+          <div class="metric-value" id="val-active-warranties">0</div>
+          <div class="metric-sub text-positive" id="sub-active-warranties">Items under coverage</div>
+        </div>
+
+        <div class="card glass metric-card" id="card-upcoming-returns">
+          <div class="skeleton-overlay"></div>
+          <div class="metric-header">
+            <span>Upcoming Returns</span>
+            <i class="fa-solid fa-arrow-rotate-left icon-pink"></i>
+          </div>
+          <div class="metric-value text-urgent" id="val-upcoming-returns">0</div>
+          <div class="metric-sub text-urgent" id="sub-upcoming-returns">Return windows closing soon</div>
+        </div>
+
+        <div class="card glass metric-card" id="card-money-at-risk">
+          <div class="skeleton-overlay"></div>
+          <div class="metric-header">
+            <span>Money At Risk</span>
+            <i class="fa-solid fa-triangle-exclamation icon-warning"></i>
+          </div>
+          <div class="metric-value text-warning" id="val-money-at-risk">₹0.00</div>
+          <div class="metric-sub text-warning" id="sub-money-at-risk">Deadlines closing in 30 days</div>
+        </div>
+
+        <div class="card glass metric-card" id="card-spending-prediction">
+          <div class="skeleton-overlay"></div>
+          <div class="metric-header">
+            <span>Spending Prediction</span>
+            <i class="fa-solid fa-chart-line icon-accent"></i>
+          </div>
+          <div class="metric-value" id="val-spending-prediction">₹0.00</div>
+          <div class="metric-sub" id="sub-spending-prediction">Projected next month</div>
+        </div>
+
+        <!-- Spending Line Chart (above AI Insights) -->
+        <div class="card glass chart-card-lg" id="analyticsSection">
+          <div class="skeleton-overlay"></div>
+          <div class="card-header trend-card-header">
+            <div class="trend-title-group">
+              <h3><i class="fa-solid fa-chart-line"></i> Spending & Asset Trend</h3>
+              <div class="trend-summary-chips" id="trendSummaryChips">
+                <span class="trend-chip chip-asset" id="chipTotalAssets">
+                  <i class="fa-solid fa-vault"></i> Vault Assets: <strong id="chipTotalAssetsVal">₹0</strong>
+                </span>
+                <span class="trend-chip chip-spend" id="chipMonthlyAvg">
+                  <i class="fa-solid fa-wallet"></i> Monthly Avg: <strong id="chipMonthlyAvgVal">₹0/mo</strong>
+                </span>
+                <span class="trend-chip chip-forecast" id="chipForecast" style="display: none;">
+                  <i class="fa-solid fa-wand-magic-sparkles"></i> ML Forecast: <strong id="chipForecastVal">₹0</strong>
+                </span>
+              </div>
+            </div>
+            <div class="trend-actions-group">
+              <div class="series-toggle-pills" id="seriesTogglePills">
+                <button type="button" class="series-pill active" data-series="asset" title="Toggle Asset Portfolio curve">
+                  <span class="series-indicator ind-asset"></span> Total Assets
+                </button>
+                <button type="button" class="series-pill active" data-series="spend" title="Toggle Monthly Spend curve">
+                  <span class="series-indicator ind-spend"></span> Monthly Spend
+                </button>
+              </div>
+              <div class="pill-group">
+                <button class="pill active" data-range="6m">6M</button>
+                <button class="pill" data-range="1y">1Y</button>
+                <button class="pill" data-range="all">All</button>
+              </div>
+            </div>
+          </div>
+          <div class="chart-container" style="position: relative; height: 300px; width: 100%;">
+            <canvas id="performanceChart"></canvas>
+          </div>
+        </div>
+
+        <!-- AI Insights (Task 4) -->
+        <div class="card glass insights-card" id="aiInsightsSection">
+          <div class="skeleton-overlay"></div>
+          <div class="card-header">
+            <h3><i class="fa-solid fa-wand-magic-sparkles" style="color: #8B5CF6;"></i> AI Insights</h3>
+            <span class="badge-urgent-pulse" style="background: rgba(139,92,246,0.15); color: #8B5CF6; border-color: rgba(139,92,246,0.3);">Smart Analysis</span>
+          </div>
+          <div class="insights-list" id="aiInsightsList">
+            <!-- Dynamically populated via dashboard.js -->
+          </div>
+        </div>
+
+        <!-- ML-04: Purchase Behavior Clustering Segment -->
+        <div class="card glass behavior-card" id="behaviorSegmentSection">
+          <div class="skeleton-overlay"></div>
+          <div class="card-header">
+            <h3><i class="fa-solid fa-shapes" style="color: #6366F1;"></i> AI Purchase Behavior Segment</h3>
+            <span class="badge-urgent-pulse" style="background: rgba(99,102,241,0.15); color: #818CF8; border-color: rgba(99,102,241,0.3);">ML-04 K-Means</span>
+          </div>
+          <div id="behaviorSegmentContainer">
+            <!-- Dynamically populated via dashboard.js -->
+          </div>
+        </div>
+
+        <!-- Category Allocation Doughnut & Breakdown Split Card -->
+        <div class="card glass chart-card-sm category-analytics-card" id="card-chart-sm">
+          <div class="skeleton-overlay"></div>
+          <div class="card-header">
+            <h3><i class="fa-solid fa-chart-pie"></i> Spending by Category</h3>
+            <span class="category-total-badge" id="categoryTotalBadge">0 Categories</span>
+          </div>
+          <div class="category-chart-split">
+            <!-- Left: Doughnut with Center Stats -->
+            <div class="category-doughnut-col">
+              <div class="doughnut-canvas-wrapper">
+                <canvas id="allocationChart"></canvas>
+                <div class="doughnut-center-info" id="doughnutCenterInfo">
+                  <span class="doughnut-center-lbl">Total Spend</span>
+                  <strong class="doughnut-center-val" id="doughnutCenterVal">₹0</strong>
+                </div>
+              </div>
+            </div>
+            <!-- Right: Ranked Breakdown Progress Bars -->
+            <div class="category-breakdown-col" id="categoryBreakdownList">
+              <!-- Dynamically populated via dashboard.js -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Urgent Action Center (Deadlines Countdown) -->
+        <div class="card glass deadlines-card" id="deadlinesSection">
+          <div class="skeleton-overlay"></div>
+          <div class="card-header">
+            <h3><i class="fa-solid fa-bell icon-pink"></i> Urgent Deadlines & Expiry Alert Center</h3>
+            <span class="badge-urgent-pulse">Live Deadlines</span>
+          </div>
+          <div class="deadlines-list" id="deadlinesListContainer">
+            <!-- Dynamically populated via dashboard.js -->
+          </div>
+        </div>
+
+        <!-- Recent Purchases Table -->
+        <div class="card glass table-card" id="card-table">
+          <div class="skeleton-overlay"></div>
+          <div class="card-header">
+            <h3><i class="fa-solid fa-boxes-packing"></i> Recent Purchases & Warranty Status</h3>
+            <div style="display: flex; gap: 10px; align-items: center;">
+              <a href="products.html" class="card-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open Full Vault</a>
+              <button id="exportCsvBtn" class="btn-export" title="Export Purchases to CSV"><i class="fa-solid fa-file-csv"></i> Export</button>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Product & Brand</th>
+                  <th>Store / Merchant</th>
+                  <th>Purchase Date</th>
+                  <th>Return Window</th>
+                  <th>Warranty Status</th>
+                  <th>Amount</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="transactionTableBody">
+                <!-- Dynamically populated via API -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- AI Receipt Scanning Freeze & Holographic Loader Overlay -->
+  <div class="ai-scan-loading-overlay" id="aiScanLoadingOverlay" style="display: none;">
+    <div class="ai-scan-loading-card">
+      <div class="scan-animation-wrapper">
+        <div class="doc-skeleton-line head"></div>
+        <div class="doc-skeleton-line short"></div>
+        <div class="doc-skeleton-line mid"></div>
+        <div class="doc-skeleton-line full"></div>
+        <div class="doc-skeleton-line price"></div>
+        <div class="scan-laser-beam"></div>
+      </div>
+
+      <div class="scan-loading-badge">
+        <i class="fa-solid fa-wand-magic-sparkles"></i> AI Receipt Scanner Active
+      </div>
+
+      <h3 class="scan-loading-title">Scanning Receipt...</h3>
+      <div class="scan-loading-file" id="scanLoadingFileName">Processing Document</div>
+
+      <div class="scan-live-step-text" id="scanLoadingStepText">Normalizing image contrast &amp; geometry...</div>
+
+      <div class="scan-progress-track">
+        <div class="scan-progress-bar" id="scanLoadingProgressBar" style="width: 20%;"></div>
+      </div>
+
+      <div class="scan-percent-text" id="scanLoadingPercent">20%</div>
+
+      <div class="scan-steps-dots">
+        <div class="scan-step-dot active" data-step="0"></div>
+        <div class="scan-step-dot" data-step="1"></div>
+        <div class="scan-step-dot" data-step="2"></div>
+        <div class="scan-step-dot" data-step="3"></div>
+        <div class="scan-step-dot" data-step="4"></div>
+      </div>
+
+      <p class="scan-freeze-notice"><i class="fa-solid fa-lock"></i> Page is locked while AI securely extracts purchase data</p>
+    </div>
+  </div>
+
+  <!-- AI Receipt Scan Result / Review Modal -->
+  <div class="vibecode-modal-overlay" id="scanReviewModal" style="display: none;">
+    <div class="scan-review-card glass">
+      <div class="modal-header">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <div class="modal-icon-badge"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <div>
+            <h3>AI Detected Purchase</h3>
+            <p style="font-size: 0.8rem; opacity: 0.7;">Only what was visible on your receipt was extracted. Fields shown as &quot;Not detected&quot; were not readable &mdash; edit anything before saving.</p>
+          </div>
+        </div>
+        <button class="modal-close-btn" id="closeScanModalBtn" type="button">&times;</button>
+      </div>
+      
+      <form id="saveScannedPurchaseForm">
+        <div class="field-row">
+          <div class="field">
+            <label>Product Name</label>
+            <input type="text" id="scanProdName" required />
+          </div>
+          <div class="field">
+            <label>Brand / Manufacturer</label>
+            <input type="text" id="scanBrand" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label>Store / Merchant</label>
+          <input type="text" id="scanStore" required />
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label>Purchase Price</label>
+            <input type="number" step="0.01" id="scanPrice" required />
+          </div>
+          <div class="field">
+            <label>Currency</label>
+            <select id="scanCurrency">
+              <option value="INR" selected>₹ INR</option>
+              <option value="USD">$ USD</option>
+              <option value="EUR">€ EUR</option>
+              <option value="GBP">£ GBP</option>
+              <option value="AED">د.إ AED</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label>Purchase Date</label>
+            <input type="date" id="scanDate" required />
+          </div>
+          <div class="field">
+            <label>Purchase Type</label>
+            <select id="scanPurchaseType">
+              <option value="">Not detected</option>
+              <option value="ONLINE">Online</option>
+              <option value="OFFLINE">In-Store / Offline</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label>Warranty Duration (Months)</label>
+            <input type="number" id="scanWarrantyMonths" placeholder="Not detected" />
+          </div>
+          <div class="field">
+            <label>Warranty Type</label>
+            <input type="text" id="scanWarrantyType" placeholder="Not detected" />
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label>Return Window (Days)</label>
+            <input type="number" id="scanReturnDays" placeholder="Not detected" />
+          </div>
+          <div class="field">
+            <label>Category</label>
+            <select id="scanCategory">
+              <option value="">Not detected</option>
+              <option value="Electronics">Electronics</option>
+              <option value="Home Appliances">Home Appliances</option>
+              <option value="Gadgets">Gadgets</option>
+              <option value="Fashion">Fashion</option>
+              <option value="Furniture">Furniture</option>
+              <option value="Vehicles">Vehicles</option>
+              <option value="Office">Office</option>
+              <option value="Sports">Sports</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label>Serial / IMEI Number</label>
+            <input type="text" id="scanSerialNumber" placeholder="Not detected" />
+          </div>
+          <div class="field">
+            <label>Model Number</label>
+            <input type="text" id="scanModelNumber" placeholder="Not detected" />
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label>Invoice / Receipt #</label>
+            <input type="text" id="scanInvoiceNumber" placeholder="Not detected" />
+          </div>
+          <div class="field">
+            <label>Quantity</label>
+            <input type="number" id="scanQuantity" value="1" min="1" />
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label>Tax</label>
+            <input type="number" step="0.01" id="scanTax" placeholder="Not detected" />
+          </div>
+          <div class="field">
+            <label>Discount</label>
+            <input type="number" step="0.01" id="scanDiscount" placeholder="Not detected" />
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label>Payment Method</label>
+            <input type="text" id="scanPaymentMethod" placeholder="Not detected" />
+          </div>
+          <div class="field">
+            <label>Order ID</label>
+            <input type="text" id="scanOrderId" placeholder="Not detected" />
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label>Return Deadline</label>
+            <input type="date" id="scanReturnDeadline" />
+          </div>
+          <div class="field">
+            <label>Warranty End</label>
+            <input type="date" id="scanWarrantyEnd" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label>Warranty Start</label>
+          <input type="date" id="scanWarrantyStart" />
+        </div>
+
+        <div class="field">
+          <label>Warranty & Policy Notes</label>
+          <textarea id="scanNotes" rows="2" placeholder="Policy terms, warranty coverage details..."></textarea>
+        </div>
+
+        <input type="hidden" id="scanReceiptImg" />
+        <input type="hidden" id="scanReceiptFileName" />
+
+        <div class="modal-footer scan-modal-footer">
+          <button type="button" class="btn-cancel" id="analyzeAgainBtn"><i class="fa-solid fa-rotate"></i> Analyze Again</button>
+          <button type="button" class="btn-cancel" id="cancelScanModalBtn">Cancel</button>
+          <button type="submit" class="btn-save"><i class="fa-solid fa-floppy-disk"></i> Confirm &amp; Save</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Item Detail Inspection & Warranty Claim Modal -->
+  <div class="vibecode-modal-overlay" id="itemDetailModal" style="display: none;">
+    <div class="item-inspection-card glass">
+      <div class="modal-header">
+        <h3 id="detailModalTitle">Purchase & Warranty Details</h3>
+        <button class="modal-close-btn" id="closeDetailModal" type="button">&times;</button>
+      </div>
+      <div class="item-inspection-body" id="detailModalContent">
+        <!-- Dynamically injected -->
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/api.js"></script>
+  <script src="js/toast.js"></script>
+  <script src="js/route-guard.js"></script>
+  <script src="js/components/chatbot.js"></script>
+  <script src="js/components/scanLoader.js"></script>
+  <script src="js/components/ui-helpers.js"></script>
+  <script src="dashboard.js"></script>
+</body>
+</html>

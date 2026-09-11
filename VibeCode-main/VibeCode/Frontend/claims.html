@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Warranty Claims — WarrantyVault AI</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="dashboard.css" />
+  <link rel="stylesheet" href="claims.css" />
+  <link rel="stylesheet" href="premium.css" />
+</head>
+<body>
+
+  <!-- Background Shapes -->
+  <div class="geo-container">
+    <div class="geo-shape geo-1"></div>
+    <div class="geo-shape geo-2"></div>
+    <div class="geo-shape geo-3"></div>
+    <div class="geo-shape geo-4"></div>
+    <div class="geo-grid"></div>
+  </div>
+
+  <div class="app-shell" id="appShell">
+
+    <!-- Collapsible Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-logo"><i class="fa-solid fa-shield-halved"></i></div>
+        <div class="brand-title-wrap">
+          <span class="brand-name">SmartPurchaseAI</span>
+          <small class="brand-sub">AI Purchase Intelligence</small>
+        </div>
+      </div>
+
+      <div class="user-profile-summary">
+        <img id="userAvatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Avatar" class="avatar" />
+        <div class="user-info">
+          <span id="userName" class="user-name">Loading...</span>
+          <span id="userRole" class="user-role">---</span>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <a href="dashboard.html" class="nav-link"><i class="fa-solid fa-house"></i> <span>Dashboard</span></a>
+        <a href="products.html" class="nav-link"><i class="fa-solid fa-vault"></i> <span>Purchases & Vault</span></a>
+        <a href="dashboard.html#scanSection" class="nav-link"><i class="fa-solid fa-receipt"></i> <span>Scan Receipt (AI)</span></a>
+        <a href="dashboard.html#analyticsSection" class="nav-link"><i class="fa-solid fa-chart-line"></i> <span>Expense Analytics</span></a>
+        <a href="claims.html" class="nav-link active"><i class="fa-solid fa-file-signature"></i> <span>Warranty Claims</span></a>
+        <a href="notifications.html" class="nav-link"><i class="fa-solid fa-bell"></i> <span>Notifications</span></a>
+        <button type="button" class="nav-link nav-link-btn" id="copilotNavBtn"><i class="fa-solid fa-wand-magic-sparkles"></i> <span>Purchase Copilot</span></button>
+        <a href="documents.html" class="nav-link"><i class="fa-solid fa-folder-open"></i> <span>Documents & Receipts</span></a>
+        <a href="profile.html" class="nav-link"><i class="fa-solid fa-gear"></i> <span>Settings</span></a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <button id="themeToggle" class="sidebar-action-btn">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+          <span id="themeLabel">Dark Theme</span>
+        </button>
+
+        <button id="logoutBtn" class="sidebar-action-btn logout">
+          <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          <span>Log Out</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+
+      <header class="top-header">
+        <div class="header-title-block">
+          <h1 class="page-title"><i class="fa-solid fa-file-signature" style="color: #60a5fa;"></i> AI Warranty Claims</h1>
+          <p class="page-subtitle">AI-drafted dispute letters, filed and tracked — every claim saved to MongoDB.</p>
+        </div>
+        <div class="header-actions">
+          <button class="primary-btn" id="openNewClaimBtn">
+            <i class="fa-solid fa-wand-magic-sparkles"></i> <span>File New Claim</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Status Filter Tabs -->
+      <section class="filter-bar claims-filter-bar">
+        <div class="filter-group">
+          <span class="filter-label">Filter:</span>
+          <div class="pill-group" id="claimStatusFilters">
+            <button class="pill active" data-status="all">All Claims</button>
+            <button class="pill" data-status="submitted">Submitted</button>
+            <button class="pill" data-status="in_review">In Review</button>
+            <button class="pill" data-status="approved">Approved</button>
+            <button class="pill" data-status="rejected">Rejected</button>
+          </div>
+        </div>
+        <div class="sort-wrap">
+          <span class="claims-count-badge" id="claimsCountBadge">0 claims</span>
+        </div>
+      </section>
+
+      <!-- Claims List -->
+      <section class="claims-list" id="claimsList">
+        <!-- Rendered via claims.js -->
+      </section>
+
+      <section class="empty-state" id="claimsEmptyState" style="display: none;">
+        <div class="empty-icon"><i class="fa-solid fa-file-signature"></i></div>
+        <h3>No Claims Filed Yet</h3>
+        <p>File an AI warranty claim from any purchase in your vault — the AI drafts a formal dispute letter citing your invoice, serial number, and warranty terms.</p>
+        <button class="primary-btn" id="emptyStateBtn"><i class="fa-solid fa-wand-magic-sparkles"></i> File Your First Claim</button>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- File New Claim Modal -->
+  <div class="modal-backdrop" id="newClaimModal">
+    <div class="modal-card glass card-gradient-inverted modal-md">
+      <button class="modal-close-btn" id="closeNewClaimBtn">&times;</button>
+      <div class="modal-header">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <div class="modal-icon-badge"><i class="fa-solid fa-file-signature"></i></div>
+          <div>
+            <h3>File AI Warranty Claim</h3>
+            <p style="font-size: 0.8rem; opacity: 0.7;">Choose the purchase, describe the defect — the AI writes the formal letter.</p>
+          </div>
+        </div>
+      </div>
+
+      <form id="newClaimForm" class="add-product-form">
+        <div class="field">
+          <label>Purchase / Product</label>
+          <select id="claimPurchaseSelect" required>
+            <option value="">-- Select an item from your vault --</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label>Issue Category</label>
+          <select id="claimIssueCategory">
+            <option>Hardware Defect / Operational Failure</option>
+            <option>Screen / Display Issue</option>
+            <option>Battery / Power Failure</option>
+            <option>Manufacturing Defect</option>
+            <option>Cosmetic / Build Quality Issue</option>
+            <option>Software / Firmware Failure</option>
+            <option>Missing / Damaged on Arrival</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label>Describe the Defect</label>
+          <textarea id="claimIssueDescription" rows="3" placeholder="e.g. The device randomly shuts down and will not power back on, despite charging overnight." required></textarea>
+        </div>
+
+        <div class="field">
+          <label>Desired Resolution</label>
+          <select id="claimResolution">
+            <option>Official Warranty Repair / Replacement</option>
+            <option>Full Refund</option>
+            <option>Store Credit</option>
+            <option>Replacement Unit</option>
+            <option>Repair at Authorized Service Center</option>
+          </select>
+        </div>
+
+        <button type="submit" class="submit-action-btn" id="fileClaimBtn">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> Generate & File Claim
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Claim Detail Modal -->
+  <div class="modal-backdrop" id="claimDetailModal">
+    <div class="modal-card glass card-gradient-inverted modal-lg">
+      <button class="modal-close-btn" id="closeClaimDetailBtn">&times;</button>
+      <div id="claimDetailBody">
+        <!-- Rendered via claims.js -->
+      </div>
+    </div>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/toast.js"></script>
+  <script src="js/route-guard.js"></script>
+  <script src="js/components/chatbot.js"></script>
+  <script src="js/components/ui-helpers.js"></script>
+  <script src="claims.js"></script>
+</body>
+</html>

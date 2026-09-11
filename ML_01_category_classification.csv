@@ -1,0 +1,1801 @@
+product_name,brand,merchant,description,purchase_type,amount,category
+McDonald's Sandwich,McDonald's,Zomato,premium sandwich from McDonald's,OFFLINE,156.47,Food & Beverages
+HP Printer Paper,HP,Office Depot,daily use printer paper from HP,ONLINE,21617.91,Office
+Uniqlo Hoodie,Uniqlo,Lifestyle,wireless hoodie from Uniqlo,ONLINE,9958.99,Fashion
+Voltas Air Fryer,Voltas,Home Centre,portable air fryer from Voltas,OFFLINE,95287.71,Home Appliances
+Boldfit Massage Gun,Boldfit,Flipkart,durable massage gun from Boldfit,OFFLINE,56248.63,Sports & Fitness
+Lenovo Wireless Headphones,Lenovo,Reliance Digital,standard wireless headphones from Lenovo,OFFLINE,154751.92,Electronics
+IFB Air Cooler,IFB,Reliance Digital,classic air cooler from IFB,ONLINE,18340.51,Home Appliances
+Anker Smart Plug,Anker,Mi Store,new smart plug from Anker,ONLINE,11240.52,Gadgets
+Classic Decor Accessory,Classic,Marketplace,durable decor accessory from Classic,OFFLINE,7624.77,Other
+Pilot Whiteboard,Pilot,Reliance Smart,professional whiteboard from Pilot,ONLINE,8152.18,Office
+Everyday Personal Care Item,Everyday,Amazon,classic personal care item from Everyday,OFFLINE,2255.05,Other
+Staedtler Document Scanner,Staedtler,Reliance Smart,classic document scanner from Staedtler,OFFLINE,11119.86,Office
+Nivia Workout Gloves,Nivia,Decathlon,standard workout gloves from Nivia,ONLINE,49229.31,Sports & Fitness
+Faber-Castell Stapler,Faber-Castell,Local Stationery,standard stapler from Faber-Castell,ONLINE,11744.03,Office
+TVS Bike Service,TVS,Hyundai Service,premium bike service from TVS,ONLINE,9236.03,Vehicles
+Fitbit Exercise Bike,Fitbit,Amazon,durable exercise bike from Fitbit,OFFLINE,50694.08,Sports & Fitness
+Maruti Suzuki Dash Camera,Maruti Suzuki,Honda Service Center,compact dash camera from Maruti Suzuki,ONLINE,9290.79,Vehicles
+Cosco Cycling Helmet,Cosco,Flipkart,new cycling helmet from Cosco,OFFLINE,69510.69,Sports
+Toyota Wiper Blades,Toyota,Tata Motors,classic wiper blades from Toyota,OFFLINE,53601.02,Vehicles
+Urban Decor Accessory,Urban,Flipkart,new decor accessory from Urban,ONLINE,2461.11,Other
+Urban Ladder Storage Cabinet,Urban Ladder,IKEA,new storage cabinet from Urban Ladder,OFFLINE,5587.11,Furniture
+Honda Brake Pads,Honda,Local Auto Store,classic brake pads from Honda,OFFLINE,52711.17,Vehicles
+Mahindra Car Battery,Mahindra,Hyundai Service,durable car battery from Mahindra,OFFLINE,48228.91,Vehicles
+Decathlon Protein Shaker,Decathlon,Decathlon,classic protein shaker from Decathlon,OFFLINE,2993.57,Sports & Fitness
+TVS Car Service Package,TVS,Bajaj Auto,portable car service package from TVS,OFFLINE,49376.97,Vehicles
+Urban Ladder Dining Table,Urban Ladder,Home Centre,new dining table from Urban Ladder,OFFLINE,39396.27,Furniture
+Pepperfry Coffee Table,Pepperfry,Local Furniture Store,wireless coffee table from Pepperfry,OFFLINE,70992.87,Furniture
+Mahindra Dash Camera,Mahindra,Honda Service Center,compact dash camera from Mahindra,ONLINE,73144.03,Vehicles
+McDonald's Biryani,McDonald's,Zomato,new biryani from McDonald's,ONLINE,999.3,Food & Beverages
+Subway Sandwich,Subway,Swiggy,new sandwich from Subway,OFFLINE,3289.95,Food & Beverages
+Classic Utility Item,Classic,General Store,durable utility item from Classic,ONLINE,8431.89,Other
+Decathlon Exercise Mat,Decathlon,Decathlon,portable exercise mat from Decathlon,ONLINE,37920.33,Sports & Fitness
+Honda Car Floor Mats,Honda,Local Auto Store,wireless car floor mats from Honda,OFFLINE,38599.17,Vehicles
+Nivia Fitness Tracker,Nivia,Cult Store,compact fitness tracker from Nivia,ONLINE,40683.47,Sports & Fitness
+Whirlpool Room Heater,Whirlpool,Home Centre,compact room heater from Whirlpool,OFFLINE,107924.64,Home Appliances
+KFC Restaurant Dinner,KFC,KFC,wireless restaurant dinner from KFC,OFFLINE,2848.56,Food & Beverages
+Haldiram's Pizza,Haldiram's,Local Cafe,daily use pizza from Haldiram's,ONLINE,3936.54,Food & Beverages
+Godrej Interio Storage Cabinet,Godrej Interio,Local Furniture Store,daily use storage cabinet from Godrej Interio,ONLINE,78318.82,Furniture
+Tata Detergent,Tata,Reliance Smart,daily use detergent from Tata,ONLINE,2341.51,Food & Groceries
+Pepperfry Wardrobe,Pepperfry,Urban Ladder,professional wardrobe from Pepperfry,ONLINE,59876.16,Furniture
+Britannia Wheat Flour,Britannia,DMart,compact wheat flour from Britannia,ONLINE,1378.88,Food & Groceries
+Tata Wheat Flour,Tata,BigBasket,compact wheat flour from Tata,OFFLINE,2804.17,Food & Groceries
+Everyday Travel Accessory,Everyday,Marketplace,compact travel accessory from Everyday,ONLINE,8247.86,Other
+Logitech Usb Microphone,Logitech,Flipkart,wireless USB microphone from Logitech,OFFLINE,5238.41,Gadgets
+Hyundai Engine Oil Service,Hyundai,Tata Motors,classic engine oil service from Hyundai,OFFLINE,4099.8,Vehicles
+Acer Smartwatch,Acer,Flipkart,classic smartwatch from Acer,ONLINE,120292.2,Electronics
+Nivia Fitness Tracker,Nivia,Decathlon,professional fitness tracker from Nivia,ONLINE,25667.34,Sports & Fitness
+Logitech Smart Bulb,Logitech,Amazon,premium smart bulb from Logitech,OFFLINE,3098.02,Gadgets
+Nike Skipping Rope,Nike,Amazon,premium skipping rope from Nike,ONLINE,36508.34,Sports
+KFC Snack Combo,KFC,Starbucks,professional snack combo from KFC,ONLINE,4457.47,Food & Beverages
+Voltas Dishwasher,Voltas,Croma,durable dishwasher from Voltas,ONLINE,51760.54,Home Appliances
+Aashirvaad Eggs,Aashirvaad,BigBasket,portable eggs from Aashirvaad,OFFLINE,543.07,Food & Groceries
+Godrej Interio Study Table,Godrej Interio,Pepperfry,portable study table from Godrej Interio,ONLINE,54606.55,Furniture
+Dove Vegetables,Dove,Reliance Smart,compact vegetables from Dove,OFFLINE,856.46,Food & Groceries
+IKEA Dining Table,IKEA,Home Centre,classic dining table from IKEA,OFFLINE,46785.3,Furniture
+Garmin Massage Gun,Garmin,Cult Store,premium massage gun from Garmin,OFFLINE,44704.86,Sports & Fitness
+Boldfit Gym Bench,Boldfit,Amazon,standard gym bench from Boldfit,OFFLINE,18123.24,Sports & Fitness
+ASUS Camera,ASUS,Vijay Sales,portable camera from ASUS,OFFLINE,43511.48,Electronics
+Puma Badminton Racket,Puma,Nike Store,portable badminton racket from Puma,ONLINE,52298.11,Sports
+Prime Miscellaneous Item,Prime,Local Store,standard miscellaneous item from Prime,OFFLINE,11873.49,Other
+Acer Laptop,Acer,Flipkart,classic laptop from Acer,ONLINE,95986.1,Electronics
+IKEA Wardrobe,IKEA,IKEA,professional wardrobe from IKEA,OFFLINE,20385.41,Furniture
+Domino's Restaurant Dinner,Domino's,Local Cafe,compact restaurant dinner from Domino's,OFFLINE,4457.38,Food & Beverages
+Godrej Interio Side Table,Godrej Interio,IKEA,new side table from Godrej Interio,ONLINE,42872.11,Furniture
+Urban Key Holder,Urban,General Store,professional key holder from Urban,ONLINE,6176.03,Other
+Britannia Bread,Britannia,Local Grocery,classic bread from Britannia,ONLINE,1317.79,Food & Groceries
+Fortune Cooking Oil,Fortune,DMart,portable cooking oil from Fortune,ONLINE,5069.86,Food & Groceries
+Nivia Foam Roller,Nivia,Amazon,durable foam roller from Nivia,ONLINE,43684.47,Sports & Fitness
+Honda Engine Oil Service,Honda,Honda Service Center,wireless engine oil service from Honda,OFFLINE,11719.29,Vehicles
+Haldiram's Biryani,Haldiram's,Local Cafe,daily use biryani from Haldiram's,OFFLINE,2342.28,Food & Beverages
+boAt Wireless Charger,boAt,Mi Store,compact wireless charger from boAt,OFFLINE,12207.99,Gadgets
+Bosch Room Heater,Bosch,Reliance Digital,standard room heater from Bosch,ONLINE,48755.71,Home Appliances
+Sony Smartwatch,Sony,Reliance Digital,standard smartwatch from Sony,OFFLINE,93221.53,Electronics
+Mahindra Vehicle Insurance Accessory,Mahindra,Local Auto Store,premium vehicle insurance accessory from Mahindra,OFFLINE,60001.08,Vehicles
+Toyota Bike Tyre,Toyota,Local Auto Store,daily use bike tyre from Toyota,ONLINE,10765.5,Vehicles
+Cafe Coffee Day Pizza,Cafe Coffee Day,KFC,daily use pizza from Cafe Coffee Day,OFFLINE,3682.6,Food & Beverages
+Canon Whiteboard,Canon,Office Depot,professional whiteboard from Canon,ONLINE,11135.7,Office
+Allen Solly Kurta,Allen Solly,Shoppers Stop,new kurta from Allen Solly,ONLINE,12145.19,Fashion
+Voltas Induction Cooktop,Voltas,Home Centre,daily use induction cooktop from Voltas,ONLINE,9598.57,Home Appliances
+HP Laptop,HP,Samsung Store,classic laptop from HP,ONLINE,129176.18,Electronics
+Generic General Household Item,Generic,Amazon,standard general household item from Generic,OFFLINE,1083.38,Other
+Faber-Castell Marker Set,Faber-Castell,Office Depot,wireless marker set from Faber-Castell,OFFLINE,24900.18,Office
+Hyundai Helmet,Hyundai,Bajaj Auto,portable helmet from Hyundai,ONLINE,62406.34,Vehicles
+Zara Winter Sweater,Zara,Lifestyle,compact winter sweater from Zara,ONLINE,26947.45,Fashion
+HP Laptop,HP,Flipkart,portable laptop from HP,OFFLINE,73415.21,Electronics
+KFC Snack Combo,KFC,Local Cafe,new snack combo from KFC,ONLINE,3082.76,Food & Beverages
+Urban Miscellaneous Item,Urban,Flipkart,standard miscellaneous item from Urban,ONLINE,3016.05,Other
+Decathlon Resistance Tube Set,Decathlon,Flipkart,daily use resistance tube set from Decathlon,OFFLINE,59519.15,Sports & Fitness
+Honda Wiper Blades,Honda,Tata Motors,daily use wiper blades from Honda,OFFLINE,11826.16,Vehicles
+Anker Fast Charger,Anker,Mi Store,compact fast charger from Anker,ONLINE,5098.38,Gadgets
+Wakefit Bookshelf,Wakefit,IKEA,new bookshelf from Wakefit,OFFLINE,48710.96,Furniture
+boAt Wireless Charger,boAt,Amazon,new wireless charger from boAt,ONLINE,9246.37,Gadgets
+Philips Dishwasher,Philips,Reliance Digital,wireless dishwasher from Philips,OFFLINE,16099.69,Home Appliances
+Urban Gift Item,Urban,Amazon,durable gift item from Urban,OFFLINE,4426.56,Other
+boAt Router,boAt,Reliance Digital,durable router from boAt,ONLINE,14751.22,Gadgets
+Noise Router,Noise,Amazon,durable router from Noise,ONLINE,3029.71,Gadgets
+Local Brand Gift Item,Local Brand,Flipkart,daily use gift item from Local Brand,OFFLINE,1858.58,Other
+Bajaj Helmet,Bajaj,Honda Service Center,new helmet from Bajaj,ONLINE,80147.88,Vehicles
+Godrej Water Purifier,Godrej,Vijay Sales,classic water purifier from Godrej,ONLINE,13599.64,Home Appliances
+Samsung Washing Machine,Samsung,Croma,standard washing machine from Samsung,OFFLINE,48529.04,Home Appliances
+IFB Washing Machine,IFB,Home Centre,classic washing machine from IFB,ONLINE,106872.3,Home Appliances
+TP-Link Router,TP-Link,Croma,daily use router from TP-Link,ONLINE,2185.95,Gadgets
+Starbucks Snack Combo,Starbucks,Starbucks,daily use snack combo from Starbucks,ONLINE,3647.59,Food & Beverages
+Haldiram's Biryani,Haldiram's,Starbucks,new biryani from Haldiram's,ONLINE,4261.59,Food & Beverages
+Classic Miscellaneous Item,Classic,General Store,new miscellaneous item from Classic,OFFLINE,6793.73,Other
+Hyundai Dash Camera,Hyundai,Tata Motors,standard dash camera from Hyundai,OFFLINE,20763.06,Vehicles
+Generic Miscellaneous Purchase,Generic,Amazon,classic miscellaneous purchase from Generic,ONLINE,11623.13,Other
+Bajaj Car Floor Mats,Bajaj,Bajaj Auto,compact car floor mats from Bajaj,ONLINE,41897.37,Vehicles
+Fitbit Exercise Mat,Fitbit,Flipkart,new exercise mat from Fitbit,OFFLINE,8328.95,Sports & Fitness
+Puma Handbag,Puma,Ajio,new handbag from Puma,ONLINE,18224.74,Fashion
+Mahindra Brake Pads,Mahindra,Bajaj Auto,classic brake pads from Mahindra,OFFLINE,5219.43,Vehicles
+Tata Car Tyre,Tata,Honda Service Center,wireless car tyre from Tata,OFFLINE,47351.34,Vehicles
+Faber-Castell Notebook,Faber-Castell,Office Depot,new notebook from Faber-Castell,ONLINE,22268.82,Office
+Classmate Calculator,Classmate,Local Stationery,compact calculator from Classmate,ONLINE,20689.09,Office
+Urban Ladder Study Table,Urban Ladder,IKEA,durable study table from Urban Ladder,OFFLINE,82648.69,Furniture
+Allen Solly Cotton Shirt,Allen Solly,Nike Store,premium cotton shirt from Allen Solly,ONLINE,24228.9,Fashion
+Tata Wiper Blades,Tata,Hyundai Service,daily use wiper blades from Tata,OFFLINE,11400.25,Vehicles
+Adidas Kurta,Adidas,Amazon,daily use kurta from Adidas,ONLINE,7403.55,Fashion
+Mahindra Brake Pads,Mahindra,Bajaj Auto,daily use brake pads from Mahindra,ONLINE,16428.94,Vehicles
+Acer Computer Mouse,Acer,Flipkart,compact computer mouse from Acer,OFFLINE,70538.56,Electronics
+Toyota Vehicle Insurance Accessory,Toyota,Honda Service Center,wireless vehicle insurance accessory from Toyota,ONLINE,40894.81,Vehicles
+Maruti Suzuki Car Battery,Maruti Suzuki,Local Auto Store,new car battery from Maruti Suzuki,OFFLINE,59781.39,Vehicles
+Logitech Smart Plug,Logitech,Mi Store,new smart plug from Logitech,ONLINE,5853.42,Gadgets
+Aashirvaad Milk,Aashirvaad,Zepto,new milk from Aashirvaad,OFFLINE,5514.68,Food & Groceries
+Classic Utility Item,Classic,Local Store,durable utility item from Classic,OFFLINE,5882.56,Other
+Local Brand General Household Item,Local Brand,Local Store,portable general household item from Local Brand,ONLINE,3146.25,Other
+Puma Badminton Racket,Puma,Flipkart,premium badminton racket from Puma,ONLINE,27849.41,Sports
+Boldfit Adjustable Dumbbell Set,Boldfit,Cult Store,new adjustable dumbbell set from Boldfit,ONLINE,11008.53,Sports & Fitness
+Samsung Vacuum Cleaner,Samsung,Reliance Digital,compact vacuum cleaner from Samsung,ONLINE,97516.94,Home Appliances
+Portronics Usb Microphone,Portronics,Amazon,classic USB microphone from Portronics,ONLINE,8700.25,Gadgets
+Generic Storage Box,Generic,Amazon,classic storage box from Generic,OFFLINE,5186.69,Other
+Nivia Pull Up Bar,Nivia,Cult Store,portable pull up bar from Nivia,ONLINE,42680.72,Sports & Fitness
+Pepperfry Recliner,Pepperfry,Local Furniture Store,durable recliner from Pepperfry,OFFLINE,83580.88,Furniture
+Mi Usb Microphone,Mi,Mi Store,professional USB microphone from Mi,OFFLINE,9722.41,Gadgets
+Puma Sports Shoes,Puma,Nike Store,standard sports shoes from Puma,OFFLINE,744.76,Sports
+Bajaj Car Battery,Bajaj,Hyundai Service,wireless car battery from Bajaj,OFFLINE,69422.7,Vehicles
+Biba Cotton Shirt,Biba,Ajio,daily use cotton shirt from Biba,OFFLINE,29459.43,Fashion
+Mi Fast Charger,Mi,Amazon,premium fast charger from Mi,OFFLINE,5280.01,Gadgets
+Adidas Sports Shoes,Adidas,Decathlon,wireless sports shoes from Adidas,OFFLINE,66919.77,Sports
+Acer Wireless Headphones,Acer,Reliance Digital,daily use wireless headphones from Acer,OFFLINE,112902.51,Electronics
+Bajaj Car Floor Mats,Bajaj,Honda Service Center,portable car floor mats from Bajaj,ONLINE,60692.3,Vehicles
+Nivia Football,Nivia,Sports Station,durable football from Nivia,OFFLINE,31362.61,Sports
+OnePlus Computer Mouse,OnePlus,Amazon,classic computer mouse from OnePlus,OFFLINE,14494.37,Electronics
+Nivia Exercise Bike,Nivia,Cult Store,daily use exercise bike from Nivia,OFFLINE,46794.83,Sports & Fitness
+boAt Smart Plug,boAt,Amazon,new smart plug from boAt,OFFLINE,7012.97,Gadgets
+Pepperfry Side Table,Pepperfry,Local Furniture Store,professional side table from Pepperfry,OFFLINE,14348.08,Furniture
+Decathlon Skipping Rope,Decathlon,Nike Store,classic skipping rope from Decathlon,ONLINE,65367.07,Sports
+Generic Miscellaneous Item,Generic,Local Store,portable miscellaneous item from Generic,OFFLINE,2264.28,Other
+Zara Backpack,Zara,Lifestyle,premium backpack from Zara,OFFLINE,23389.58,Fashion
+Nivia Basketball,Nivia,Sports Station,professional basketball from Nivia,OFFLINE,67483.98,Sports
+Domino's Burger Meal,Domino's,Zomato,durable burger meal from Domino's,OFFLINE,2939.56,Food & Beverages
+Classic Miscellaneous Item,Classic,Amazon,new miscellaneous item from Classic,ONLINE,4523.04,Other
+Fitbit Workout Gloves,Fitbit,Amazon,standard workout gloves from Fitbit,ONLINE,36046.12,Sports & Fitness
+Urban Personal Care Item,Urban,Marketplace,portable personal care item from Urban,OFFLINE,3001.33,Other
+Philips Water Purifier,Philips,Flipkart,classic water purifier from Philips,OFFLINE,49629.18,Home Appliances
+HP Wireless Headphones,HP,Vijay Sales,portable wireless headphones from HP,OFFLINE,31906.65,Electronics
+Levis Formal Trousers,Levis,Myntra,wireless formal trousers from Levis,OFFLINE,19170.81,Fashion
+Godrej Interio Office Chair,Godrej Interio,Urban Ladder,wireless office chair from Godrej Interio,OFFLINE,6393.92,Furniture
+JBL Smart Bulb,JBL,Flipkart,daily use smart bulb from JBL,ONLINE,4371.33,Gadgets
+Samsung Smartphone,Samsung,Vijay Sales,new smartphone from Samsung,OFFLINE,56291.41,Electronics
+Nilkamal Study Table,Nilkamal,Local Furniture Store,new study table from Nilkamal,ONLINE,14442.56,Furniture
+HP Printer,HP,Croma,wireless printer from HP,ONLINE,5250.81,Electronics
+Domino's Dessert,Domino's,Local Cafe,durable dessert from Domino's,ONLINE,3325.39,Food & Beverages
+Garmin Massage Gun,Garmin,Amazon,professional massage gun from Garmin,ONLINE,2755.16,Sports & Fitness
+Adidas Cotton Shirt,Adidas,Myntra,wireless cotton shirt from Adidas,OFFLINE,15919.98,Fashion
+Biba Formal Trousers,Biba,Lifestyle,wireless formal trousers from Biba,OFFLINE,17928.33,Fashion
+Urban Travel Accessory,Urban,Local Store,wireless travel accessory from Urban,OFFLINE,7021.8,Other
+Mahindra Dash Camera,Mahindra,Bajaj Auto,classic dash camera from Mahindra,OFFLINE,12175.29,Vehicles
+Biba Winter Sweater,Biba,Myntra,new winter sweater from Biba,OFFLINE,18603.08,Fashion
+H&M Winter Sweater,H&M,Amazon,daily use winter sweater from H&M,OFFLINE,20359.19,Fashion
+W Hoodie,W,Amazon,new hoodie from W,ONLINE,6046.02,Fashion
+Biba Hoodie,Biba,Amazon,classic hoodie from Biba,OFFLINE,15867.6,Fashion
+Cult Protein Shaker,Cult,Fitness Store,daily use protein shaker from Cult,OFFLINE,10247.64,Sports & Fitness
+LG Printer,LG,Amazon,daily use printer from LG,ONLINE,100270.13,Electronics
+McDonald's Sandwich,McDonald's,Zomato,compact sandwich from McDonald's,OFFLINE,3897.94,Food & Beverages
+Faber-Castell Printer Paper,Faber-Castell,Amazon,wireless printer paper from Faber-Castell,ONLINE,23727.61,Office
+Domino's Sandwich,Domino's,Local Cafe,new sandwich from Domino's,OFFLINE,1022.17,Food & Beverages
+Garmin Resistance Tube Set,Garmin,Fitness Store,premium resistance tube set from Garmin,OFFLINE,29574.41,Sports & Fitness
+Puma Hoodie,Puma,Shoppers Stop,new hoodie from Puma,ONLINE,18181.05,Fashion
+Britannia Rice,Britannia,Reliance Smart,wireless rice from Britannia,OFFLINE,1271.92,Food & Groceries
+Garmin Fitness Watch,Garmin,Amazon,compact fitness watch from Garmin,OFFLINE,26354.86,Sports & Fitness
+Urban Ladder Office Chair,Urban Ladder,IKEA,professional office chair from Urban Ladder,OFFLINE,88970.73,Furniture
+Cult Exercise Mat,Cult,Cult Store,classic exercise mat from Cult,OFFLINE,35740.9,Sports & Fitness
+Godrej Interio Bookshelf,Godrej Interio,Pepperfry,portable bookshelf from Godrej Interio,OFFLINE,40267.88,Furniture
+Decathlon Exercise Bike,Decathlon,Cult Store,professional exercise bike from Decathlon,OFFLINE,26145.9,Sports & Fitness
+Acer Monitor,Acer,Samsung Store,wireless monitor from Acer,OFFLINE,114502.41,Electronics
+Fitbit Gym Bench,Fitbit,Fitness Store,compact gym bench from Fitbit,OFFLINE,55840.52,Sports & Fitness
+Fortune Household Essentials Pack,Fortune,Local Grocery,new household essentials pack from Fortune,ONLINE,5750.03,Food & Groceries
+McDonald's Sandwich,McDonald's,Starbucks,standard sandwich from McDonald's,ONLINE,1380.3,Food & Beverages
+Logitech Phone Stand,Logitech,Croma,wireless phone stand from Logitech,OFFLINE,14616.01,Gadgets
+Anker Fast Charger,Anker,Amazon,compact fast charger from Anker,ONLINE,16485.61,Gadgets
+HP File Folder,HP,Flipkart,classic file folder from HP,OFFLINE,22290.6,Office
+Surf Excel Milk,Surf Excel,DMart,premium milk from Surf Excel,OFFLINE,3261.61,Food & Groceries
+Dove Wheat Flour,Dove,Reliance Smart,durable wheat flour from Dove,ONLINE,318.47,Food & Groceries
+Dell Bluetooth Speaker,Dell,Reliance Digital,new bluetooth speaker from Dell,OFFLINE,78474.26,Electronics
+Cosco Sports Shoes,Cosco,Amazon,standard sports shoes from Cosco,OFFLINE,31024.29,Sports
+Decathlon Basketball,Decathlon,Nike Store,wireless basketball from Decathlon,ONLINE,10710.74,Sports
+KFC Snack Combo,KFC,Zomato,daily use snack combo from KFC,ONLINE,4297.9,Food & Beverages
+Decathlon Sports Shoes,Decathlon,Decathlon,classic sports shoes from Decathlon,ONLINE,49331.26,Sports
+Puma Handbag,Puma,Ajio,professional handbag from Puma,ONLINE,25236.27,Fashion
+W Winter Sweater,W,Shoppers Stop,standard winter sweater from W,ONLINE,3249.1,Fashion
+Whirlpool Vacuum Cleaner,Whirlpool,Flipkart,premium vacuum cleaner from Whirlpool,OFFLINE,15459.85,Home Appliances
+Staedtler Whiteboard,Staedtler,Reliance Smart,durable whiteboard from Staedtler,ONLINE,1402.88,Office
+Haier Refrigerator,Haier,Flipkart,new refrigerator from Haier,OFFLINE,76035.75,Home Appliances
+Starbucks Meal Order,Starbucks,Local Cafe,wireless meal order from Starbucks,OFFLINE,4098.44,Food & Beverages
+Canon Pen Set,Canon,Local Stationery,daily use pen set from Canon,OFFLINE,13912.79,Office
+Everyday Gift Item,Everyday,Local Store,wireless gift item from Everyday,OFFLINE,3495.27,Other
+Hyundai Car Service Package,Hyundai,Local Auto Store,portable car service package from Hyundai,ONLINE,41976.82,Vehicles
+Domino's Cafe Breakfast,Domino's,Starbucks,classic cafe breakfast from Domino's,ONLINE,413.43,Food & Beverages
+Surf Excel Bread,Surf Excel,Local Grocery,new bread from Surf Excel,ONLINE,5995.51,Food & Groceries
+Prime Gift Item,Prime,Flipkart,durable gift item from Prime,ONLINE,565.18,Other
+Samsung Monitor,Samsung,Reliance Digital,premium monitor from Samsung,ONLINE,94746.93,Electronics
+Classmate Printer Paper,Classmate,Local Stationery,daily use printer paper from Classmate,OFFLINE,3970.19,Office
+Yonex Gym Gloves,Yonex,Nike Store,professional gym gloves from Yonex,ONLINE,39619.52,Sports
+Logitech Power Bank,Logitech,Reliance Digital,premium power bank from Logitech,OFFLINE,417.04,Gadgets
+Amul Bread,Amul,Zepto,standard bread from Amul,OFFLINE,4996.55,Food & Groceries
+Cosco Sports Shoes,Cosco,Amazon,durable sports shoes from Cosco,ONLINE,14879.75,Sports
+Fitbit Pull Up Bar,Fitbit,Decathlon,premium pull up bar from Fitbit,ONLINE,55409.81,Sports & Fitness
+Pilot Pen Set,Pilot,Reliance Smart,premium pen set from Pilot,OFFLINE,18378.76,Office
+IFB Air Conditioner,IFB,Vijay Sales,durable air conditioner from IFB,ONLINE,75134.11,Home Appliances
+Kokuyo Ink Cartridge,Kokuyo,Local Stationery,compact ink cartridge from Kokuyo,ONLINE,11888.27,Office
+Domino's Meal Order,Domino's,Starbucks,durable meal order from Domino's,ONLINE,1820.8,Food & Beverages
+Haier Air Cooler,Haier,Reliance Digital,daily use air cooler from Haier,OFFLINE,75192.8,Home Appliances
+ASUS Tablet,ASUS,Reliance Digital,new tablet from ASUS,OFFLINE,111909.75,Electronics
+Logitech Charging Cable,Logitech,Croma,wireless charging cable from Logitech,OFFLINE,420.89,Gadgets
+Toyota Brake Pads,Toyota,Tata Motors,compact brake pads from Toyota,ONLINE,1660.65,Vehicles
+Canon File Folder,Canon,Reliance Smart,premium file folder from Canon,ONLINE,6445.97,Office
+Adidas Handbag,Adidas,Amazon,standard handbag from Adidas,ONLINE,11788.86,Fashion
+Philips Room Heater,Philips,Croma,portable room heater from Philips,ONLINE,6706.52,Home Appliances
+Adidas Kurta,Adidas,Myntra,classic kurta from Adidas,OFFLINE,19431.67,Fashion
+Kokuyo Desk Organizer,Kokuyo,Amazon,portable desk organizer from Kokuyo,OFFLINE,12078.87,Office
+Bosch Microwave Oven,Bosch,Amazon,daily use microwave oven from Bosch,OFFLINE,14782.31,Home Appliances
+LG Laptop,LG,Reliance Digital,premium laptop from LG,ONLINE,2061.99,Electronics
+Fitbit Workout Gloves,Fitbit,Amazon,durable workout gloves from Fitbit,ONLINE,10554.88,Sports & Fitness
+boAt Smart Bulb,boAt,Mi Store,classic smart bulb from boAt,ONLINE,15870.94,Gadgets
+Canon Document Scanner,Canon,Reliance Smart,durable document scanner from Canon,ONLINE,8331.29,Office
+Britannia Wheat Flour,Britannia,Reliance Smart,standard wheat flour from Britannia,ONLINE,586.37,Food & Groceries
+Portronics Router,Portronics,Amazon,premium router from Portronics,ONLINE,5581.54,Gadgets
+McDonald's Meal Order,McDonald's,Local Cafe,portable meal order from McDonald's,ONLINE,293.66,Food & Beverages
+Noise Phone Stand,Noise,Croma,durable phone stand from Noise,ONLINE,12761.47,Gadgets
+Tata Household Essentials Pack,Tata,Blinkit,daily use household essentials pack from Tata,OFFLINE,1213.75,Food & Groceries
+Boldfit Pull Up Bar,Boldfit,Decathlon,professional pull up bar from Boldfit,OFFLINE,12278.69,Sports & Fitness
+OnePlus Tablet,OnePlus,Reliance Digital,compact tablet from OnePlus,OFFLINE,89225.46,Electronics
+Allen Solly Formal Trousers,Allen Solly,Amazon,classic formal trousers from Allen Solly,ONLINE,19773.43,Fashion
+IFB Water Purifier,IFB,Amazon,classic water purifier from IFB,ONLINE,53263.06,Home Appliances
+JBL Usb Microphone,JBL,Mi Store,daily use USB microphone from JBL,OFFLINE,7345.2,Gadgets
+Canon Notebook,Canon,Office Depot,wireless notebook from Canon,ONLINE,8076.34,Office
+Nilkamal Recliner,Nilkamal,Local Furniture Store,professional recliner from Nilkamal,ONLINE,65944.12,Furniture
+Puma Dumbbells,Puma,Decathlon,compact dumbbells from Puma,ONLINE,45939.14,Sports
+Domino's Burger Meal,Domino's,Starbucks,portable burger meal from Domino's,ONLINE,850.59,Food & Beverages
+KFC Pizza,KFC,Local Cafe,classic pizza from KFC,ONLINE,4223.73,Food & Beverages
+Dove Shampoo,Dove,Zepto,new shampoo from Dove,OFFLINE,203.18,Food & Groceries
+Nestle Shampoo,Nestle,Zepto,new shampoo from Nestle,ONLINE,5289.23,Food & Groceries
+Cosco Yoga Mat,Cosco,Decathlon,daily use yoga mat from Cosco,ONLINE,73357.19,Sports
+Everyday Miscellaneous Purchase,Everyday,Local Store,portable miscellaneous purchase from Everyday,ONLINE,9645.48,Other
+Philips Electric Kettle,Philips,Croma,new electric kettle from Philips,ONLINE,66985.45,Home Appliances
+Kokuyo Office Supplies Pack,Kokuyo,Office Depot,premium office supplies pack from Kokuyo,ONLINE,6845.72,Office
+Portronics Fitness Band,Portronics,Reliance Digital,professional fitness band from Portronics,ONLINE,9580.44,Gadgets
+Aashirvaad Toothpaste,Aashirvaad,Blinkit,classic toothpaste from Aashirvaad,ONLINE,2487.94,Food & Groceries
+Starbucks Soft Drink,Starbucks,Swiggy,compact soft drink from Starbucks,OFFLINE,1777.08,Food & Beverages
+Local Brand Decor Accessory,Local Brand,Amazon,new decor accessory from Local Brand,OFFLINE,3018.52,Other
+Mi Wireless Charger,Mi,Mi Store,daily use wireless charger from Mi,OFFLINE,12262.87,Gadgets
+LG Smartwatch,LG,Samsung Store,wireless smartwatch from LG,ONLINE,43788.7,Electronics
+Yonex Treadmill,Yonex,Flipkart,compact treadmill from Yonex,ONLINE,56024.75,Sports
+Haldiram's Biryani,Haldiram's,McDonald's,compact biryani from Haldiram's,ONLINE,2858.08,Food & Beverages
+Pepperfry Bookshelf,Pepperfry,Urban Ladder,premium bookshelf from Pepperfry,ONLINE,53388.45,Furniture
+Nivia Massage Gun,Nivia,Cult Store,wireless massage gun from Nivia,OFFLINE,25034.56,Sports & Fitness
+Everyday Personal Care Item,Everyday,Marketplace,wireless personal care item from Everyday,ONLINE,6449.33,Other
+boAt Fast Charger,boAt,Reliance Digital,compact fast charger from boAt,ONLINE,4447.81,Gadgets
+Urban Ladder Bed Frame,Urban Ladder,IKEA,standard bed frame from Urban Ladder,ONLINE,17401.2,Furniture
+Uniqlo Dress,Uniqlo,Myntra,durable dress from Uniqlo,ONLINE,5663.53,Fashion
+Tata Toothpaste,Tata,DMart,compact toothpaste from Tata,ONLINE,1142.95,Food & Groceries
+Mi Fast Charger,Mi,Croma,new fast charger from Mi,ONLINE,17105.57,Gadgets
+Maruti Suzuki Bike Tyre,Maruti Suzuki,Honda Service Center,premium bike tyre from Maruti Suzuki,OFFLINE,33821.66,Vehicles
+Tata Household Essentials Pack,Tata,Zepto,compact household essentials pack from Tata,ONLINE,5778.87,Food & Groceries
+Aashirvaad Groceries,Aashirvaad,DMart,durable groceries from Aashirvaad,ONLINE,4737.6,Food & Groceries
+Fortune Milk,Fortune,Reliance Smart,new milk from Fortune,OFFLINE,4190.58,Food & Groceries
+JBL Charging Cable,JBL,Flipkart,new charging cable from JBL,ONLINE,9200.69,Gadgets
+McDonald's Biryani,McDonald's,Zomato,durable biryani from McDonald's,ONLINE,3002.11,Food & Beverages
+Uniqlo Sunglasses,Uniqlo,Ajio,classic sunglasses from Uniqlo,OFFLINE,17222.43,Fashion
+Godrej Interio Study Table,Godrej Interio,IKEA,classic study table from Godrej Interio,ONLINE,55885.18,Furniture
+TVS Wiper Blades,TVS,Hyundai Service,daily use wiper blades from TVS,OFFLINE,21628.59,Vehicles
+Puma Dress,Puma,Myntra,daily use dress from Puma,ONLINE,7762.17,Fashion
+Bosch Dishwasher,Bosch,Home Centre,new dishwasher from Bosch,ONLINE,15752.57,Home Appliances
+Adidas Gym Gloves,Adidas,Flipkart,standard gym gloves from Adidas,OFFLINE,19336.96,Sports
+LG Vacuum Cleaner,LG,Flipkart,standard vacuum cleaner from LG,OFFLINE,95080.3,Home Appliances
+IKEA Dining Table,IKEA,Local Furniture Store,standard dining table from IKEA,ONLINE,69236.13,Furniture
+Bosch Induction Cooktop,Bosch,Amazon,standard induction cooktop from Bosch,OFFLINE,10463.46,Home Appliances
+Nivia Skipping Rope,Nivia,Flipkart,compact skipping rope from Nivia,OFFLINE,40162.02,Sports
+HP Stapler,HP,Local Stationery,premium stapler from HP,OFFLINE,15229.61,Office
+Puma Formal Trousers,Puma,Ajio,daily use formal trousers from Puma,OFFLINE,12943.59,Fashion
+Portronics Usb Hub,Portronics,Flipkart,classic USB hub from Portronics,OFFLINE,4556.36,Gadgets
+Acer Printer,Acer,Flipkart,professional printer from Acer,ONLINE,53987.25,Electronics
+Logitech Usb Hub,Logitech,Amazon,compact USB hub from Logitech,OFFLINE,2635.41,Gadgets
+Godrej Washing Machine,Godrej,Croma,professional washing machine from Godrej,OFFLINE,75200.65,Home Appliances
+HP Television,HP,Flipkart,daily use television from HP,ONLINE,148749.41,Electronics
+JBL Smart Bulb,JBL,Reliance Digital,professional smart bulb from JBL,OFFLINE,16638.98,Gadgets
+boAt Phone Stand,boAt,Amazon,premium phone stand from boAt,OFFLINE,2725.54,Gadgets
+Honda Car Tyre,Honda,Honda Service Center,premium car tyre from Honda,OFFLINE,21315.69,Vehicles
+Decathlon Fitness Watch,Decathlon,Cult Store,premium fitness watch from Decathlon,ONLINE,4254.97,Sports & Fitness
+Fitbit Massage Gun,Fitbit,Flipkart,new massage gun from Fitbit,OFFLINE,44245.42,Sports & Fitness
+Yonex Sports Shoes,Yonex,Decathlon,portable sports shoes from Yonex,OFFLINE,54831.36,Sports
+Urban Key Holder,Urban,Local Store,compact key holder from Urban,ONLINE,7595.39,Other
+Prime Utility Item,Prime,Local Store,wireless utility item from Prime,ONLINE,2290.39,Other
+Puma Gym Gloves,Puma,Nike Store,portable gym gloves from Puma,ONLINE,21813.2,Sports
+Decathlon Resistance Tube Set,Decathlon,Cult Store,standard resistance tube set from Decathlon,ONLINE,28114.33,Sports & Fitness
+Classmate Whiteboard,Classmate,Office Depot,standard whiteboard from Classmate,OFFLINE,7683.54,Office
+Dove Milk,Dove,DMart,premium milk from Dove,OFFLINE,1258.81,Food & Groceries
+Anker Usb Microphone,Anker,Flipkart,durable USB microphone from Anker,ONLINE,12407.54,Gadgets
+Maruti Suzuki Bike Tyre,Maruti Suzuki,Local Auto Store,professional bike tyre from Maruti Suzuki,ONLINE,47738.84,Vehicles
+Hyundai Vehicle Insurance Accessory,Hyundai,Hyundai Service,portable vehicle insurance accessory from Hyundai,ONLINE,60670.59,Vehicles
+Uniqlo Jacket,Uniqlo,Ajio,classic jacket from Uniqlo,ONLINE,17488.89,Fashion
+Domino's Soft Drink,Domino's,KFC,premium soft drink from Domino's,OFFLINE,3344.08,Food & Beverages
+Honda Engine Oil Service,Honda,Hyundai Service,premium engine oil service from Honda,OFFLINE,14511.09,Vehicles
+HP Monitor,HP,Samsung Store,durable monitor from HP,OFFLINE,112923.53,Electronics
+Amul Wheat Flour,Amul,DMart,classic wheat flour from Amul,ONLINE,4302.73,Food & Groceries
+Nilkamal Dining Table,Nilkamal,Home Centre,daily use dining table from Nilkamal,OFFLINE,26909.94,Furniture
+Urban Decor Accessory,Urban,Amazon,daily use decor accessory from Urban,OFFLINE,10920.02,Other
+Biba Backpack,Biba,Ajio,professional backpack from Biba,OFFLINE,5722.58,Fashion
+Mi Smart Plug,Mi,Reliance Digital,portable smart plug from Mi,ONLINE,14291.82,Gadgets
+Canon Pen Set,Canon,Local Stationery,professional pen set from Canon,OFFLINE,18251.28,Office
+Bosch Water Purifier,Bosch,Flipkart,professional water purifier from Bosch,ONLINE,58871.15,Home Appliances
+Haier Air Fryer,Haier,Amazon,wireless air fryer from Haier,OFFLINE,67484.43,Home Appliances
+H&M Backpack,H&M,Lifestyle,wireless backpack from H&M,OFFLINE,15732.97,Fashion
+Samsung Induction Cooktop,Samsung,Flipkart,durable induction cooktop from Samsung,ONLINE,82496.08,Home Appliances
+Fortune Detergent,Fortune,Blinkit,standard detergent from Fortune,ONLINE,5290.18,Food & Groceries
+Puma Gym Gloves,Puma,Flipkart,durable gym gloves from Puma,OFFLINE,12771.24,Sports
+Nestle Eggs,Nestle,Zepto,durable eggs from Nestle,OFFLINE,800.57,Food & Groceries
+Nestle Household Essentials Pack,Nestle,Reliance Smart,standard household essentials pack from Nestle,OFFLINE,4413.36,Food & Groceries
+Fortune Groceries,Fortune,Local Grocery,wireless groceries from Fortune,ONLINE,2841.9,Food & Groceries
+Dove Bread,Dove,DMart,professional bread from Dove,ONLINE,3551.72,Food & Groceries
+Classmate Office Supplies Pack,Classmate,Reliance Smart,daily use office supplies pack from Classmate,OFFLINE,16888.35,Office
+Godrej Interio Shoe Cabinet,Godrej Interio,Local Furniture Store,compact shoe cabinet from Godrej Interio,ONLINE,55176.97,Furniture
+Generic Key Holder,Generic,Amazon,premium key holder from Generic,OFFLINE,1323.5,Other
+Boldfit Fitness Watch,Boldfit,Flipkart,standard fitness watch from Boldfit,ONLINE,13701.69,Sports & Fitness
+Haier Water Purifier,Haier,Home Centre,durable water purifier from Haier,ONLINE,87962.87,Home Appliances
+Tata Car Floor Mats,Tata,Tata Motors,compact car floor mats from Tata,OFFLINE,80806.42,Vehicles
+Nivia Cycling Helmet,Nivia,Amazon,portable cycling helmet from Nivia,ONLINE,18033.42,Sports
+Boldfit Exercise Mat,Boldfit,Amazon,durable exercise mat from Boldfit,OFFLINE,33297.86,Sports & Fitness
+Dove Wheat Flour,Dove,Zepto,standard wheat flour from Dove,ONLINE,3735.97,Food & Groceries
+Logitech Fitness Band,Logitech,Croma,professional fitness band from Logitech,OFFLINE,16826.5,Gadgets
+Yonex Cycling Helmet,Yonex,Nike Store,new cycling helmet from Yonex,ONLINE,32780.46,Sports
+Pepperfry Coffee Table,Pepperfry,IKEA,wireless coffee table from Pepperfry,OFFLINE,42967.99,Furniture
+Wakefit Side Table,Wakefit,Pepperfry,classic side table from Wakefit,ONLINE,76440.6,Furniture
+Kokuyo Office Supplies Pack,Kokuyo,Office Depot,classic office supplies pack from Kokuyo,ONLINE,6181.04,Office
+Cult Adjustable Dumbbell Set,Cult,Cult Store,portable adjustable dumbbell set from Cult,OFFLINE,23791.6,Sports & Fitness
+Mi Wireless Charger,Mi,Croma,compact wireless charger from Mi,OFFLINE,17407.2,Gadgets
+Canon Whiteboard,Canon,Reliance Smart,classic whiteboard from Canon,ONLINE,8898.03,Office
+Whirlpool Electric Kettle,Whirlpool,Flipkart,portable electric kettle from Whirlpool,OFFLINE,9896.42,Home Appliances
+Cafe Coffee Day Pizza,Cafe Coffee Day,KFC,classic pizza from Cafe Coffee Day,ONLINE,854.42,Food & Beverages
+Portronics Power Bank,Portronics,Mi Store,classic power bank from Portronics,OFFLINE,10550.83,Gadgets
+Tata Cooking Oil,Tata,Reliance Smart,durable cooking oil from Tata,ONLINE,3401.38,Food & Groceries
+Logitech Fitness Band,Logitech,Amazon,daily use fitness band from Logitech,OFFLINE,11182.87,Gadgets
+Prime Key Holder,Prime,Flipkart,new key holder from Prime,OFFLINE,1095.05,Other
+Noise Wireless Charger,Noise,Reliance Digital,daily use wireless charger from Noise,OFFLINE,16483.65,Gadgets
+W Winter Sweater,W,Ajio,compact winter sweater from W,ONLINE,5197.06,Fashion
+Aashirvaad Milk,Aashirvaad,Blinkit,durable milk from Aashirvaad,ONLINE,452.04,Food & Groceries
+Everyday Travel Accessory,Everyday,Marketplace,standard travel accessory from Everyday,OFFLINE,991.07,Other
+Nivia Pull Up Bar,Nivia,Flipkart,professional pull up bar from Nivia,ONLINE,11081.87,Sports & Fitness
+Decathlon Protein Shaker,Decathlon,Amazon,new protein shaker from Decathlon,OFFLINE,16236.01,Sports & Fitness
+H&M Sneakers,H&M,Ajio,professional sneakers from H&M,OFFLINE,8254.05,Fashion
+H&M Jeans,H&M,Ajio,professional jeans from H&M,OFFLINE,13250.45,Fashion
+Nivia Treadmill,Nivia,Nike Store,standard treadmill from Nivia,OFFLINE,42651.48,Sports
+Biba Jacket,Biba,Shoppers Stop,wireless jacket from Biba,OFFLINE,24238.88,Fashion
+Mahindra Wiper Blades,Mahindra,Local Auto Store,wireless wiper blades from Mahindra,ONLINE,82806.5,Vehicles
+Godrej Refrigerator,Godrej,Croma,durable refrigerator from Godrej,OFFLINE,40585.73,Home Appliances
+Dove Shampoo,Dove,Reliance Smart,premium shampoo from Dove,ONLINE,5312.11,Food & Groceries
+Godrej Interio Storage Cabinet,Godrej Interio,Home Centre,portable storage cabinet from Godrej Interio,ONLINE,12336.87,Furniture
+Britannia Toothpaste,Britannia,Local Grocery,daily use toothpaste from Britannia,OFFLINE,5335.04,Food & Groceries
+Mi Router,Mi,Reliance Digital,daily use router from Mi,ONLINE,1100.79,Gadgets
+W Cotton Shirt,W,Ajio,durable cotton shirt from W,ONLINE,22139.57,Fashion
+Pepperfry Wardrobe,Pepperfry,IKEA,classic wardrobe from Pepperfry,ONLINE,67792.03,Furniture
+Puma Sunglasses,Puma,Myntra,classic sunglasses from Puma,ONLINE,25776.46,Fashion
+Fitbit Gym Bench,Fitbit,Fitness Store,premium gym bench from Fitbit,OFFLINE,9024.39,Sports & Fitness
+Haier Vacuum Cleaner,Haier,Amazon,professional vacuum cleaner from Haier,ONLINE,47149.51,Home Appliances
+HP Wireless Headphones,HP,Amazon,wireless wireless headphones from HP,OFFLINE,146232.08,Electronics
+Samsung Microwave Oven,Samsung,Amazon,standard microwave oven from Samsung,ONLINE,56732.03,Home Appliances
+Toyota Car Battery,Toyota,Hyundai Service,compact car battery from Toyota,ONLINE,68923.88,Vehicles
+Kokuyo Ink Cartridge,Kokuyo,Reliance Smart,durable ink cartridge from Kokuyo,OFFLINE,22828.51,Office
+Biba Sunglasses,Biba,Lifestyle,classic sunglasses from Biba,ONLINE,14767.08,Fashion
+Subway Biryani,Subway,Swiggy,portable biryani from Subway,OFFLINE,3407.14,Food & Beverages
+Urban Ladder Storage Cabinet,Urban Ladder,IKEA,standard storage cabinet from Urban Ladder,ONLINE,35137.65,Furniture
+Surf Excel Detergent,Surf Excel,Local Grocery,daily use detergent from Surf Excel,ONLINE,5462.65,Food & Groceries
+Hyundai Engine Oil Service,Hyundai,Tata Motors,portable engine oil service from Hyundai,OFFLINE,43762.54,Vehicles
+Faber-Castell Printer Paper,Faber-Castell,Office Depot,daily use printer paper from Faber-Castell,ONLINE,9949.55,Office
+JBL Wireless Charger,JBL,Croma,portable wireless charger from JBL,OFFLINE,2777.27,Gadgets
+Samsung Vacuum Cleaner,Samsung,Flipkart,classic vacuum cleaner from Samsung,OFFLINE,45958.14,Home Appliances
+Nilkamal Study Table,Nilkamal,Pepperfry,wireless study table from Nilkamal,OFFLINE,63622.77,Furniture
+Classmate Calculator,Classmate,Office Depot,compact calculator from Classmate,OFFLINE,3432.88,Office
+Classic Miscellaneous Item,Classic,Amazon,classic miscellaneous item from Classic,ONLINE,2475.76,Other
+Adidas Gym Gloves,Adidas,Amazon,standard gym gloves from Adidas,OFFLINE,1440.78,Sports
+Fortune Cooking Oil,Fortune,Blinkit,portable cooking oil from Fortune,ONLINE,2091.72,Food & Groceries
+Tata Toothpaste,Tata,Local Grocery,compact toothpaste from Tata,OFFLINE,4059.7,Food & Groceries
+Nivia Resistance Bands,Nivia,Flipkart,compact resistance bands from Nivia,OFFLINE,44603.45,Sports
+Decathlon Football,Decathlon,Nike Store,classic football from Decathlon,ONLINE,59988.35,Sports
+McDonald's Restaurant Dinner,McDonald's,Local Cafe,daily use restaurant dinner from McDonald's,OFFLINE,4403.29,Food & Beverages
+Bajaj Bike Tyre,Bajaj,Bajaj Auto,durable bike tyre from Bajaj,OFFLINE,19772.22,Vehicles
+Surf Excel Eggs,Surf Excel,Reliance Smart,portable eggs from Surf Excel,OFFLINE,584.58,Food & Groceries
+HP Ink Cartridge,HP,Reliance Smart,wireless ink cartridge from HP,ONLINE,12237.5,Office
+Mi Smart Plug,Mi,Amazon,professional smart plug from Mi,OFFLINE,9896.43,Gadgets
+HP Television,HP,Amazon,standard television from HP,ONLINE,119173.04,Electronics
+Maruti Suzuki Engine Oil Service,Maruti Suzuki,Hyundai Service,classic engine oil service from Maruti Suzuki,ONLINE,9886.41,Vehicles
+TP-Link Power Bank,TP-Link,Flipkart,standard power bank from TP-Link,ONLINE,16549.46,Gadgets
+Tata Car Service Package,Tata,Honda Service Center,compact car service package from Tata,OFFLINE,71829.73,Vehicles
+Apple Wireless Headphones,Apple,Croma,new wireless headphones from Apple,OFFLINE,1841.63,Electronics
+LG Printer,LG,Samsung Store,portable printer from LG,ONLINE,134720.15,Electronics
+Whirlpool Washing Machine,Whirlpool,Amazon,compact washing machine from Whirlpool,ONLINE,99754.13,Home Appliances
+Nivia Fitness Tracker,Nivia,Cult Store,premium fitness tracker from Nivia,OFFLINE,27816.29,Sports & Fitness
+Portronics Fast Charger,Portronics,Croma,wireless fast charger from Portronics,OFFLINE,12517.25,Gadgets
+Acer Computer Mouse,Acer,Amazon,new computer mouse from Acer,ONLINE,95315.0,Electronics
+HP File Folder,HP,Office Depot,compact file folder from HP,OFFLINE,700.81,Office
+Sony Monitor,Sony,Flipkart,standard monitor from Sony,ONLINE,90889.18,Electronics
+Local Brand Key Holder,Local Brand,Local Store,daily use key holder from Local Brand,OFFLINE,8921.38,Other
+Classic Utility Item,Classic,General Store,compact utility item from Classic,OFFLINE,6511.09,Other
+Allen Solly Cotton Shirt,Allen Solly,Lifestyle,portable cotton shirt from Allen Solly,OFFLINE,29869.07,Fashion
+Garmin Exercise Bike,Garmin,Fitness Store,classic exercise bike from Garmin,ONLINE,6051.12,Sports & Fitness
+Godrej Interio Sofa,Godrej Interio,Urban Ladder,professional sofa from Godrej Interio,OFFLINE,73323.21,Furniture
+TVS Car Battery,TVS,Bajaj Auto,new car battery from TVS,OFFLINE,82395.28,Vehicles
+Domino's Burger Meal,Domino's,Swiggy,durable burger meal from Domino's,OFFLINE,3762.36,Food & Beverages
+Canon File Folder,Canon,Local Stationery,premium file folder from Canon,OFFLINE,19225.05,Office
+Yonex Dumbbells,Yonex,Sports Station,portable dumbbells from Yonex,OFFLINE,35674.39,Sports
+HP Monitor,HP,Croma,daily use monitor from HP,ONLINE,29941.48,Electronics
+Boldfit Massage Gun,Boldfit,Fitness Store,portable massage gun from Boldfit,ONLINE,34737.54,Sports & Fitness
+Tata Car Floor Mats,Tata,Bajaj Auto,daily use car floor mats from Tata,ONLINE,10300.74,Vehicles
+boAt Power Bank,boAt,Flipkart,standard power bank from boAt,OFFLINE,9147.49,Gadgets
+Generic Utility Item,Generic,Amazon,portable utility item from Generic,OFFLINE,6365.06,Other
+Puma Basketball,Puma,Sports Station,new basketball from Puma,OFFLINE,46837.82,Sports
+Allen Solly Sunglasses,Allen Solly,Lifestyle,wireless sunglasses from Allen Solly,OFFLINE,8257.92,Fashion
+Nestle Household Essentials Pack,Nestle,Blinkit,wireless household essentials pack from Nestle,OFFLINE,977.54,Food & Groceries
+HP Calculator,HP,Reliance Smart,portable calculator from HP,ONLINE,17401.17,Office
+Garmin Fitness Watch,Garmin,Cult Store,professional fitness watch from Garmin,ONLINE,43411.55,Sports & Fitness
+Cosco Cricket Bat,Cosco,Amazon,daily use cricket bat from Cosco,OFFLINE,4975.84,Sports
+Godrej Interio Shoe Cabinet,Godrej Interio,IKEA,classic shoe cabinet from Godrej Interio,OFFLINE,56562.09,Furniture
+Nestle Household Essentials Pack,Nestle,Reliance Smart,wireless household essentials pack from Nestle,ONLINE,702.94,Food & Groceries
+Amul Groceries,Amul,BigBasket,daily use groceries from Amul,OFFLINE,1009.63,Food & Groceries
+Yonex Resistance Bands,Yonex,Amazon,standard resistance bands from Yonex,OFFLINE,10507.22,Sports
+Urban Ladder Sofa,Urban Ladder,Urban Ladder,daily use sofa from Urban Ladder,ONLINE,87655.07,Furniture
+Canon Calculator,Canon,Reliance Smart,classic calculator from Canon,ONLINE,23153.99,Office
+Canon Marker Set,Canon,Local Stationery,professional marker set from Canon,ONLINE,5309.35,Office
+Noise Fitness Band,Noise,Mi Store,wireless fitness band from Noise,OFFLINE,1212.2,Gadgets
+Tata Vegetables,Tata,Local Grocery,professional vegetables from Tata,OFFLINE,5838.15,Food & Groceries
+Tata Eggs,Tata,Reliance Smart,standard eggs from Tata,OFFLINE,923.02,Food & Groceries
+Everyday Utility Item,Everyday,Marketplace,professional utility item from Everyday,OFFLINE,8565.74,Other
+Honda Car Battery,Honda,Hyundai Service,classic car battery from Honda,ONLINE,60105.9,Vehicles
+Hyundai Bike Service,Hyundai,Local Auto Store,new bike service from Hyundai,OFFLINE,36362.17,Vehicles
+Honda Helmet,Honda,Bajaj Auto,standard helmet from Honda,ONLINE,25604.94,Vehicles
+IFB Air Fryer,IFB,Flipkart,professional air fryer from IFB,ONLINE,107245.94,Home Appliances
+Godrej Electric Kettle,Godrej,Vijay Sales,classic electric kettle from Godrej,ONLINE,10992.35,Home Appliances
+Godrej Interio Wardrobe,Godrej Interio,IKEA,compact wardrobe from Godrej Interio,ONLINE,16369.35,Furniture
+Starbucks Sandwich,Starbucks,KFC,standard sandwich from Starbucks,OFFLINE,1458.93,Food & Beverages
+Toyota Car Tyre,Toyota,Tata Motors,durable car tyre from Toyota,ONLINE,67045.79,Vehicles
+Godrej Vacuum Cleaner,Godrej,Vijay Sales,durable vacuum cleaner from Godrej,OFFLINE,90583.45,Home Appliances
+Urban Ladder Dining Table,Urban Ladder,Home Centre,daily use dining table from Urban Ladder,ONLINE,58778.6,Furniture
+Zara Sneakers,Zara,Nike Store,new sneakers from Zara,ONLINE,22205.58,Fashion
+Godrej Room Heater,Godrej,Vijay Sales,portable room heater from Godrej,ONLINE,66422.06,Home Appliances
+OnePlus Camera,OnePlus,Vijay Sales,premium camera from OnePlus,OFFLINE,159932.23,Electronics
+Fortune Toothpaste,Fortune,Zepto,durable toothpaste from Fortune,OFFLINE,5962.48,Food & Groceries
+Canon Stapler,Canon,Local Stationery,compact stapler from Canon,ONLINE,10300.97,Office
+Honda Bike Tyre,Honda,Tata Motors,durable bike tyre from Honda,ONLINE,80925.12,Vehicles
+McDonald's Sandwich,McDonald's,Swiggy,portable sandwich from McDonald's,ONLINE,2707.57,Food & Beverages
+Britannia Toothpaste,Britannia,Zepto,compact toothpaste from Britannia,OFFLINE,961.98,Food & Groceries
+Noise Fast Charger,Noise,Amazon,portable fast charger from Noise,OFFLINE,9133.08,Gadgets
+Bosch Refrigerator,Bosch,Vijay Sales,standard refrigerator from Bosch,OFFLINE,51007.85,Home Appliances
+Staedtler File Folder,Staedtler,Reliance Smart,portable file folder from Staedtler,OFFLINE,10707.51,Office
+JBL Wireless Charger,JBL,Reliance Digital,standard wireless charger from JBL,OFFLINE,14646.08,Gadgets
+Prime Key Holder,Prime,Amazon,compact key holder from Prime,OFFLINE,5781.25,Other
+Apple Television,Apple,Reliance Digital,daily use television from Apple,ONLINE,143988.57,Electronics
+Haldiram's Biryani,Haldiram's,Local Cafe,portable biryani from Haldiram's,OFFLINE,4460.68,Food & Beverages
+Classic Miscellaneous Purchase,Classic,Flipkart,portable miscellaneous purchase from Classic,ONLINE,5690.2,Other
+Britannia Detergent,Britannia,Local Grocery,classic detergent from Britannia,OFFLINE,3607.37,Food & Groceries
+Toyota Wiper Blades,Toyota,Local Auto Store,standard wiper blades from Toyota,OFFLINE,23283.04,Vehicles
+Puma Jacket,Puma,Nike Store,wireless jacket from Puma,ONLINE,3451.33,Fashion
+Staedtler Marker Set,Staedtler,Amazon,professional marker set from Staedtler,ONLINE,16943.79,Office
+Decathlon Yoga Mat,Decathlon,Amazon,new yoga mat from Decathlon,OFFLINE,65274.0,Sports
+Nivia Protein Shaker,Nivia,Amazon,new protein shaker from Nivia,ONLINE,37951.97,Sports & Fitness
+Nivia Adjustable Dumbbell Set,Nivia,Fitness Store,daily use adjustable dumbbell set from Nivia,ONLINE,49451.89,Sports & Fitness
+Cafe Coffee Day Beverage,Cafe Coffee Day,KFC,durable beverage from Cafe Coffee Day,OFFLINE,137.55,Food & Beverages
+Nivia Foam Roller,Nivia,Flipkart,wireless foam roller from Nivia,OFFLINE,22367.37,Sports & Fitness
+Nike Cricket Bat,Nike,Nike Store,classic cricket bat from Nike,OFFLINE,29721.56,Sports
+Haldiram's Burger Meal,Haldiram's,McDonald's,premium burger meal from Haldiram's,OFFLINE,3452.49,Food & Beverages
+Puma Sneakers,Puma,Nike Store,premium sneakers from Puma,ONLINE,11112.33,Fashion
+Philips Vacuum Cleaner,Philips,Home Centre,standard vacuum cleaner from Philips,OFFLINE,35617.73,Home Appliances
+Everyday Miscellaneous Item,Everyday,Marketplace,wireless miscellaneous item from Everyday,ONLINE,504.51,Other
+Haier Vacuum Cleaner,Haier,Croma,new vacuum cleaner from Haier,OFFLINE,107948.47,Home Appliances
+Aashirvaad Wheat Flour,Aashirvaad,BigBasket,compact wheat flour from Aashirvaad,OFFLINE,5786.09,Food & Groceries
+Dove Vegetables,Dove,DMart,portable vegetables from Dove,ONLINE,3906.94,Food & Groceries
+Fitbit Gym Bench,Fitbit,Cult Store,compact gym bench from Fitbit,OFFLINE,43025.57,Sports & Fitness
+Subway Burger Meal,Subway,KFC,durable burger meal from Subway,OFFLINE,2684.96,Food & Beverages
+JBL Power Bank,JBL,Reliance Digital,compact power bank from JBL,ONLINE,8750.84,Gadgets
+Boldfit Protein Shaker,Boldfit,Fitness Store,portable protein shaker from Boldfit,ONLINE,12918.6,Sports & Fitness
+Mahindra Engine Oil Service,Mahindra,Honda Service Center,daily use engine oil service from Mahindra,OFFLINE,60092.55,Vehicles
+Decathlon Adjustable Dumbbell Set,Decathlon,Flipkart,portable adjustable dumbbell set from Decathlon,OFFLINE,52325.18,Sports & Fitness
+Cosco Resistance Bands,Cosco,Decathlon,durable resistance bands from Cosco,ONLINE,2103.47,Sports
+Tata Wiper Blades,Tata,Hyundai Service,compact wiper blades from Tata,OFFLINE,48384.33,Vehicles
+Aashirvaad Vegetables,Aashirvaad,Local Grocery,professional vegetables from Aashirvaad,OFFLINE,1597.21,Food & Groceries
+Toyota Brake Pads,Toyota,Hyundai Service,daily use brake pads from Toyota,ONLINE,34103.41,Vehicles
+Nestle Bread,Nestle,DMart,premium bread from Nestle,ONLINE,1279.15,Food & Groceries
+Adidas Jacket,Adidas,Ajio,premium jacket from Adidas,OFFLINE,8361.86,Fashion
+Staedtler Printer Paper,Staedtler,Reliance Smart,standard printer paper from Staedtler,ONLINE,2602.53,Office
+Cosco Cycling Helmet,Cosco,Amazon,standard cycling helmet from Cosco,ONLINE,3006.61,Sports
+Adidas Handbag,Adidas,Lifestyle,daily use handbag from Adidas,OFFLINE,8163.19,Fashion
+KFC Cafe Breakfast,KFC,Starbucks,portable cafe breakfast from KFC,ONLINE,2386.91,Food & Beverages
+Boldfit Fitness Tracker,Boldfit,Fitness Store,premium fitness tracker from Boldfit,ONLINE,50535.94,Sports & Fitness
+Biba Winter Sweater,Biba,Nike Store,wireless winter sweater from Biba,OFFLINE,1129.91,Fashion
+Puma Jacket,Puma,Nike Store,premium jacket from Puma,ONLINE,22469.38,Fashion
+Local Brand Utility Item,Local Brand,Local Store,premium utility item from Local Brand,ONLINE,2262.84,Other
+Pilot Notebook,Pilot,Flipkart,classic notebook from Pilot,ONLINE,17968.7,Office
+Bosch Dishwasher,Bosch,Vijay Sales,new dishwasher from Bosch,OFFLINE,108823.08,Home Appliances
+IKEA Coffee Table,IKEA,IKEA,professional coffee table from IKEA,OFFLINE,94946.82,Furniture
+Yonex Gym Gloves,Yonex,Decathlon,professional gym gloves from Yonex,ONLINE,17864.02,Sports
+Amul Detergent,Amul,Blinkit,portable detergent from Amul,OFFLINE,2523.91,Food & Groceries
+Nivia Badminton Racket,Nivia,Nike Store,compact badminton racket from Nivia,ONLINE,13430.21,Sports
+Fitbit Foam Roller,Fitbit,Cult Store,portable foam roller from Fitbit,OFFLINE,2039.77,Sports & Fitness
+Puma Basketball,Puma,Amazon,classic basketball from Puma,OFFLINE,57844.67,Sports
+TVS Brake Pads,TVS,Honda Service Center,durable brake pads from TVS,ONLINE,73792.11,Vehicles
+Puma Skipping Rope,Puma,Nike Store,standard skipping rope from Puma,OFFLINE,73194.0,Sports
+Godrej Washing Machine,Godrej,Reliance Digital,premium washing machine from Godrej,ONLINE,36281.7,Home Appliances
+Local Brand Key Holder,Local Brand,Amazon,classic key holder from Local Brand,OFFLINE,6918.48,Other
+Portronics Phone Stand,Portronics,Flipkart,standard phone stand from Portronics,ONLINE,11197.48,Gadgets
+Faber-Castell Pen Set,Faber-Castell,Reliance Smart,wireless pen set from Faber-Castell,ONLINE,1299.06,Office
+LG Air Fryer,LG,Croma,wireless air fryer from LG,ONLINE,34413.57,Home Appliances
+Urban Decor Accessory,Urban,Amazon,professional decor accessory from Urban,OFFLINE,1408.88,Other
+Godrej Air Fryer,Godrej,Croma,portable air fryer from Godrej,ONLINE,30512.76,Home Appliances
+Decathlon Fitness Tracker,Decathlon,Decathlon,daily use fitness tracker from Decathlon,ONLINE,36215.5,Sports & Fitness
+Amul Wheat Flour,Amul,DMart,new wheat flour from Amul,OFFLINE,5339.98,Food & Groceries
+HP Camera,HP,Vijay Sales,compact camera from HP,ONLINE,41302.72,Electronics
+Amul Bread,Amul,BigBasket,durable bread from Amul,ONLINE,5716.82,Food & Groceries
+Amul Groceries,Amul,BigBasket,classic groceries from Amul,ONLINE,3287.66,Food & Groceries
+Anker Smart Plug,Anker,Mi Store,premium smart plug from Anker,ONLINE,16464.17,Gadgets
+Faber-Castell Pen Set,Faber-Castell,Flipkart,professional pen set from Faber-Castell,OFFLINE,18749.92,Office
+Nilkamal Shoe Cabinet,Nilkamal,Pepperfry,portable shoe cabinet from Nilkamal,OFFLINE,56227.5,Furniture
+Pilot Calculator,Pilot,Reliance Smart,daily use calculator from Pilot,ONLINE,13915.02,Office
+Domino's Meal Order,Domino's,Local Cafe,standard meal order from Domino's,OFFLINE,3028.1,Food & Beverages
+Nivia Badminton Racket,Nivia,Flipkart,new badminton racket from Nivia,OFFLINE,43204.36,Sports
+Pepperfry Recliner,Pepperfry,Home Centre,daily use recliner from Pepperfry,ONLINE,35663.52,Furniture
+HP Calculator,HP,Flipkart,wireless calculator from HP,ONLINE,13192.71,Office
+KFC Pizza,KFC,Swiggy,classic pizza from KFC,OFFLINE,4113.25,Food & Beverages
+ASUS Smartphone,ASUS,Reliance Digital,portable smartphone from ASUS,OFFLINE,78776.66,Electronics
+Prime Miscellaneous Purchase,Prime,Local Store,wireless miscellaneous purchase from Prime,ONLINE,5141.68,Other
+Urban Ladder Bookshelf,Urban Ladder,Urban Ladder,durable bookshelf from Urban Ladder,OFFLINE,41298.79,Furniture
+Hyundai Engine Oil Service,Hyundai,Tata Motors,standard engine oil service from Hyundai,ONLINE,26825.15,Vehicles
+TVS Engine Oil Service,TVS,Tata Motors,new engine oil service from TVS,ONLINE,27212.66,Vehicles
+ASUS Bluetooth Speaker,ASUS,Flipkart,wireless bluetooth speaker from ASUS,ONLINE,82521.08,Electronics
+Urban Ladder Wardrobe,Urban Ladder,Pepperfry,durable wardrobe from Urban Ladder,OFFLINE,38881.48,Furniture
+Logitech Phone Stand,Logitech,Amazon,wireless phone stand from Logitech,OFFLINE,12989.45,Gadgets
+McDonald's Restaurant Dinner,McDonald's,McDonald's,new restaurant dinner from McDonald's,OFFLINE,3117.36,Food & Beverages
+Apple Television,Apple,Amazon,wireless television from Apple,ONLINE,157453.86,Electronics
+McDonald's Dessert,McDonald's,Starbucks,wireless dessert from McDonald's,OFFLINE,3070.47,Food & Beverages
+Prime Decor Accessory,Prime,General Store,professional decor accessory from Prime,ONLINE,8593.61,Other
+Staedtler Calculator,Staedtler,Office Depot,premium calculator from Staedtler,ONLINE,7564.32,Office
+Wakefit Office Chair,Wakefit,Urban Ladder,new office chair from Wakefit,OFFLINE,15207.07,Furniture
+Canon Notebook,Canon,Office Depot,premium notebook from Canon,OFFLINE,11509.38,Office
+Allen Solly Sunglasses,Allen Solly,Amazon,daily use sunglasses from Allen Solly,OFFLINE,4462.02,Fashion
+Godrej Interio Bookshelf,Godrej Interio,Pepperfry,standard bookshelf from Godrej Interio,ONLINE,19226.22,Furniture
+Maruti Suzuki Bike Service,Maruti Suzuki,Bajaj Auto,daily use bike service from Maruti Suzuki,OFFLINE,15674.82,Vehicles
+TVS Vehicle Insurance Accessory,TVS,Hyundai Service,classic vehicle insurance accessory from TVS,ONLINE,12437.51,Vehicles
+Urban General Household Item,Urban,Marketplace,new general household item from Urban,OFFLINE,5827.33,Other
+LG Electric Kettle,LG,Amazon,standard electric kettle from LG,ONLINE,39107.63,Home Appliances
+Nivia Skipping Rope,Nivia,Flipkart,premium skipping rope from Nivia,OFFLINE,8544.75,Sports
+Classic Personal Care Item,Classic,Flipkart,professional personal care item from Classic,OFFLINE,11664.65,Other
+Garmin Exercise Bike,Garmin,Flipkart,new exercise bike from Garmin,ONLINE,13092.16,Sports & Fitness
+Cosco Football,Cosco,Flipkart,new football from Cosco,OFFLINE,45883.8,Sports
+Nestle Vegetables,Nestle,Local Grocery,wireless vegetables from Nestle,ONLINE,5532.4,Food & Groceries
+Decathlon Fitness Tracker,Decathlon,Flipkart,compact fitness tracker from Decathlon,OFFLINE,27407.11,Sports & Fitness
+Kokuyo Desk Organizer,Kokuyo,Flipkart,classic desk organizer from Kokuyo,OFFLINE,5879.42,Office
+Decathlon Foam Roller,Decathlon,Decathlon,portable foam roller from Decathlon,OFFLINE,15981.82,Sports & Fitness
+Nestle Milk,Nestle,BigBasket,premium milk from Nestle,ONLINE,2227.88,Food & Groceries
+Noise Phone Stand,Noise,Croma,wireless phone stand from Noise,OFFLINE,8556.56,Gadgets
+Garmin Foam Roller,Garmin,Cult Store,compact foam roller from Garmin,OFFLINE,23109.79,Sports & Fitness
+Decathlon Treadmill,Decathlon,Amazon,professional treadmill from Decathlon,ONLINE,34513.18,Sports
+Faber-Castell Stapler,Faber-Castell,Office Depot,portable stapler from Faber-Castell,ONLINE,18962.73,Office
+Nestle Vegetables,Nestle,Blinkit,classic vegetables from Nestle,OFFLINE,3033.06,Food & Groceries
+Biba Handbag,Biba,Lifestyle,daily use handbag from Biba,OFFLINE,23355.63,Fashion
+Whirlpool Microwave Oven,Whirlpool,Croma,classic microwave oven from Whirlpool,ONLINE,96024.84,Home Appliances
+Pepperfry Sofa,Pepperfry,Pepperfry,classic sofa from Pepperfry,ONLINE,25835.01,Furniture
+Puma Handbag,Puma,Ajio,standard handbag from Puma,OFFLINE,15678.97,Fashion
+LG Bluetooth Speaker,LG,Croma,portable bluetooth speaker from LG,ONLINE,105485.19,Electronics
+Nivia Foam Roller,Nivia,Decathlon,classic foam roller from Nivia,OFFLINE,5955.6,Sports & Fitness
+Prime Travel Accessory,Prime,Marketplace,portable travel accessory from Prime,ONLINE,7806.01,Other
+TVS Vehicle Insurance Accessory,TVS,Bajaj Auto,standard vehicle insurance accessory from TVS,OFFLINE,38556.32,Vehicles
+Dell Laptop,Dell,Reliance Digital,durable laptop from Dell,OFFLINE,26502.87,Electronics
+Britannia Eggs,Britannia,Local Grocery,compact eggs from Britannia,OFFLINE,3772.96,Food & Groceries
+Voltas Microwave Oven,Voltas,Croma,classic microwave oven from Voltas,OFFLINE,105306.78,Home Appliances
+LG Smartphone,LG,Flipkart,standard smartphone from LG,OFFLINE,70213.46,Electronics
+Local Brand Personal Care Item,Local Brand,Flipkart,wireless personal care item from Local Brand,ONLINE,9671.87,Other
+Decathlon Cricket Bat,Decathlon,Flipkart,premium cricket bat from Decathlon,ONLINE,25494.47,Sports
+Levis Formal Trousers,Levis,Amazon,new formal trousers from Levis,ONLINE,28685.65,Fashion
+Samsung Room Heater,Samsung,Flipkart,portable room heater from Samsung,ONLINE,76890.93,Home Appliances
+KFC Soft Drink,KFC,Local Cafe,new soft drink from KFC,OFFLINE,358.78,Food & Beverages
+Britannia Eggs,Britannia,DMart,portable eggs from Britannia,OFFLINE,4292.91,Food & Groceries
+LG Computer Mouse,LG,Reliance Digital,wireless computer mouse from LG,ONLINE,159576.14,Electronics
+Anker Fast Charger,Anker,Mi Store,professional fast charger from Anker,OFFLINE,4767.8,Gadgets
+Fitbit Exercise Mat,Fitbit,Cult Store,portable exercise mat from Fitbit,OFFLINE,3457.43,Sports & Fitness
+Samsung Microwave Oven,Samsung,Vijay Sales,daily use microwave oven from Samsung,ONLINE,9122.9,Home Appliances
+Amul Wheat Flour,Amul,Reliance Smart,portable wheat flour from Amul,ONLINE,1769.28,Food & Groceries
+Mi Smart Plug,Mi,Mi Store,standard smart plug from Mi,ONLINE,16137.8,Gadgets
+Surf Excel Wheat Flour,Surf Excel,Zepto,portable wheat flour from Surf Excel,ONLINE,2886.02,Food & Groceries
+Nivia Massage Gun,Nivia,Flipkart,compact massage gun from Nivia,OFFLINE,12355.33,Sports & Fitness
+Lenovo Camera,Lenovo,Flipkart,professional camera from Lenovo,ONLINE,73060.55,Electronics
+Canon Stapler,Canon,Office Depot,daily use stapler from Canon,ONLINE,1730.03,Office
+Urban Decor Accessory,Urban,Marketplace,daily use decor accessory from Urban,ONLINE,11201.29,Other
+Whirlpool Washing Machine,Whirlpool,Amazon,classic washing machine from Whirlpool,OFFLINE,70298.9,Home Appliances
+Pepperfry Office Chair,Pepperfry,IKEA,standard office chair from Pepperfry,OFFLINE,79643.64,Furniture
+Mi Router,Mi,Croma,new router from Mi,OFFLINE,2614.56,Gadgets
+Mahindra Brake Pads,Mahindra,Hyundai Service,portable brake pads from Mahindra,OFFLINE,23880.96,Vehicles
+Faber-Castell File Folder,Faber-Castell,Office Depot,standard file folder from Faber-Castell,OFFLINE,14601.56,Office
+Decathlon Massage Gun,Decathlon,Flipkart,compact massage gun from Decathlon,ONLINE,31502.94,Sports & Fitness
+Tata Detergent,Tata,DMart,new detergent from Tata,OFFLINE,5270.39,Food & Groceries
+Mi Fitness Band,Mi,Flipkart,new fitness band from Mi,OFFLINE,17833.9,Gadgets
+Lenovo Wireless Headphones,Lenovo,Vijay Sales,durable wireless headphones from Lenovo,ONLINE,5599.59,Electronics
+TP-Link Usb Hub,TP-Link,Croma,compact USB hub from TP-Link,ONLINE,2079.64,Gadgets
+Dell Laptop,Dell,Samsung Store,durable laptop from Dell,ONLINE,37105.55,Electronics
+Dell Camera,Dell,Flipkart,standard camera from Dell,ONLINE,150742.99,Electronics
+Mahindra Car Battery,Mahindra,Honda Service Center,portable car battery from Mahindra,ONLINE,79092.46,Vehicles
+LG Vacuum Cleaner,LG,Reliance Digital,professional vacuum cleaner from LG,OFFLINE,40944.53,Home Appliances
+Everyday Miscellaneous Item,Everyday,General Store,new miscellaneous item from Everyday,OFFLINE,984.88,Other
+Garmin Fitness Watch,Garmin,Fitness Store,classic fitness watch from Garmin,ONLINE,42661.09,Sports & Fitness
+Nivia Treadmill,Nivia,Sports Station,portable treadmill from Nivia,ONLINE,67226.12,Sports
+Nestle Rice,Nestle,Blinkit,standard rice from Nestle,ONLINE,4713.27,Food & Groceries
+Mahindra Bike Tyre,Mahindra,Tata Motors,daily use bike tyre from Mahindra,ONLINE,46838.28,Vehicles
+LG Air Cooler,LG,Flipkart,durable air cooler from LG,ONLINE,75117.5,Home Appliances
+Aashirvaad Bread,Aashirvaad,BigBasket,compact bread from Aashirvaad,OFFLINE,1907.35,Food & Groceries
+Subway Biryani,Subway,McDonald's,portable biryani from Subway,ONLINE,1218.87,Food & Beverages
+Nike Kurta,Nike,Shoppers Stop,professional kurta from Nike,ONLINE,15716.5,Fashion
+Toyota Vehicle Insurance Accessory,Toyota,Honda Service Center,daily use vehicle insurance accessory from Toyota,OFFLINE,68739.19,Vehicles
+Anker Charging Cable,Anker,Amazon,classic charging cable from Anker,ONLINE,17083.23,Gadgets
+Cult Fitness Tracker,Cult,Decathlon,new fitness tracker from Cult,OFFLINE,27171.9,Sports & Fitness
+Everyday Decor Accessory,Everyday,General Store,portable decor accessory from Everyday,ONLINE,8748.5,Other
+Garmin Resistance Tube Set,Garmin,Decathlon,new resistance tube set from Garmin,ONLINE,56606.78,Sports & Fitness
+Faber-Castell Pen Set,Faber-Castell,Office Depot,premium pen set from Faber-Castell,OFFLINE,18291.27,Office
+Dove Cooking Oil,Dove,Blinkit,portable cooking oil from Dove,ONLINE,808.06,Food & Groceries
+Godrej Interio Shoe Cabinet,Godrej Interio,Local Furniture Store,wireless shoe cabinet from Godrej Interio,OFFLINE,53395.7,Furniture
+H&M Backpack,H&M,Shoppers Stop,compact backpack from H&M,ONLINE,6098.39,Fashion
+Philips Washing Machine,Philips,Croma,wireless washing machine from Philips,OFFLINE,48940.2,Home Appliances
+Pepperfry Storage Cabinet,Pepperfry,Pepperfry,premium storage cabinet from Pepperfry,OFFLINE,44599.79,Furniture
+Boldfit Adjustable Dumbbell Set,Boldfit,Amazon,standard adjustable dumbbell set from Boldfit,ONLINE,21171.38,Sports & Fitness
+JBL Earbuds Case,JBL,Flipkart,compact earbuds case from JBL,OFFLINE,765.23,Gadgets
+TP-Link Fitness Band,TP-Link,Croma,premium fitness band from TP-Link,OFFLINE,11523.98,Gadgets
+Generic General Household Item,Generic,General Store,compact general household item from Generic,OFFLINE,4009.77,Other
+Decathlon Exercise Mat,Decathlon,Cult Store,professional exercise mat from Decathlon,ONLINE,25599.74,Sports & Fitness
+Portronics Usb Microphone,Portronics,Reliance Digital,wireless USB microphone from Portronics,ONLINE,2470.68,Gadgets
+Portronics Smart Plug,Portronics,Mi Store,classic smart plug from Portronics,ONLINE,11948.53,Gadgets
+Mi Webcam,Mi,Amazon,new webcam from Mi,ONLINE,12145.83,Gadgets
+Maruti Suzuki Bike Service,Maruti Suzuki,Honda Service Center,durable bike service from Maruti Suzuki,OFFLINE,5639.24,Vehicles
+Prime Travel Accessory,Prime,Amazon,premium travel accessory from Prime,OFFLINE,7818.88,Other
+Bosch Electric Kettle,Bosch,Flipkart,durable electric kettle from Bosch,OFFLINE,23355.28,Home Appliances
+Urban General Household Item,Urban,Local Store,standard general household item from Urban,ONLINE,1252.96,Other
+Wakefit Dining Table,Wakefit,Pepperfry,premium dining table from Wakefit,OFFLINE,25052.49,Furniture
+IKEA Office Chair,IKEA,Pepperfry,portable office chair from IKEA,OFFLINE,32431.19,Furniture
+Nike Cycling Helmet,Nike,Amazon,portable cycling helmet from Nike,OFFLINE,48076.97,Sports
+H&M Sunglasses,H&M,Myntra,wireless sunglasses from H&M,OFFLINE,13751.5,Fashion
+Classic Utility Item,Classic,Flipkart,premium utility item from Classic,OFFLINE,1242.97,Other
+Haier Electric Kettle,Haier,Amazon,professional electric kettle from Haier,ONLINE,30659.18,Home Appliances
+Pepperfry Dining Table,Pepperfry,Home Centre,professional dining table from Pepperfry,ONLINE,29291.99,Furniture
+TVS Bike Service,TVS,Tata Motors,new bike service from TVS,ONLINE,9631.13,Vehicles
+Adidas Basketball,Adidas,Sports Station,portable basketball from Adidas,OFFLINE,67396.57,Sports
+Faber-Castell Office Supplies Pack,Faber-Castell,Flipkart,standard office supplies pack from Faber-Castell,OFFLINE,2352.49,Office
+Logitech Webcam,Logitech,Mi Store,wireless webcam from Logitech,ONLINE,13784.92,Gadgets
+Decathlon Fitness Watch,Decathlon,Amazon,classic fitness watch from Decathlon,OFFLINE,7599.93,Sports & Fitness
+Dell Printer,Dell,Samsung Store,standard printer from Dell,ONLINE,125325.44,Electronics
+Acer Laptop,Acer,Samsung Store,portable laptop from Acer,OFFLINE,31859.24,Electronics
+Pilot Whiteboard,Pilot,Reliance Smart,daily use whiteboard from Pilot,ONLINE,19337.85,Office
+Uniqlo Hoodie,Uniqlo,Shoppers Stop,new hoodie from Uniqlo,ONLINE,8105.25,Fashion
+Noise Smart Bulb,Noise,Mi Store,professional smart bulb from Noise,OFFLINE,7020.59,Gadgets
+Surf Excel Toothpaste,Surf Excel,BigBasket,premium toothpaste from Surf Excel,OFFLINE,5952.35,Food & Groceries
+Garmin Workout Gloves,Garmin,Cult Store,durable workout gloves from Garmin,OFFLINE,16506.1,Sports & Fitness
+Canon Calculator,Canon,Reliance Smart,wireless calculator from Canon,OFFLINE,6118.49,Office
+Philips Electric Kettle,Philips,Vijay Sales,standard electric kettle from Philips,OFFLINE,82480.98,Home Appliances
+Pepperfry Office Chair,Pepperfry,Urban Ladder,new office chair from Pepperfry,ONLINE,87164.9,Furniture
+ASUS Wireless Headphones,ASUS,Samsung Store,classic wireless headphones from ASUS,ONLINE,75981.13,Electronics
+Cult Fitness Watch,Cult,Decathlon,new fitness watch from Cult,OFFLINE,55672.19,Sports & Fitness
+Decathlon Fitness Tracker,Decathlon,Cult Store,compact fitness tracker from Decathlon,ONLINE,59661.68,Sports & Fitness
+Canon Marker Set,Canon,Office Depot,daily use marker set from Canon,OFFLINE,10355.59,Office
+Nestle Wheat Flour,Nestle,Zepto,wireless wheat flour from Nestle,OFFLINE,5409.45,Food & Groceries
+Haldiram's Coffee,Haldiram's,McDonald's,wireless coffee from Haldiram's,OFFLINE,4186.81,Food & Beverages
+W Running Shoes,W,Ajio,daily use running shoes from W,ONLINE,8959.49,Fashion
+Puma Football,Puma,Nike Store,compact football from Puma,OFFLINE,31512.23,Sports
+Urban Ladder Office Chair,Urban Ladder,IKEA,premium office chair from Urban Ladder,ONLINE,37297.11,Furniture
+Urban Ladder Storage Cabinet,Urban Ladder,Urban Ladder,professional storage cabinet from Urban Ladder,ONLINE,60756.76,Furniture
+HP Smartwatch,HP,Amazon,wireless smartwatch from HP,OFFLINE,138837.66,Electronics
+KFC Beverage,KFC,KFC,professional beverage from KFC,OFFLINE,2997.34,Food & Beverages
+Fitbit Fitness Tracker,Fitbit,Amazon,premium fitness tracker from Fitbit,ONLINE,14022.67,Sports & Fitness
+Haier Vacuum Cleaner,Haier,Croma,standard vacuum cleaner from Haier,OFFLINE,92329.61,Home Appliances
+Bosch Refrigerator,Bosch,Reliance Digital,premium refrigerator from Bosch,ONLINE,87398.02,Home Appliances
+Wakefit Office Chair,Wakefit,Local Furniture Store,wireless office chair from Wakefit,ONLINE,81682.76,Furniture
+Decathlon Adjustable Dumbbell Set,Decathlon,Fitness Store,wireless adjustable dumbbell set from Decathlon,ONLINE,35379.9,Sports & Fitness
+Puma Dumbbells,Puma,Amazon,compact dumbbells from Puma,ONLINE,13765.49,Sports
+Acer Gaming Console,Acer,Croma,durable gaming console from Acer,ONLINE,8714.24,Electronics
+Yonex Cycling Helmet,Yonex,Nike Store,durable cycling helmet from Yonex,OFFLINE,12493.33,Sports
+Portronics Wireless Charger,Portronics,Croma,compact wireless charger from Portronics,OFFLINE,4634.34,Gadgets
+Pilot Calculator,Pilot,Flipkart,portable calculator from Pilot,OFFLINE,8597.31,Office
+Pepperfry Storage Cabinet,Pepperfry,Urban Ladder,compact storage cabinet from Pepperfry,ONLINE,12426.98,Furniture
+KFC Burger Meal,KFC,Local Cafe,daily use burger meal from KFC,OFFLINE,2412.09,Food & Beverages
+Everyday Utility Item,Everyday,Flipkart,professional utility item from Everyday,OFFLINE,2524.78,Other
+IKEA Recliner,IKEA,Pepperfry,durable recliner from IKEA,ONLINE,71717.24,Furniture
+Classic Key Holder,Classic,Amazon,new key holder from Classic,ONLINE,8156.69,Other
+Faber-Castell Notebook,Faber-Castell,Office Depot,premium notebook from Faber-Castell,ONLINE,3702.73,Office
+Aashirvaad Wheat Flour,Aashirvaad,Local Grocery,standard wheat flour from Aashirvaad,ONLINE,834.39,Food & Groceries
+Tata Eggs,Tata,Zepto,professional eggs from Tata,ONLINE,2022.91,Food & Groceries
+Whirlpool Electric Kettle,Whirlpool,Amazon,professional electric kettle from Whirlpool,OFFLINE,3279.58,Home Appliances
+Adidas Cotton Shirt,Adidas,Amazon,new cotton shirt from Adidas,OFFLINE,10917.27,Fashion
+Pepperfry Bookshelf,Pepperfry,Urban Ladder,wireless bookshelf from Pepperfry,ONLINE,15773.41,Furniture
+TVS Vehicle Insurance Accessory,TVS,Tata Motors,premium vehicle insurance accessory from TVS,ONLINE,66774.47,Vehicles
+Nivia Protein Shaker,Nivia,Flipkart,wireless protein shaker from Nivia,ONLINE,56149.36,Sports & Fitness
+Bajaj Car Floor Mats,Bajaj,Bajaj Auto,durable car floor mats from Bajaj,OFFLINE,8382.84,Vehicles
+Samsung Room Heater,Samsung,Home Centre,compact room heater from Samsung,OFFLINE,100195.74,Home Appliances
+Local Brand Travel Accessory,Local Brand,Flipkart,premium travel accessory from Local Brand,ONLINE,8989.24,Other
+Classic Miscellaneous Purchase,Classic,Amazon,professional miscellaneous purchase from Classic,OFFLINE,4251.91,Other
+Mi Wireless Charger,Mi,Croma,durable wireless charger from Mi,OFFLINE,6665.71,Gadgets
+Dell Smartphone,Dell,Flipkart,new smartphone from Dell,ONLINE,144916.9,Electronics
+H&M Sunglasses,H&M,Ajio,durable sunglasses from H&M,OFFLINE,3243.78,Fashion
+Levis Running Shoes,Levis,Myntra,portable running shoes from Levis,ONLINE,17417.85,Fashion
+Haier Room Heater,Haier,Croma,wireless room heater from Haier,ONLINE,30695.48,Home Appliances
+JBL Usb Hub,JBL,Amazon,wireless USB hub from JBL,OFFLINE,9251.47,Gadgets
+Everyday Travel Accessory,Everyday,Local Store,classic travel accessory from Everyday,ONLINE,7922.08,Other
+Toyota Bike Service,Toyota,Hyundai Service,daily use bike service from Toyota,OFFLINE,10635.74,Vehicles
+Local Brand Gift Item,Local Brand,Flipkart,standard gift item from Local Brand,ONLINE,3285.11,Other
+Godrej Interio Shoe Cabinet,Godrej Interio,Pepperfry,compact shoe cabinet from Godrej Interio,ONLINE,32612.26,Furniture
+Biba Hoodie,Biba,Amazon,compact hoodie from Biba,ONLINE,21059.58,Fashion
+Domino's Biryani,Domino's,McDonald's,durable biryani from Domino's,OFFLINE,2095.85,Food & Beverages
+Cafe Coffee Day Biryani,Cafe Coffee Day,Swiggy,compact biryani from Cafe Coffee Day,OFFLINE,3665.77,Food & Beverages
+Noise Earbuds Case,Noise,Croma,durable earbuds case from Noise,OFFLINE,17012.73,Gadgets
+Nivia Basketball,Nivia,Decathlon,compact basketball from Nivia,ONLINE,68061.62,Sports
+Whirlpool Water Purifier,Whirlpool,Reliance Digital,compact water purifier from Whirlpool,OFFLINE,70821.28,Home Appliances
+TP-Link Wireless Charger,TP-Link,Mi Store,new wireless charger from TP-Link,ONLINE,14873.48,Gadgets
+TVS Vehicle Insurance Accessory,TVS,Bajaj Auto,daily use vehicle insurance accessory from TVS,OFFLINE,15385.29,Vehicles
+Fitbit Gym Bench,Fitbit,Fitness Store,daily use gym bench from Fitbit,ONLINE,48031.86,Sports & Fitness
+McDonald's Cafe Breakfast,McDonald's,Zomato,classic cafe breakfast from McDonald's,OFFLINE,3326.27,Food & Beverages
+Decathlon Adjustable Dumbbell Set,Decathlon,Fitness Store,premium adjustable dumbbell set from Decathlon,ONLINE,3411.12,Sports & Fitness
+Fortune Eggs,Fortune,BigBasket,wireless eggs from Fortune,OFFLINE,4728.76,Food & Groceries
+Domino's Burger Meal,Domino's,Swiggy,compact burger meal from Domino's,ONLINE,3015.63,Food & Beverages
+Domino's Sandwich,Domino's,Swiggy,premium sandwich from Domino's,ONLINE,1202.67,Food & Beverages
+Biba Formal Trousers,Biba,Lifestyle,premium formal trousers from Biba,OFFLINE,6450.36,Fashion
+Puma Jacket,Puma,Amazon,premium jacket from Puma,OFFLINE,14816.41,Fashion
+Urban Ladder Recliner,Urban Ladder,Urban Ladder,classic recliner from Urban Ladder,ONLINE,58245.12,Furniture
+Dell Laptop,Dell,Reliance Digital,classic laptop from Dell,ONLINE,106297.51,Electronics
+Tata Milk,Tata,Reliance Smart,premium milk from Tata,OFFLINE,2578.27,Food & Groceries
+Decathlon Exercise Bike,Decathlon,Amazon,wireless exercise bike from Decathlon,OFFLINE,58204.43,Sports & Fitness
+boAt Power Bank,boAt,Mi Store,durable power bank from boAt,OFFLINE,9782.56,Gadgets
+Godrej Interio Recliner,Godrej Interio,Urban Ladder,durable recliner from Godrej Interio,OFFLINE,86324.16,Furniture
+Cult Protein Shaker,Cult,Amazon,compact protein shaker from Cult,ONLINE,38236.02,Sports & Fitness
+Everyday Storage Box,Everyday,Amazon,durable storage box from Everyday,ONLINE,1424.07,Other
+Nilkamal Bookshelf,Nilkamal,IKEA,daily use bookshelf from Nilkamal,OFFLINE,77980.37,Furniture
+Godrej Room Heater,Godrej,Amazon,standard room heater from Godrej,OFFLINE,88288.85,Home Appliances
+Nike Backpack,Nike,Nike Store,wireless backpack from Nike,ONLINE,25515.46,Fashion
+Classic Travel Accessory,Classic,Marketplace,daily use travel accessory from Classic,OFFLINE,3661.49,Other
+Acer Smartphone,Acer,Croma,standard smartphone from Acer,OFFLINE,73849.2,Electronics
+Acer Bluetooth Speaker,Acer,Amazon,premium bluetooth speaker from Acer,ONLINE,104864.97,Electronics
+Subway Coffee,Subway,Swiggy,professional coffee from Subway,ONLINE,1329.66,Food & Beverages
+Local Brand Gift Item,Local Brand,Flipkart,new gift item from Local Brand,OFFLINE,6650.9,Other
+Apple Laptop,Apple,Vijay Sales,durable laptop from Apple,OFFLINE,75899.42,Electronics
+Amul Detergent,Amul,Reliance Smart,new detergent from Amul,ONLINE,1460.02,Food & Groceries
+Uniqlo Dress,Uniqlo,Ajio,professional dress from Uniqlo,ONLINE,953.31,Fashion
+Kokuyo File Folder,Kokuyo,Amazon,wireless file folder from Kokuyo,ONLINE,18712.15,Office
+Local Brand Miscellaneous Purchase,Local Brand,Flipkart,standard miscellaneous purchase from Local Brand,ONLINE,6793.7,Other
+Faber-Castell Printer Paper,Faber-Castell,Reliance Smart,standard printer paper from Faber-Castell,ONLINE,4559.9,Office
+Bosch Electric Kettle,Bosch,Vijay Sales,classic electric kettle from Bosch,OFFLINE,109881.23,Home Appliances
+IKEA Coffee Table,IKEA,Local Furniture Store,durable coffee table from IKEA,OFFLINE,47519.35,Furniture
+Whirlpool Room Heater,Whirlpool,Reliance Digital,standard room heater from Whirlpool,OFFLINE,79276.08,Home Appliances
+Generic Travel Accessory,Generic,General Store,new travel accessory from Generic,OFFLINE,2687.81,Other
+Allen Solly Kurta,Allen Solly,Nike Store,daily use kurta from Allen Solly,OFFLINE,11269.8,Fashion
+Anker Router,Anker,Reliance Digital,professional router from Anker,OFFLINE,14017.01,Gadgets
+Hyundai Bike Service,Hyundai,Local Auto Store,wireless bike service from Hyundai,OFFLINE,71233.54,Vehicles
+Zara Cotton Shirt,Zara,Shoppers Stop,professional cotton shirt from Zara,OFFLINE,14770.92,Fashion
+Classic Storage Box,Classic,General Store,professional storage box from Classic,OFFLINE,8404.8,Other
+HP Ink Cartridge,HP,Reliance Smart,compact ink cartridge from HP,OFFLINE,17221.54,Office
+Surf Excel Rice,Surf Excel,Reliance Smart,classic rice from Surf Excel,ONLINE,4076.58,Food & Groceries
+Classic Decor Accessory,Classic,Flipkart,compact decor accessory from Classic,ONLINE,2301.83,Other
+Biba Winter Sweater,Biba,Amazon,durable winter sweater from Biba,ONLINE,17083.08,Fashion
+TVS Bike Service,TVS,Local Auto Store,professional bike service from TVS,OFFLINE,78550.69,Vehicles
+Noise Router,Noise,Croma,daily use router from Noise,ONLINE,11178.87,Gadgets
+boAt Smart Bulb,boAt,Amazon,new smart bulb from boAt,OFFLINE,2670.65,Gadgets
+Haldiram's Burger Meal,Haldiram's,McDonald's,premium burger meal from Haldiram's,OFFLINE,526.23,Food & Beverages
+Generic Miscellaneous Purchase,Generic,Marketplace,new miscellaneous purchase from Generic,ONLINE,346.52,Other
+Nestle Groceries,Nestle,DMart,durable groceries from Nestle,OFFLINE,3449.09,Food & Groceries
+Generic Key Holder,Generic,Marketplace,classic key holder from Generic,ONLINE,10195.39,Other
+Yonex Cricket Bat,Yonex,Nike Store,portable cricket bat from Yonex,OFFLINE,71097.23,Sports
+Everyday Utility Item,Everyday,Amazon,wireless utility item from Everyday,OFFLINE,3677.14,Other
+Faber-Castell Ink Cartridge,Faber-Castell,Office Depot,daily use ink cartridge from Faber-Castell,ONLINE,11375.81,Office
+Prime Travel Accessory,Prime,Marketplace,standard travel accessory from Prime,ONLINE,10657.61,Other
+Anker Wireless Charger,Anker,Flipkart,standard wireless charger from Anker,OFFLINE,1195.71,Gadgets
+Yonex Dumbbells,Yonex,Sports Station,standard dumbbells from Yonex,OFFLINE,16373.21,Sports
+Portronics Fitness Band,Portronics,Amazon,durable fitness band from Portronics,OFFLINE,3774.54,Gadgets
+Surf Excel Rice,Surf Excel,BigBasket,professional rice from Surf Excel,ONLINE,3657.39,Food & Groceries
+Decathlon Resistance Tube Set,Decathlon,Amazon,standard resistance tube set from Decathlon,ONLINE,2257.73,Sports & Fitness
+Starbucks Cafe Breakfast,Starbucks,Zomato,wireless cafe breakfast from Starbucks,OFFLINE,565.9,Food & Beverages
+LG Vacuum Cleaner,LG,Amazon,compact vacuum cleaner from LG,OFFLINE,78105.66,Home Appliances
+HP Monitor,HP,Samsung Store,standard monitor from HP,ONLINE,98047.26,Electronics
+Philips Dishwasher,Philips,Home Centre,standard dishwasher from Philips,OFFLINE,93961.0,Home Appliances
+Urban Ladder Dining Table,Urban Ladder,Pepperfry,compact dining table from Urban Ladder,ONLINE,74981.66,Furniture
+Whirlpool Air Cooler,Whirlpool,Amazon,standard air cooler from Whirlpool,ONLINE,64852.42,Home Appliances
+Boldfit Foam Roller,Boldfit,Amazon,premium foam roller from Boldfit,ONLINE,6246.32,Sports & Fitness
+Subway Meal Order,Subway,Swiggy,standard meal order from Subway,ONLINE,1028.7,Food & Beverages
+Godrej Interio Bookshelf,Godrej Interio,IKEA,standard bookshelf from Godrej Interio,ONLINE,77588.23,Furniture
+Philips Vacuum Cleaner,Philips,Amazon,classic vacuum cleaner from Philips,OFFLINE,7465.95,Home Appliances
+Yonex Yoga Mat,Yonex,Flipkart,classic yoga mat from Yonex,ONLINE,45479.57,Sports
+Dell Smartwatch,Dell,Samsung Store,wireless smartwatch from Dell,ONLINE,43446.41,Electronics
+Bajaj Brake Pads,Bajaj,Bajaj Auto,daily use brake pads from Bajaj,OFFLINE,34969.01,Vehicles
+Biba Sunglasses,Biba,Lifestyle,durable sunglasses from Biba,OFFLINE,769.41,Fashion
+Surf Excel Eggs,Surf Excel,Blinkit,portable eggs from Surf Excel,ONLINE,1114.31,Food & Groceries
+Puma Football,Puma,Amazon,new football from Puma,OFFLINE,25466.4,Sports
+Cosco Basketball,Cosco,Nike Store,classic basketball from Cosco,OFFLINE,55102.64,Sports
+Toyota Helmet,Toyota,Honda Service Center,compact helmet from Toyota,OFFLINE,4968.76,Vehicles
+Dell Television,Dell,Croma,professional television from Dell,ONLINE,13397.78,Electronics
+McDonald's Soft Drink,McDonald's,Swiggy,durable soft drink from McDonald's,OFFLINE,2959.76,Food & Beverages
+Hyundai Helmet,Hyundai,Tata Motors,standard helmet from Hyundai,ONLINE,76086.83,Vehicles
+Voltas Air Fryer,Voltas,Reliance Digital,portable air fryer from Voltas,ONLINE,72858.87,Home Appliances
+Nilkamal Office Chair,Nilkamal,Home Centre,portable office chair from Nilkamal,OFFLINE,5522.46,Furniture
+Uniqlo Cotton Shirt,Uniqlo,Myntra,portable cotton shirt from Uniqlo,ONLINE,14538.14,Fashion
+Zara Sneakers,Zara,Ajio,standard sneakers from Zara,ONLINE,4036.42,Fashion
+Anker Webcam,Anker,Mi Store,daily use webcam from Anker,OFFLINE,14026.6,Gadgets
+Logitech Wireless Charger,Logitech,Flipkart,daily use wireless charger from Logitech,OFFLINE,11037.89,Gadgets
+HP Whiteboard,HP,Flipkart,wireless whiteboard from HP,ONLINE,18963.79,Office
+Haier Air Cooler,Haier,Vijay Sales,new air cooler from Haier,OFFLINE,19830.96,Home Appliances
+Decathlon Yoga Mat,Decathlon,Nike Store,classic yoga mat from Decathlon,OFFLINE,36459.48,Sports
+Decathlon Badminton Racket,Decathlon,Sports Station,professional badminton racket from Decathlon,OFFLINE,25013.23,Sports
+Pilot Notebook,Pilot,Flipkart,professional notebook from Pilot,OFFLINE,5359.93,Office
+Classic Key Holder,Classic,Flipkart,classic key holder from Classic,OFFLINE,5936.27,Other
+Urban Ladder Sofa,Urban Ladder,IKEA,daily use sofa from Urban Ladder,ONLINE,77667.24,Furniture
+Philips Air Fryer,Philips,Home Centre,daily use air fryer from Philips,ONLINE,13523.05,Home Appliances
+Logitech Smart Bulb,Logitech,Croma,durable smart bulb from Logitech,ONLINE,2109.5,Gadgets
+Maruti Suzuki Car Tyre,Maruti Suzuki,Honda Service Center,professional car tyre from Maruti Suzuki,OFFLINE,40994.47,Vehicles
+Hyundai Car Tyre,Hyundai,Tata Motors,portable car tyre from Hyundai,OFFLINE,74413.89,Vehicles
+Godrej Interio Study Table,Godrej Interio,Pepperfry,portable study table from Godrej Interio,ONLINE,92405.77,Furniture
+Nike Resistance Bands,Nike,Nike Store,portable resistance bands from Nike,OFFLINE,14319.96,Sports
+KFC Burger Meal,KFC,Zomato,portable burger meal from KFC,ONLINE,971.29,Food & Beverages
+Dell Keyboard,Dell,Samsung Store,professional keyboard from Dell,OFFLINE,67993.89,Electronics
+Kokuyo Pen Set,Kokuyo,Office Depot,professional pen set from Kokuyo,ONLINE,17377.8,Office
+Nike Resistance Bands,Nike,Flipkart,new resistance bands from Nike,OFFLINE,67260.44,Sports
+Toyota Helmet,Toyota,Tata Motors,premium helmet from Toyota,ONLINE,68998.67,Vehicles
+boAt Usb Microphone,boAt,Amazon,standard USB microphone from boAt,OFFLINE,1104.67,Gadgets
+Sony Tablet,Sony,Croma,daily use tablet from Sony,OFFLINE,17700.33,Electronics
+Samsung Room Heater,Samsung,Flipkart,daily use room heater from Samsung,OFFLINE,96324.32,Home Appliances
+TVS Helmet,TVS,Tata Motors,daily use helmet from TVS,ONLINE,38867.49,Vehicles
+Godrej Dishwasher,Godrej,Croma,portable dishwasher from Godrej,OFFLINE,95919.14,Home Appliances
+Dell Monitor,Dell,Croma,professional monitor from Dell,OFFLINE,72605.25,Electronics
+Tata Vehicle Insurance Accessory,Tata,Honda Service Center,wireless vehicle insurance accessory from Tata,ONLINE,45363.36,Vehicles
+Godrej Refrigerator,Godrej,Reliance Digital,classic refrigerator from Godrej,OFFLINE,51582.48,Home Appliances
+Local Brand Gift Item,Local Brand,Flipkart,daily use gift item from Local Brand,ONLINE,6050.01,Other
+Acer Smartwatch,Acer,Flipkart,compact smartwatch from Acer,OFFLINE,145497.94,Electronics
+Nivia Cycling Helmet,Nivia,Amazon,wireless cycling helmet from Nivia,OFFLINE,43437.37,Sports
+Starbucks Soft Drink,Starbucks,Zomato,premium soft drink from Starbucks,ONLINE,2891.21,Food & Beverages
+Nestle Eggs,Nestle,Zepto,classic eggs from Nestle,ONLINE,866.23,Food & Groceries
+Nestle Shampoo,Nestle,DMart,durable shampoo from Nestle,OFFLINE,438.94,Food & Groceries
+Zara Backpack,Zara,Lifestyle,portable backpack from Zara,ONLINE,13987.28,Fashion
+JBL Charging Cable,JBL,Croma,durable charging cable from JBL,ONLINE,5050.8,Gadgets
+W Backpack,W,Amazon,daily use backpack from W,ONLINE,1085.14,Fashion
+Kokuyo Pen Set,Kokuyo,Flipkart,portable pen set from Kokuyo,ONLINE,21730.96,Office
+Everyday Travel Accessory,Everyday,General Store,classic travel accessory from Everyday,OFFLINE,604.04,Other
+Puma Dumbbells,Puma,Flipkart,premium dumbbells from Puma,ONLINE,55671.83,Sports
+Subway Burger Meal,Subway,Starbucks,portable burger meal from Subway,ONLINE,3387.06,Food & Beverages
+Mahindra Brake Pads,Mahindra,Local Auto Store,wireless brake pads from Mahindra,ONLINE,54622.22,Vehicles
+Haldiram's Pizza,Haldiram's,Starbucks,classic pizza from Haldiram's,ONLINE,2463.67,Food & Beverages
+Everyday Travel Accessory,Everyday,Marketplace,standard travel accessory from Everyday,ONLINE,5952.66,Other
+IKEA Recliner,IKEA,IKEA,premium recliner from IKEA,OFFLINE,66084.68,Furniture
+Anker Wireless Charger,Anker,Croma,professional wireless charger from Anker,OFFLINE,16958.23,Gadgets
+Generic Decor Accessory,Generic,General Store,durable decor accessory from Generic,ONLINE,4426.36,Other
+Logitech Charging Cable,Logitech,Flipkart,compact charging cable from Logitech,OFFLINE,13534.91,Gadgets
+Fitbit Gym Bench,Fitbit,Amazon,professional gym bench from Fitbit,ONLINE,49407.53,Sports & Fitness
+Logitech Router,Logitech,Mi Store,new router from Logitech,ONLINE,13914.21,Gadgets
+boAt Usb Hub,boAt,Amazon,daily use USB hub from boAt,OFFLINE,10109.69,Gadgets
+Kokuyo File Folder,Kokuyo,Amazon,daily use file folder from Kokuyo,ONLINE,13939.25,Office
+Portronics Charging Cable,Portronics,Mi Store,professional charging cable from Portronics,ONLINE,1953.68,Gadgets
+Bosch Washing Machine,Bosch,Reliance Digital,durable washing machine from Bosch,ONLINE,14983.99,Home Appliances
+Pilot File Folder,Pilot,Reliance Smart,standard file folder from Pilot,OFFLINE,2884.24,Office
+Nestle Household Essentials Pack,Nestle,Blinkit,standard household essentials pack from Nestle,ONLINE,820.53,Food & Groceries
+KFC Snack Combo,KFC,Local Cafe,new snack combo from KFC,ONLINE,3410.83,Food & Beverages
+TP-Link Smart Bulb,TP-Link,Amazon,daily use smart bulb from TP-Link,OFFLINE,17279.57,Gadgets
+Tata Car Service Package,Tata,Tata Motors,portable car service package from Tata,OFFLINE,3320.22,Vehicles
+Honda Brake Pads,Honda,Tata Motors,premium brake pads from Honda,OFFLINE,36747.18,Vehicles
+Generic Gift Item,Generic,General Store,daily use gift item from Generic,ONLINE,10247.37,Other
+Logitech Charging Cable,Logitech,Croma,portable charging cable from Logitech,OFFLINE,549.29,Gadgets
+Nivia Fitness Watch,Nivia,Amazon,professional fitness watch from Nivia,OFFLINE,3627.51,Sports & Fitness
+Cosco Gym Gloves,Cosco,Amazon,compact gym gloves from Cosco,ONLINE,19715.44,Sports
+Fortune Vegetables,Fortune,Zepto,professional vegetables from Fortune,ONLINE,5389.44,Food & Groceries
+Fortune Cooking Oil,Fortune,Local Grocery,classic cooking oil from Fortune,ONLINE,4059.28,Food & Groceries
+Surf Excel Vegetables,Surf Excel,DMart,portable vegetables from Surf Excel,ONLINE,4455.96,Food & Groceries
+Bosch Air Fryer,Bosch,Croma,portable air fryer from Bosch,OFFLINE,31367.86,Home Appliances
+Classmate Stapler,Classmate,Amazon,premium stapler from Classmate,ONLINE,11664.95,Office
+Nivia Sports Shoes,Nivia,Decathlon,standard sports shoes from Nivia,ONLINE,6707.38,Sports
+Haldiram's Soft Drink,Haldiram's,Local Cafe,new soft drink from Haldiram's,ONLINE,3290.97,Food & Beverages
+Staedtler Stapler,Staedtler,Amazon,new stapler from Staedtler,ONLINE,19132.31,Office
+Sony Television,Sony,Flipkart,premium television from Sony,OFFLINE,29928.67,Electronics
+boAt Usb Hub,boAt,Reliance Digital,classic USB hub from boAt,ONLINE,12194.82,Gadgets
+Hyundai Car Tyre,Hyundai,Bajaj Auto,durable car tyre from Hyundai,OFFLINE,62575.78,Vehicles
+Sony Keyboard,Sony,Vijay Sales,standard keyboard from Sony,OFFLINE,139477.19,Electronics
+LG Air Fryer,LG,Home Centre,professional air fryer from LG,ONLINE,34436.4,Home Appliances
+Nestle Shampoo,Nestle,DMart,wireless shampoo from Nestle,OFFLINE,5022.1,Food & Groceries
+Samsung Television,Samsung,Amazon,portable television from Samsung,OFFLINE,127131.63,Electronics
+Maruti Suzuki Brake Pads,Maruti Suzuki,Local Auto Store,premium brake pads from Maruti Suzuki,ONLINE,81128.89,Vehicles
+W Jeans,W,Amazon,professional jeans from W,OFFLINE,27492.76,Fashion
+Staedtler Ink Cartridge,Staedtler,Office Depot,daily use ink cartridge from Staedtler,OFFLINE,23063.21,Office
+Canon Marker Set,Canon,Reliance Smart,portable marker set from Canon,ONLINE,8224.64,Office
+LG Bluetooth Speaker,LG,Samsung Store,classic bluetooth speaker from LG,OFFLINE,32317.99,Electronics
+Domino's Restaurant Dinner,Domino's,KFC,compact restaurant dinner from Domino's,ONLINE,2365.62,Food & Beverages
+Whirlpool Air Conditioner,Whirlpool,Amazon,premium air conditioner from Whirlpool,OFFLINE,71175.57,Home Appliances
+Puma Cycling Helmet,Puma,Amazon,daily use cycling helmet from Puma,OFFLINE,26615.2,Sports
+Dove Groceries,Dove,Local Grocery,durable groceries from Dove,OFFLINE,5879.47,Food & Groceries
+Cosco Gym Gloves,Cosco,Flipkart,standard gym gloves from Cosco,OFFLINE,63128.32,Sports
+KFC Beverage,KFC,Local Cafe,compact beverage from KFC,OFFLINE,1127.66,Food & Beverages
+Godrej Interio Bed Frame,Godrej Interio,Urban Ladder,wireless bed frame from Godrej Interio,OFFLINE,45296.26,Furniture
+Decathlon Foam Roller,Decathlon,Flipkart,daily use foam roller from Decathlon,OFFLINE,11004.05,Sports & Fitness
+Local Brand Miscellaneous Item,Local Brand,Local Store,premium miscellaneous item from Local Brand,ONLINE,1265.57,Other
+Kokuyo Stapler,Kokuyo,Office Depot,premium stapler from Kokuyo,OFFLINE,19306.35,Office
+Cult Massage Gun,Cult,Amazon,professional massage gun from Cult,OFFLINE,24614.75,Sports & Fitness
+Kokuyo Whiteboard,Kokuyo,Office Depot,classic whiteboard from Kokuyo,ONLINE,14400.98,Office
+TVS Car Battery,TVS,Tata Motors,wireless car battery from TVS,ONLINE,36884.17,Vehicles
+Samsung Induction Cooktop,Samsung,Home Centre,professional induction cooktop from Samsung,OFFLINE,93896.17,Home Appliances
+Nike Treadmill,Nike,Sports Station,compact treadmill from Nike,ONLINE,53340.96,Sports
+Cafe Coffee Day Meal Order,Cafe Coffee Day,Starbucks,premium meal order from Cafe Coffee Day,OFFLINE,2963.99,Food & Beverages
+Portronics Earbuds Case,Portronics,Croma,durable earbuds case from Portronics,ONLINE,11732.39,Gadgets
+Fortune Household Essentials Pack,Fortune,BigBasket,compact household essentials pack from Fortune,ONLINE,5806.4,Food & Groceries
+Nilkamal Office Chair,Nilkamal,Pepperfry,durable office chair from Nilkamal,OFFLINE,36130.4,Furniture
+Apple Smartphone,Apple,Amazon,wireless smartphone from Apple,ONLINE,38376.75,Electronics
+Lenovo Laptop,Lenovo,Reliance Digital,classic laptop from Lenovo,ONLINE,43426.56,Electronics
+Kokuyo Office Supplies Pack,Kokuyo,Flipkart,classic office supplies pack from Kokuyo,OFFLINE,24974.76,Office
+JBL Charging Cable,JBL,Croma,professional charging cable from JBL,ONLINE,4269.08,Gadgets
+Decathlon Exercise Mat,Decathlon,Amazon,portable exercise mat from Decathlon,ONLINE,51451.87,Sports & Fitness
+Classmate Ink Cartridge,Classmate,Local Stationery,compact ink cartridge from Classmate,ONLINE,18840.78,Office
+IKEA Wardrobe,IKEA,Local Furniture Store,classic wardrobe from IKEA,ONLINE,12772.86,Furniture
+JBL Webcam,JBL,Amazon,new webcam from JBL,ONLINE,14246.9,Gadgets
+Prime Utility Item,Prime,Local Store,classic utility item from Prime,OFFLINE,2258.25,Other
+Voltas Vacuum Cleaner,Voltas,Amazon,compact vacuum cleaner from Voltas,OFFLINE,56500.63,Home Appliances
+Generic Utility Item,Generic,Marketplace,new utility item from Generic,ONLINE,6332.78,Other
+Lenovo Laptop,Lenovo,Reliance Digital,wireless laptop from Lenovo,ONLINE,10681.14,Electronics
+Subway Sandwich,Subway,Swiggy,premium sandwich from Subway,OFFLINE,705.24,Food & Beverages
+Bajaj Engine Oil Service,Bajaj,Local Auto Store,classic engine oil service from Bajaj,ONLINE,5338.91,Vehicles
+Generic Utility Item,Generic,General Store,durable utility item from Generic,ONLINE,3460.13,Other
+HP Calculator,HP,Reliance Smart,premium calculator from HP,OFFLINE,1070.63,Office
+Pepperfry Bed Frame,Pepperfry,Pepperfry,professional bed frame from Pepperfry,OFFLINE,61290.83,Furniture
+JBL Power Bank,JBL,Mi Store,compact power bank from JBL,ONLINE,915.94,Gadgets
+Urban Ladder Sofa,Urban Ladder,Home Centre,wireless sofa from Urban Ladder,OFFLINE,86750.53,Furniture
+Urban Ladder Study Table,Urban Ladder,Local Furniture Store,durable study table from Urban Ladder,ONLINE,84758.34,Furniture
+Everyday Gift Item,Everyday,Local Store,new gift item from Everyday,ONLINE,11719.62,Other
+Boldfit Exercise Bike,Boldfit,Cult Store,premium exercise bike from Boldfit,OFFLINE,5719.52,Sports & Fitness
+Godrej Interio Coffee Table,Godrej Interio,Pepperfry,compact coffee table from Godrej Interio,OFFLINE,56497.24,Furniture
+ASUS Gaming Console,ASUS,Vijay Sales,standard gaming console from ASUS,OFFLINE,155738.85,Electronics
+Whirlpool Induction Cooktop,Whirlpool,Croma,wireless induction cooktop from Whirlpool,OFFLINE,78364.67,Home Appliances
+Uniqlo Handbag,Uniqlo,Lifestyle,standard handbag from Uniqlo,ONLINE,2390.37,Fashion
+Acer Camera,Acer,Vijay Sales,wireless camera from Acer,ONLINE,25725.02,Electronics
+Logitech Phone Stand,Logitech,Mi Store,durable phone stand from Logitech,ONLINE,14908.01,Gadgets
+Tata Wiper Blades,Tata,Hyundai Service,compact wiper blades from Tata,ONLINE,3900.34,Vehicles
+Acer Smartphone,Acer,Amazon,portable smartphone from Acer,ONLINE,12360.63,Electronics
+Cult Foam Roller,Cult,Decathlon,daily use foam roller from Cult,ONLINE,1849.94,Sports & Fitness
+Apple Smartwatch,Apple,Croma,wireless smartwatch from Apple,ONLINE,134517.77,Electronics
+boAt Router,boAt,Flipkart,professional router from boAt,OFFLINE,3969.95,Gadgets
+Acer Computer Mouse,Acer,Amazon,professional computer mouse from Acer,ONLINE,48951.53,Electronics
+Philips Electric Kettle,Philips,Reliance Digital,portable electric kettle from Philips,ONLINE,42938.45,Home Appliances
+Haier Electric Kettle,Haier,Croma,standard electric kettle from Haier,ONLINE,36652.5,Home Appliances
+Apple Keyboard,Apple,Vijay Sales,wireless keyboard from Apple,OFFLINE,15069.65,Electronics
+Nivia Cricket Bat,Nivia,Flipkart,durable cricket bat from Nivia,OFFLINE,15916.83,Sports
+Pilot Pen Set,Pilot,Office Depot,daily use pen set from Pilot,ONLINE,20450.65,Office
+Nike Sunglasses,Nike,Shoppers Stop,professional sunglasses from Nike,ONLINE,3975.94,Fashion
+HP Laptop,HP,Croma,classic laptop from HP,OFFLINE,154061.69,Electronics
+Kokuyo Printer Paper,Kokuyo,Amazon,daily use printer paper from Kokuyo,OFFLINE,8750.42,Office
+H&M Jacket,H&M,Ajio,classic jacket from H&M,OFFLINE,28910.19,Fashion
+KFC Soft Drink,KFC,Zomato,wireless soft drink from KFC,ONLINE,3243.41,Food & Beverages
+HP Gaming Console,HP,Vijay Sales,durable gaming console from HP,OFFLINE,107202.53,Electronics
+Kokuyo Whiteboard,Kokuyo,Local Stationery,wireless whiteboard from Kokuyo,ONLINE,24496.44,Office
+Cult Exercise Mat,Cult,Decathlon,portable exercise mat from Cult,ONLINE,41999.39,Sports & Fitness
+Dell Television,Dell,Reliance Digital,wireless television from Dell,ONLINE,155040.43,Electronics
+Subway Dessert,Subway,Starbucks,new dessert from Subway,OFFLINE,2085.07,Food & Beverages
+Mahindra Brake Pads,Mahindra,Bajaj Auto,classic brake pads from Mahindra,ONLINE,54171.01,Vehicles
+Whirlpool Microwave Oven,Whirlpool,Vijay Sales,premium microwave oven from Whirlpool,OFFLINE,74723.41,Home Appliances
+Wakefit Side Table,Wakefit,Local Furniture Store,standard side table from Wakefit,OFFLINE,82650.79,Furniture
+Garmin Exercise Mat,Garmin,Flipkart,durable exercise mat from Garmin,OFFLINE,54196.72,Sports & Fitness
+Amul Milk,Amul,DMart,wireless milk from Amul,ONLINE,5165.35,Food & Groceries
+Nivia Cricket Bat,Nivia,Flipkart,standard cricket bat from Nivia,OFFLINE,4176.11,Sports
+TVS Helmet,TVS,Hyundai Service,portable helmet from TVS,ONLINE,79196.79,Vehicles
+Cafe Coffee Day Cafe Breakfast,Cafe Coffee Day,Starbucks,compact cafe breakfast from Cafe Coffee Day,ONLINE,330.63,Food & Beverages
+Aashirvaad Shampoo,Aashirvaad,Local Grocery,wireless shampoo from Aashirvaad,ONLINE,2659.87,Food & Groceries
+Nilkamal Side Table,Nilkamal,IKEA,new side table from Nilkamal,ONLINE,85938.84,Furniture
+Hyundai Engine Oil Service,Hyundai,Tata Motors,durable engine oil service from Hyundai,ONLINE,29620.52,Vehicles
+Starbucks Soft Drink,Starbucks,Starbucks,professional soft drink from Starbucks,OFFLINE,148.61,Food & Beverages
+W Sneakers,W,Myntra,new sneakers from W,OFFLINE,15900.3,Fashion
+McDonald's Burger Meal,McDonald's,Starbucks,classic burger meal from McDonald's,OFFLINE,2871.29,Food & Beverages
+Decathlon Pull Up Bar,Decathlon,Flipkart,standard pull up bar from Decathlon,ONLINE,41544.58,Sports & Fitness
+Nike Yoga Mat,Nike,Nike Store,durable yoga mat from Nike,ONLINE,41651.55,Sports
+HP Camera,HP,Croma,compact camera from HP,OFFLINE,88941.35,Electronics
+Nike Sports Shoes,Nike,Sports Station,durable sports shoes from Nike,ONLINE,13875.47,Sports
+Classic Decor Accessory,Classic,Marketplace,professional decor accessory from Classic,ONLINE,5997.25,Other
+Acer Smartwatch,Acer,Flipkart,wireless smartwatch from Acer,ONLINE,45023.7,Electronics
+Godrej Interio Study Table,Godrej Interio,Pepperfry,classic study table from Godrej Interio,OFFLINE,20416.64,Furniture
+Canon Pen Set,Canon,Amazon,wireless pen set from Canon,OFFLINE,22063.62,Office
+Local Brand Gift Item,Local Brand,Amazon,wireless gift item from Local Brand,ONLINE,1785.84,Other
+LG Water Purifier,LG,Vijay Sales,professional water purifier from LG,ONLINE,37290.28,Home Appliances
+LG Washing Machine,LG,Amazon,wireless washing machine from LG,OFFLINE,92143.01,Home Appliances
+Nilkamal Office Chair,Nilkamal,Urban Ladder,durable office chair from Nilkamal,OFFLINE,52844.76,Furniture
+Faber-Castell Pen Set,Faber-Castell,Reliance Smart,classic pen set from Faber-Castell,ONLINE,19699.7,Office
+boAt Fast Charger,boAt,Mi Store,wireless fast charger from boAt,ONLINE,11591.62,Gadgets
+Haldiram's Restaurant Dinner,Haldiram's,Zomato,standard restaurant dinner from Haldiram's,ONLINE,1070.5,Food & Beverages
+Hyundai Helmet,Hyundai,Bajaj Auto,standard helmet from Hyundai,ONLINE,2106.92,Vehicles
+Decathlon Gym Bench,Decathlon,Amazon,durable gym bench from Decathlon,ONLINE,12860.07,Sports & Fitness
+Boldfit Gym Bench,Boldfit,Flipkart,standard gym bench from Boldfit,ONLINE,22580.17,Sports & Fitness
+Britannia Groceries,Britannia,Blinkit,classic groceries from Britannia,OFFLINE,4893.74,Food & Groceries
+Haldiram's Restaurant Dinner,Haldiram's,Zomato,daily use restaurant dinner from Haldiram's,OFFLINE,3026.34,Food & Beverages
+Adidas Jeans,Adidas,Ajio,daily use jeans from Adidas,OFFLINE,7232.43,Fashion
+Samsung Water Purifier,Samsung,Reliance Digital,new water purifier from Samsung,OFFLINE,63682.04,Home Appliances
+Boldfit Protein Shaker,Boldfit,Fitness Store,portable protein shaker from Boldfit,ONLINE,26548.05,Sports & Fitness
+Generic Miscellaneous Purchase,Generic,Marketplace,classic miscellaneous purchase from Generic,ONLINE,10458.68,Other
+LG Computer Mouse,LG,Flipkart,wireless computer mouse from LG,ONLINE,13545.44,Electronics
+Yonex Basketball,Yonex,Nike Store,standard basketball from Yonex,ONLINE,40624.62,Sports
+Boldfit Pull Up Bar,Boldfit,Decathlon,daily use pull up bar from Boldfit,OFFLINE,58195.3,Sports & Fitness
+Nike Resistance Bands,Nike,Amazon,professional resistance bands from Nike,OFFLINE,3190.01,Sports
+Dell Laptop,Dell,Croma,new laptop from Dell,ONLINE,78474.12,Electronics
+IKEA Study Table,IKEA,IKEA,classic study table from IKEA,ONLINE,57408.24,Furniture
+HP Tablet,HP,Croma,standard tablet from HP,OFFLINE,115823.57,Electronics
+IFB Dishwasher,IFB,Reliance Digital,classic dishwasher from IFB,ONLINE,24003.24,Home Appliances
+Garmin Adjustable Dumbbell Set,Garmin,Amazon,classic adjustable dumbbell set from Garmin,OFFLINE,7305.83,Sports & Fitness
+ASUS Smartphone,ASUS,Vijay Sales,classic smartphone from ASUS,ONLINE,159381.29,Electronics
+Surf Excel Shampoo,Surf Excel,Reliance Smart,premium shampoo from Surf Excel,ONLINE,2762.63,Food & Groceries
+Toyota Dash Camera,Toyota,Local Auto Store,standard dash camera from Toyota,OFFLINE,43307.56,Vehicles
+Apple Wireless Headphones,Apple,Flipkart,wireless wireless headphones from Apple,OFFLINE,33132.29,Electronics
+Puma Dumbbells,Puma,Decathlon,new dumbbells from Puma,ONLINE,29297.13,Sports
+Local Brand Personal Care Item,Local Brand,Local Store,premium personal care item from Local Brand,ONLINE,7744.72,Other
+Maruti Suzuki Bike Service,Maruti Suzuki,Local Auto Store,compact bike service from Maruti Suzuki,OFFLINE,1482.89,Vehicles
+Aashirvaad Bread,Aashirvaad,Local Grocery,new bread from Aashirvaad,ONLINE,2721.44,Food & Groceries
+TP-Link Usb Microphone,TP-Link,Flipkart,portable USB microphone from TP-Link,OFFLINE,14698.56,Gadgets
+Pilot Calculator,Pilot,Local Stationery,classic calculator from Pilot,ONLINE,14482.05,Office
+Bosch Electric Kettle,Bosch,Croma,new electric kettle from Bosch,ONLINE,31498.78,Home Appliances
+LG Computer Mouse,LG,Reliance Digital,classic computer mouse from LG,ONLINE,99932.83,Electronics
+Biba Formal Trousers,Biba,Shoppers Stop,classic formal trousers from Biba,OFFLINE,21188.76,Fashion
+Zara Sneakers,Zara,Shoppers Stop,durable sneakers from Zara,OFFLINE,29758.06,Fashion
+Sony Printer,Sony,Amazon,durable printer from Sony,OFFLINE,150658.58,Electronics
+HP Tablet,HP,Croma,new tablet from HP,OFFLINE,126042.77,Electronics
+Dove Detergent,Dove,Zepto,portable detergent from Dove,ONLINE,5047.74,Food & Groceries
+Mahindra Car Tyre,Mahindra,Honda Service Center,daily use car tyre from Mahindra,OFFLINE,823.25,Vehicles
+Prime Gift Item,Prime,Marketplace,daily use gift item from Prime,ONLINE,1564.24,Other
+Kokuyo Calculator,Kokuyo,Amazon,classic calculator from Kokuyo,ONLINE,22076.96,Office
+Haier Microwave Oven,Haier,Vijay Sales,compact microwave oven from Haier,OFFLINE,39142.41,Home Appliances
+Haier Microwave Oven,Haier,Flipkart,classic microwave oven from Haier,OFFLINE,84018.71,Home Appliances
+JBL Usb Hub,JBL,Reliance Digital,durable USB hub from JBL,OFFLINE,7753.51,Gadgets
+Pilot Printer Paper,Pilot,Flipkart,classic printer paper from Pilot,OFFLINE,10824.22,Office
+Uniqlo Formal Trousers,Uniqlo,Lifestyle,professional formal trousers from Uniqlo,OFFLINE,19373.7,Fashion
+Cosco Yoga Mat,Cosco,Nike Store,portable yoga mat from Cosco,ONLINE,48499.87,Sports
+OnePlus Smartwatch,OnePlus,Flipkart,compact smartwatch from OnePlus,OFFLINE,2434.53,Electronics
+Everyday Miscellaneous Item,Everyday,Local Store,classic miscellaneous item from Everyday,OFFLINE,9828.99,Other
+IKEA Office Chair,IKEA,IKEA,premium office chair from IKEA,OFFLINE,18388.87,Furniture
+Cosco Gym Gloves,Cosco,Nike Store,premium gym gloves from Cosco,ONLINE,8055.48,Sports
+LG Laptop,LG,Croma,compact laptop from LG,OFFLINE,30304.05,Electronics
+Mi Phone Stand,Mi,Amazon,standard phone stand from Mi,ONLINE,8036.46,Gadgets
+OnePlus Wireless Headphones,OnePlus,Vijay Sales,standard wireless headphones from OnePlus,ONLINE,62553.48,Electronics
+Starbucks Biryani,Starbucks,Starbucks,premium biryani from Starbucks,OFFLINE,2676.84,Food & Beverages
+Decathlon Football,Decathlon,Nike Store,standard football from Decathlon,OFFLINE,39513.5,Sports
+Canon Marker Set,Canon,Flipkart,wireless marker set from Canon,OFFLINE,6465.6,Office
+Starbucks Dessert,Starbucks,Starbucks,standard dessert from Starbucks,OFFLINE,3423.75,Food & Beverages
+Local Brand Miscellaneous Purchase,Local Brand,General Store,premium miscellaneous purchase from Local Brand,OFFLINE,10561.94,Other
+Subway Pizza,Subway,Local Cafe,wireless pizza from Subway,OFFLINE,3239.76,Food & Beverages
+Puma Formal Trousers,Puma,Amazon,new formal trousers from Puma,OFFLINE,7087.55,Fashion
+Classmate Notebook,Classmate,Local Stationery,portable notebook from Classmate,OFFLINE,4100.47,Office
+Mi Smart Plug,Mi,Amazon,portable smart plug from Mi,OFFLINE,17873.39,Gadgets
+Haier Room Heater,Haier,Vijay Sales,durable room heater from Haier,OFFLINE,6714.16,Home Appliances
+Whirlpool Microwave Oven,Whirlpool,Home Centre,classic microwave oven from Whirlpool,ONLINE,89338.53,Home Appliances
+Nivia Sports Shoes,Nivia,Amazon,compact sports shoes from Nivia,ONLINE,27890.07,Sports
+ASUS Smartwatch,ASUS,Vijay Sales,classic smartwatch from ASUS,OFFLINE,107407.87,Electronics
+Britannia Toothpaste,Britannia,Zepto,professional toothpaste from Britannia,ONLINE,560.4,Food & Groceries
+Nilkamal Bookshelf,Nilkamal,Urban Ladder,new bookshelf from Nilkamal,ONLINE,70631.95,Furniture
+Godrej Room Heater,Godrej,Home Centre,daily use room heater from Godrej,ONLINE,18133.59,Home Appliances
+Britannia Vegetables,Britannia,DMart,premium vegetables from Britannia,OFFLINE,4062.42,Food & Groceries
+Sony Television,Sony,Croma,new television from Sony,ONLINE,111491.05,Electronics
+Dell Computer Mouse,Dell,Amazon,standard computer mouse from Dell,ONLINE,113692.79,Electronics
+Garmin Fitness Tracker,Garmin,Fitness Store,classic fitness tracker from Garmin,OFFLINE,23041.98,Sports & Fitness
+KFC Sandwich,KFC,McDonald's,new sandwich from KFC,OFFLINE,2614.03,Food & Beverages
+Anker Usb Microphone,Anker,Reliance Digital,standard USB microphone from Anker,ONLINE,2698.16,Gadgets
+Urban Ladder Sofa,Urban Ladder,Urban Ladder,premium sofa from Urban Ladder,OFFLINE,88148.38,Furniture
+Britannia Milk,Britannia,Local Grocery,daily use milk from Britannia,OFFLINE,4859.05,Food & Groceries
+Local Brand Utility Item,Local Brand,Local Store,new utility item from Local Brand,ONLINE,4609.41,Other
+Samsung Camera,Samsung,Amazon,durable camera from Samsung,ONLINE,40315.36,Electronics
+Fitbit Adjustable Dumbbell Set,Fitbit,Flipkart,new adjustable dumbbell set from Fitbit,ONLINE,41793.72,Sports & Fitness
+Samsung Camera,Samsung,Reliance Digital,professional camera from Samsung,OFFLINE,106720.83,Electronics
+Prime Miscellaneous Item,Prime,General Store,wireless miscellaneous item from Prime,OFFLINE,7142.22,Other
+Godrej Interio Study Table,Godrej Interio,Home Centre,compact study table from Godrej Interio,OFFLINE,27134.84,Furniture
+Cult Adjustable Dumbbell Set,Cult,Amazon,durable adjustable dumbbell set from Cult,ONLINE,42165.29,Sports & Fitness
+Kokuyo Pen Set,Kokuyo,Amazon,portable pen set from Kokuyo,OFFLINE,16549.16,Office
+H&M Sunglasses,H&M,Shoppers Stop,professional sunglasses from H&M,OFFLINE,17319.72,Fashion
+Nivia Badminton Racket,Nivia,Decathlon,premium badminton racket from Nivia,OFFLINE,49929.29,Sports
+Puma Badminton Racket,Puma,Amazon,professional badminton racket from Puma,ONLINE,71419.83,Sports
+Britannia Household Essentials Pack,Britannia,DMart,professional household essentials pack from Britannia,OFFLINE,3672.58,Food & Groceries
+Garmin Exercise Mat,Garmin,Fitness Store,portable exercise mat from Garmin,ONLINE,21734.94,Sports & Fitness
+Portronics Fast Charger,Portronics,Flipkart,daily use fast charger from Portronics,OFFLINE,11746.69,Gadgets
+McDonald's Sandwich,McDonald's,Swiggy,premium sandwich from McDonald's,ONLINE,1955.4,Food & Beverages
+Nivia Basketball,Nivia,Decathlon,durable basketball from Nivia,ONLINE,14382.28,Sports
+LG Tablet,LG,Reliance Digital,standard tablet from LG,ONLINE,76043.63,Electronics
+Godrej Interio Side Table,Godrej Interio,Local Furniture Store,compact side table from Godrej Interio,OFFLINE,10003.45,Furniture
+Nike Cricket Bat,Nike,Flipkart,durable cricket bat from Nike,ONLINE,34330.51,Sports
+Zara Handbag,Zara,Shoppers Stop,daily use handbag from Zara,OFFLINE,15024.04,Fashion
+Apple Keyboard,Apple,Reliance Digital,classic keyboard from Apple,OFFLINE,89075.23,Electronics
+Adidas Jeans,Adidas,Myntra,compact jeans from Adidas,ONLINE,16678.8,Fashion
+Domino's Cafe Breakfast,Domino's,Zomato,compact cafe breakfast from Domino's,OFFLINE,2042.05,Food & Beverages
+LG Electric Kettle,LG,Amazon,classic electric kettle from LG,ONLINE,35606.97,Home Appliances
+Samsung Bluetooth Speaker,Samsung,Flipkart,durable bluetooth speaker from Samsung,OFFLINE,112407.79,Electronics
+Nike Gym Gloves,Nike,Flipkart,durable gym gloves from Nike,ONLINE,14682.69,Sports
+Mi Smart Bulb,Mi,Flipkart,premium smart bulb from Mi,OFFLINE,12119.81,Gadgets
+Fitbit Adjustable Dumbbell Set,Fitbit,Amazon,premium adjustable dumbbell set from Fitbit,OFFLINE,14961.52,Sports & Fitness
+Haldiram's Biryani,Haldiram's,Local Cafe,classic biryani from Haldiram's,ONLINE,2204.44,Food & Beverages
+Nivia Fitness Watch,Nivia,Fitness Store,standard fitness watch from Nivia,OFFLINE,17654.97,Sports & Fitness
+Haldiram's Burger Meal,Haldiram's,Local Cafe,wireless burger meal from Haldiram's,ONLINE,3831.51,Food & Beverages
+Puma Cycling Helmet,Puma,Amazon,wireless cycling helmet from Puma,ONLINE,24715.37,Sports
+Dell Computer Mouse,Dell,Samsung Store,standard computer mouse from Dell,ONLINE,8763.16,Electronics
+Mi Webcam,Mi,Mi Store,new webcam from Mi,OFFLINE,14532.15,Gadgets
+Pepperfry Storage Cabinet,Pepperfry,Pepperfry,professional storage cabinet from Pepperfry,OFFLINE,52360.21,Furniture
+Haier Refrigerator,Haier,Croma,daily use refrigerator from Haier,ONLINE,108094.12,Home Appliances
+Puma Running Shoes,Puma,Amazon,classic running shoes from Puma,ONLINE,4029.66,Fashion
+JBL Phone Stand,JBL,Flipkart,premium phone stand from JBL,OFFLINE,13684.38,Gadgets
+Staedtler Printer Paper,Staedtler,Flipkart,professional printer paper from Staedtler,OFFLINE,10086.8,Office
+Kokuyo Document Scanner,Kokuyo,Local Stationery,premium document scanner from Kokuyo,ONLINE,7675.2,Office
+Haldiram's Snack Combo,Haldiram's,Zomato,professional snack combo from Haldiram's,OFFLINE,1547.12,Food & Beverages
+McDonald's Dessert,McDonald's,McDonald's,portable dessert from McDonald's,OFFLINE,3750.9,Food & Beverages
+Maruti Suzuki Engine Oil Service,Maruti Suzuki,Tata Motors,portable engine oil service from Maruti Suzuki,ONLINE,55242.09,Vehicles
+Cosco Yoga Mat,Cosco,Nike Store,compact yoga mat from Cosco,OFFLINE,21118.02,Sports
+Faber-Castell Desk Organizer,Faber-Castell,Office Depot,portable desk organizer from Faber-Castell,ONLINE,19495.37,Office
+Bajaj Bike Service,Bajaj,Tata Motors,premium bike service from Bajaj,OFFLINE,4572.99,Vehicles
+Godrej Interio Wardrobe,Godrej Interio,Home Centre,new wardrobe from Godrej Interio,OFFLINE,31288.88,Furniture
+Local Brand Key Holder,Local Brand,Marketplace,premium key holder from Local Brand,OFFLINE,4786.18,Other
+Puma Cotton Shirt,Puma,Amazon,standard cotton shirt from Puma,OFFLINE,19288.33,Fashion
+Nilkamal Wardrobe,Nilkamal,Local Furniture Store,durable wardrobe from Nilkamal,OFFLINE,4102.57,Furniture
+Maruti Suzuki Vehicle Insurance Accessory,Maruti Suzuki,Bajaj Auto,daily use vehicle insurance accessory from Maruti Suzuki,OFFLINE,50579.55,Vehicles
+Nilkamal Study Table,Nilkamal,Local Furniture Store,wireless study table from Nilkamal,OFFLINE,19279.04,Furniture
+Nivia Fitness Watch,Nivia,Flipkart,classic fitness watch from Nivia,OFFLINE,40686.32,Sports & Fitness
+Fitbit Exercise Mat,Fitbit,Decathlon,daily use exercise mat from Fitbit,OFFLINE,58519.89,Sports & Fitness
+Canon Desk Organizer,Canon,Flipkart,standard desk organizer from Canon,OFFLINE,20336.25,Office
+Logitech Fast Charger,Logitech,Croma,daily use fast charger from Logitech,ONLINE,5644.44,Gadgets
+Wakefit Shoe Cabinet,Wakefit,Urban Ladder,new shoe cabinet from Wakefit,ONLINE,29326.73,Furniture
+Surf Excel Shampoo,Surf Excel,BigBasket,wireless shampoo from Surf Excel,ONLINE,3376.44,Food & Groceries
+Logitech Fitness Band,Logitech,Croma,compact fitness band from Logitech,OFFLINE,4087.57,Gadgets
+Pilot Office Supplies Pack,Pilot,Local Stationery,classic office supplies pack from Pilot,ONLINE,23483.35,Office
+W Sneakers,W,Amazon,portable sneakers from W,OFFLINE,21863.51,Fashion
+Wakefit Study Table,Wakefit,Local Furniture Store,new study table from Wakefit,ONLINE,62059.5,Furniture
+HP Printer Paper,HP,Amazon,daily use printer paper from HP,ONLINE,12008.01,Office
+HP Calculator,HP,Reliance Smart,premium calculator from HP,OFFLINE,4811.07,Office
+Fortune Cooking Oil,Fortune,BigBasket,classic cooking oil from Fortune,OFFLINE,2993.74,Food & Groceries
+Decathlon Adjustable Dumbbell Set,Decathlon,Amazon,portable adjustable dumbbell set from Decathlon,OFFLINE,23493.62,Sports & Fitness
+Garmin Fitness Watch,Garmin,Fitness Store,classic fitness watch from Garmin,OFFLINE,25557.31,Sports & Fitness
+Everyday Personal Care Item,Everyday,Local Store,professional personal care item from Everyday,ONLINE,1517.33,Other
+Cafe Coffee Day Restaurant Dinner,Cafe Coffee Day,Local Cafe,compact restaurant dinner from Cafe Coffee Day,ONLINE,2232.94,Food & Beverages
+Nike Winter Sweater,Nike,Myntra,daily use winter sweater from Nike,ONLINE,19514.96,Fashion
+Sony Camera,Sony,Vijay Sales,classic camera from Sony,ONLINE,49200.56,Electronics
+Adidas Backpack,Adidas,Shoppers Stop,durable backpack from Adidas,ONLINE,10528.99,Fashion
+Nivia Skipping Rope,Nivia,Amazon,portable skipping rope from Nivia,ONLINE,73598.56,Sports
+Pepperfry Bookshelf,Pepperfry,Pepperfry,compact bookshelf from Pepperfry,OFFLINE,93943.66,Furniture
+Amul Wheat Flour,Amul,Reliance Smart,premium wheat flour from Amul,ONLINE,3083.25,Food & Groceries
+HP Tablet,HP,Vijay Sales,wireless tablet from HP,ONLINE,115241.53,Electronics
+Samsung Laptop,Samsung,Flipkart,compact laptop from Samsung,ONLINE,13242.02,Electronics
+Yonex Badminton Racket,Yonex,Amazon,daily use badminton racket from Yonex,ONLINE,73172.8,Sports
+Pilot File Folder,Pilot,Office Depot,wireless file folder from Pilot,ONLINE,8072.8,Office
+KFC Burger Meal,KFC,Starbucks,premium burger meal from KFC,OFFLINE,2391.84,Food & Beverages
+Levis Kurta,Levis,Amazon,wireless kurta from Levis,ONLINE,7261.62,Fashion
+Mahindra Engine Oil Service,Mahindra,Tata Motors,standard engine oil service from Mahindra,ONLINE,32046.43,Vehicles
+KFC Burger Meal,KFC,McDonald's,durable burger meal from KFC,OFFLINE,1069.65,Food & Beverages
+boAt Fast Charger,boAt,Reliance Digital,daily use fast charger from boAt,OFFLINE,7712.41,Gadgets
+JBL Charging Cable,JBL,Reliance Digital,daily use charging cable from JBL,OFFLINE,17873.56,Gadgets
+Staedtler Whiteboard,Staedtler,Flipkart,durable whiteboard from Staedtler,ONLINE,2932.35,Office
+Adidas Jacket,Adidas,Nike Store,professional jacket from Adidas,ONLINE,24661.97,Fashion
+W Running Shoes,W,Lifestyle,compact running shoes from W,ONLINE,28219.81,Fashion
+Prime Miscellaneous Item,Prime,Local Store,premium miscellaneous item from Prime,OFFLINE,5130.39,Other
+TVS Bike Service,TVS,Local Auto Store,new bike service from TVS,OFFLINE,50184.5,Vehicles
+Boldfit Protein Shaker,Boldfit,Flipkart,portable protein shaker from Boldfit,OFFLINE,33473.78,Sports & Fitness
+Starbucks Coffee,Starbucks,Swiggy,new coffee from Starbucks,ONLINE,1849.73,Food & Beverages
+Nilkamal Office Chair,Nilkamal,Local Furniture Store,wireless office chair from Nilkamal,ONLINE,3469.78,Furniture
+Haier Dishwasher,Haier,Vijay Sales,premium dishwasher from Haier,ONLINE,68609.11,Home Appliances
+Puma Basketball,Puma,Decathlon,compact basketball from Puma,ONLINE,37272.56,Sports
+Samsung Camera,Samsung,Amazon,new camera from Samsung,ONLINE,116921.85,Electronics
+Pepperfry Bookshelf,Pepperfry,Urban Ladder,portable bookshelf from Pepperfry,OFFLINE,80030.39,Furniture
+Acer Computer Mouse,Acer,Flipkart,professional computer mouse from Acer,ONLINE,72177.31,Electronics
+Prime Miscellaneous Item,Prime,Local Store,portable miscellaneous item from Prime,ONLINE,3546.91,Other
+W Jeans,W,Lifestyle,portable jeans from W,OFFLINE,6169.67,Fashion
+Urban Miscellaneous Item,Urban,Amazon,daily use miscellaneous item from Urban,ONLINE,10977.14,Other
+Nivia Treadmill,Nivia,Flipkart,durable treadmill from Nivia,ONLINE,12356.96,Sports
+Decathlon Skipping Rope,Decathlon,Flipkart,new skipping rope from Decathlon,ONLINE,56528.38,Sports
+Haldiram's Burger Meal,Haldiram's,Zomato,durable burger meal from Haldiram's,OFFLINE,2001.68,Food & Beverages
+Local Brand Personal Care Item,Local Brand,Flipkart,new personal care item from Local Brand,ONLINE,8279.67,Other
+TVS Engine Oil Service,TVS,Hyundai Service,new engine oil service from TVS,OFFLINE,70234.66,Vehicles
+Mi Phone Stand,Mi,Flipkart,wireless phone stand from Mi,OFFLINE,10963.59,Gadgets
+ASUS Laptop,ASUS,Amazon,professional laptop from ASUS,ONLINE,122884.76,Electronics
+Adidas Resistance Bands,Adidas,Nike Store,portable resistance bands from Adidas,OFFLINE,53768.29,Sports
+Everyday Key Holder,Everyday,Local Store,compact key holder from Everyday,OFFLINE,4997.12,Other
+HP Marker Set,HP,Reliance Smart,professional marker set from HP,ONLINE,2273.48,Office
+Haier Washing Machine,Haier,Croma,professional washing machine from Haier,ONLINE,100309.79,Home Appliances
+Kokuyo File Folder,Kokuyo,Reliance Smart,durable file folder from Kokuyo,OFFLINE,9051.41,Office
+Honda Car Tyre,Honda,Local Auto Store,daily use car tyre from Honda,ONLINE,45571.27,Vehicles
+Pilot Pen Set,Pilot,Local Stationery,professional pen set from Pilot,ONLINE,3363.76,Office
+Cosco Badminton Racket,Cosco,Nike Store,wireless badminton racket from Cosco,ONLINE,46143.98,Sports
+HP Printer Paper,HP,Office Depot,compact printer paper from HP,ONLINE,11806.0,Office
+Maruti Suzuki Bike Service,Maruti Suzuki,Hyundai Service,compact bike service from Maruti Suzuki,ONLINE,6913.7,Vehicles
+W Formal Trousers,W,Myntra,durable formal trousers from W,OFFLINE,20314.71,Fashion
+Godrej Interio Bed Frame,Godrej Interio,Urban Ladder,wireless bed frame from Godrej Interio,OFFLINE,17167.14,Furniture
+Voltas Air Conditioner,Voltas,Croma,daily use air conditioner from Voltas,OFFLINE,48316.66,Home Appliances
+Urban Ladder Shoe Cabinet,Urban Ladder,Home Centre,compact shoe cabinet from Urban Ladder,ONLINE,5886.97,Furniture
+Tata Wheat Flour,Tata,Reliance Smart,premium wheat flour from Tata,OFFLINE,1825.91,Food & Groceries
+Decathlon Resistance Bands,Decathlon,Sports Station,daily use resistance bands from Decathlon,ONLINE,55248.12,Sports
+Garmin Pull Up Bar,Garmin,Fitness Store,daily use pull up bar from Garmin,ONLINE,26315.79,Sports & Fitness
+Dove Rice,Dove,Reliance Smart,wireless rice from Dove,OFFLINE,5665.8,Food & Groceries
+Staedtler Whiteboard,Staedtler,Office Depot,classic whiteboard from Staedtler,OFFLINE,20553.87,Office
+Yonex Yoga Mat,Yonex,Decathlon,professional yoga mat from Yonex,OFFLINE,59907.84,Sports
+HP Bluetooth Speaker,HP,Reliance Digital,portable bluetooth speaker from HP,ONLINE,97533.99,Electronics
+Amul Household Essentials Pack,Amul,DMart,daily use household essentials pack from Amul,ONLINE,1943.64,Food & Groceries
+Maruti Suzuki Car Tyre,Maruti Suzuki,Tata Motors,professional car tyre from Maruti Suzuki,ONLINE,69512.84,Vehicles
+Nike Football,Nike,Flipkart,standard football from Nike,OFFLINE,52356.89,Sports
+Puma Badminton Racket,Puma,Flipkart,wireless badminton racket from Puma,OFFLINE,36447.17,Sports
+Zara Backpack,Zara,Amazon,compact backpack from Zara,ONLINE,8622.07,Fashion
+HP Marker Set,HP,Local Stationery,portable marker set from HP,OFFLINE,537.84,Office
+Faber-Castell Stapler,Faber-Castell,Office Depot,durable stapler from Faber-Castell,OFFLINE,14291.29,Office
+Cult Resistance Tube Set,Cult,Decathlon,standard resistance tube set from Cult,ONLINE,49185.03,Sports & Fitness
+Cult Protein Shaker,Cult,Decathlon,new protein shaker from Cult,OFFLINE,17231.6,Sports & Fitness
+Boldfit Pull Up Bar,Boldfit,Flipkart,daily use pull up bar from Boldfit,ONLINE,27253.95,Sports & Fitness
+Adidas Jacket,Adidas,Ajio,portable jacket from Adidas,OFFLINE,15247.62,Fashion
+KFC Cafe Breakfast,KFC,McDonald's,daily use cafe breakfast from KFC,ONLINE,1301.29,Food & Beverages
+Puma Dress,Puma,Ajio,premium dress from Puma,ONLINE,4188.68,Fashion
+IKEA Recliner,IKEA,Pepperfry,wireless recliner from IKEA,OFFLINE,82413.42,Furniture
+Pepperfry Wardrobe,Pepperfry,Urban Ladder,professional wardrobe from Pepperfry,OFFLINE,6814.36,Furniture
+Hyundai Bike Service,Hyundai,Local Auto Store,premium bike service from Hyundai,OFFLINE,81038.29,Vehicles
+IFB Microwave Oven,IFB,Amazon,compact microwave oven from IFB,ONLINE,22574.97,Home Appliances
+Apple Tablet,Apple,Samsung Store,new tablet from Apple,ONLINE,1768.07,Electronics
+Anker Router,Anker,Mi Store,professional router from Anker,OFFLINE,3301.62,Gadgets
+boAt Earbuds Case,boAt,Flipkart,professional earbuds case from boAt,ONLINE,17884.66,Gadgets
+IFB Microwave Oven,IFB,Vijay Sales,new microwave oven from IFB,ONLINE,63033.42,Home Appliances
+Faber-Castell Document Scanner,Faber-Castell,Amazon,classic document scanner from Faber-Castell,ONLINE,20931.76,Office
+Starbucks Coffee,Starbucks,Zomato,new coffee from Starbucks,OFFLINE,1426.75,Food & Beverages
+Nivia Pull Up Bar,Nivia,Flipkart,durable pull up bar from Nivia,OFFLINE,1518.02,Sports & Fitness
+Cult Protein Shaker,Cult,Fitness Store,new protein shaker from Cult,OFFLINE,59255.14,Sports & Fitness
+Bajaj Car Service Package,Bajaj,Hyundai Service,standard car service package from Bajaj,ONLINE,2869.52,Vehicles
+Apple Keyboard,Apple,Amazon,standard keyboard from Apple,ONLINE,151290.57,Electronics
+Puma Jeans,Puma,Myntra,compact jeans from Puma,OFFLINE,6907.05,Fashion
+Nivia Protein Shaker,Nivia,Amazon,compact protein shaker from Nivia,OFFLINE,26892.91,Sports & Fitness
+Everyday General Household Item,Everyday,Flipkart,classic general household item from Everyday,OFFLINE,5077.1,Other
+Godrej Electric Kettle,Godrej,Reliance Digital,portable electric kettle from Godrej,OFFLINE,5944.41,Home Appliances
+ASUS Monitor,ASUS,Flipkart,wireless monitor from ASUS,OFFLINE,16450.64,Electronics
+Britannia Rice,Britannia,Zepto,compact rice from Britannia,OFFLINE,3119.07,Food & Groceries
+Godrej Interio Side Table,Godrej Interio,IKEA,professional side table from Godrej Interio,ONLINE,25355.21,Furniture
+Cafe Coffee Day Cafe Breakfast,Cafe Coffee Day,KFC,standard cafe breakfast from Cafe Coffee Day,OFFLINE,1632.67,Food & Beverages
+Cult Fitness Tracker,Cult,Amazon,durable fitness tracker from Cult,ONLINE,19029.19,Sports & Fitness
+Pilot Document Scanner,Pilot,Amazon,professional document scanner from Pilot,ONLINE,17705.4,Office
+Tata Wheat Flour,Tata,Zepto,compact wheat flour from Tata,OFFLINE,3472.51,Food & Groceries
+IKEA Shoe Cabinet,IKEA,Local Furniture Store,wireless shoe cabinet from IKEA,OFFLINE,86703.95,Furniture
+Philips Air Conditioner,Philips,Vijay Sales,daily use air conditioner from Philips,OFFLINE,11570.77,Home Appliances
+Canon Printer Paper,Canon,Local Stationery,classic printer paper from Canon,ONLINE,22953.61,Office
+Bajaj Car Floor Mats,Bajaj,Hyundai Service,durable car floor mats from Bajaj,ONLINE,21102.38,Vehicles
+Nilkamal Coffee Table,Nilkamal,IKEA,daily use coffee table from Nilkamal,ONLINE,77754.67,Furniture
+Adidas Sunglasses,Adidas,Myntra,professional sunglasses from Adidas,OFFLINE,19132.98,Fashion
+Haldiram's Meal Order,Haldiram's,Local Cafe,standard meal order from Haldiram's,OFFLINE,3330.82,Food & Beverages
+Nilkamal Bed Frame,Nilkamal,Pepperfry,classic bed frame from Nilkamal,ONLINE,51242.5,Furniture
+TP-Link Fitness Band,TP-Link,Amazon,classic fitness band from TP-Link,ONLINE,15594.3,Gadgets
+Nivia Basketball,Nivia,Flipkart,standard basketball from Nivia,ONLINE,2855.85,Sports
+Biba Formal Trousers,Biba,Shoppers Stop,premium formal trousers from Biba,ONLINE,23045.2,Fashion
+Nivia Foam Roller,Nivia,Flipkart,durable foam roller from Nivia,ONLINE,34241.58,Sports & Fitness
+Nilkamal Bookshelf,Nilkamal,Home Centre,standard bookshelf from Nilkamal,ONLINE,92436.69,Furniture
+ASUS Camera,ASUS,Samsung Store,portable camera from ASUS,OFFLINE,70524.71,Electronics
+boAt Charging Cable,boAt,Mi Store,premium charging cable from boAt,ONLINE,15151.51,Gadgets
+Classic General Household Item,Classic,General Store,new general household item from Classic,ONLINE,1663.87,Other
+Canon Stapler,Canon,Reliance Smart,new stapler from Canon,ONLINE,24597.06,Office
+Urban Ladder Shoe Cabinet,Urban Ladder,Local Furniture Store,classic shoe cabinet from Urban Ladder,ONLINE,64946.25,Furniture
+Generic Travel Accessory,Generic,Flipkart,new travel accessory from Generic,ONLINE,556.56,Other
+Acer Camera,Acer,Vijay Sales,classic camera from Acer,OFFLINE,51791.73,Electronics
+H&M Formal Trousers,H&M,Nike Store,durable formal trousers from H&M,OFFLINE,18358.86,Fashion
+Subway Beverage,Subway,Starbucks,daily use beverage from Subway,ONLINE,2682.6,Food & Beverages
+Prime Key Holder,Prime,Flipkart,wireless key holder from Prime,ONLINE,11911.36,Other
+Zara Kurta,Zara,Lifestyle,compact kurta from Zara,OFFLINE,10186.21,Fashion
+Honda Bike Service,Honda,Honda Service Center,compact bike service from Honda,OFFLINE,54217.06,Vehicles
+ASUS Tablet,ASUS,Samsung Store,daily use tablet from ASUS,OFFLINE,27280.67,Electronics
+Mi Router,Mi,Mi Store,classic router from Mi,OFFLINE,13973.93,Gadgets
+Philips Air Cooler,Philips,Croma,classic air cooler from Philips,OFFLINE,39974.7,Home Appliances
+Decathlon Sports Shoes,Decathlon,Flipkart,professional sports shoes from Decathlon,OFFLINE,58444.9,Sports
+Yonex Gym Gloves,Yonex,Flipkart,premium gym gloves from Yonex,OFFLINE,21527.61,Sports
+Godrej Interio Study Table,Godrej Interio,Home Centre,premium study table from Godrej Interio,ONLINE,53724.61,Furniture
+Tata Shampoo,Tata,Blinkit,classic shampoo from Tata,ONLINE,3787.02,Food & Groceries
+Classic General Household Item,Classic,Flipkart,daily use general household item from Classic,OFFLINE,9692.41,Other
+Nilkamal Side Table,Nilkamal,IKEA,compact side table from Nilkamal,ONLINE,71256.27,Furniture
+H&M Formal Trousers,H&M,Nike Store,standard formal trousers from H&M,OFFLINE,6711.86,Fashion
+IFB Washing Machine,IFB,Croma,compact washing machine from IFB,ONLINE,104271.97,Home Appliances
+Biba Backpack,Biba,Shoppers Stop,portable backpack from Biba,OFFLINE,18584.66,Fashion
+Tata Toothpaste,Tata,Local Grocery,compact toothpaste from Tata,ONLINE,4436.6,Food & Groceries
+Voltas Induction Cooktop,Voltas,Vijay Sales,portable induction cooktop from Voltas,OFFLINE,41173.76,Home Appliances
+Anker Usb Microphone,Anker,Croma,professional USB microphone from Anker,OFFLINE,5408.25,Gadgets
+Classic Miscellaneous Item,Classic,Local Store,compact miscellaneous item from Classic,OFFLINE,6076.53,Other
+Staedtler Pen Set,Staedtler,Reliance Smart,portable pen set from Staedtler,OFFLINE,24349.38,Office
+Honda Vehicle Insurance Accessory,Honda,Tata Motors,wireless vehicle insurance accessory from Honda,ONLINE,44346.25,Vehicles
+Canon Stapler,Canon,Office Depot,portable stapler from Canon,ONLINE,2876.8,Office
+Zara Backpack,Zara,Lifestyle,compact backpack from Zara,ONLINE,27578.11,Fashion
+Cafe Coffee Day Sandwich,Cafe Coffee Day,KFC,compact sandwich from Cafe Coffee Day,OFFLINE,3352.72,Food & Beverages
+Uniqlo Winter Sweater,Uniqlo,Ajio,premium winter sweater from Uniqlo,OFFLINE,16772.02,Fashion
+Nivia Fitness Watch,Nivia,Cult Store,professional fitness watch from Nivia,ONLINE,20813.85,Sports & Fitness
+Boldfit Pull Up Bar,Boldfit,Cult Store,classic pull up bar from Boldfit,OFFLINE,28985.01,Sports & Fitness
+KFC Pizza,KFC,KFC,professional pizza from KFC,ONLINE,2505.27,Food & Beverages
+Generic Travel Accessory,Generic,Local Store,professional travel accessory from Generic,ONLINE,5739.72,Other
+Tata Wiper Blades,Tata,Local Auto Store,new wiper blades from Tata,OFFLINE,36407.39,Vehicles
+Samsung Camera,Samsung,Samsung Store,professional camera from Samsung,OFFLINE,120514.13,Electronics
+JBL Fitness Band,JBL,Croma,premium fitness band from JBL,ONLINE,5391.06,Gadgets
+Cult Fitness Watch,Cult,Fitness Store,new fitness watch from Cult,ONLINE,25494.54,Sports & Fitness
+Cafe Coffee Day Sandwich,Cafe Coffee Day,Local Cafe,wireless sandwich from Cafe Coffee Day,OFFLINE,2187.53,Food & Beverages
+Logitech Earbuds Case,Logitech,Mi Store,compact earbuds case from Logitech,ONLINE,2936.25,Gadgets
+boAt Fitness Band,boAt,Flipkart,classic fitness band from boAt,OFFLINE,2852.19,Gadgets
+Toyota Bike Service,Toyota,Local Auto Store,portable bike service from Toyota,ONLINE,31536.35,Vehicles
+Haier Vacuum Cleaner,Haier,Reliance Digital,new vacuum cleaner from Haier,OFFLINE,38472.4,Home Appliances
+Pilot Office Supplies Pack,Pilot,Reliance Smart,wireless office supplies pack from Pilot,ONLINE,14113.57,Office
+Decathlon Exercise Mat,Decathlon,Amazon,professional exercise mat from Decathlon,OFFLINE,51122.42,Sports & Fitness
+Starbucks Burger Meal,Starbucks,Local Cafe,premium burger meal from Starbucks,ONLINE,3080.49,Food & Beverages
+Kokuyo Whiteboard,Kokuyo,Amazon,daily use whiteboard from Kokuyo,ONLINE,24591.78,Office
+Urban Miscellaneous Purchase,Urban,Local Store,premium miscellaneous purchase from Urban,ONLINE,7548.87,Other
+HP Gaming Console,HP,Croma,durable gaming console from HP,ONLINE,54731.83,Electronics
+Pilot Calculator,Pilot,Local Stationery,new calculator from Pilot,ONLINE,23200.53,Office
+Nike Sports Shoes,Nike,Sports Station,premium sports shoes from Nike,OFFLINE,49309.91,Sports
+Adidas Dumbbells,Adidas,Nike Store,standard dumbbells from Adidas,OFFLINE,47998.84,Sports
+Cafe Coffee Day Coffee,Cafe Coffee Day,Starbucks,premium coffee from Cafe Coffee Day,ONLINE,2888.62,Food & Beverages
+IKEA Storage Cabinet,IKEA,IKEA,portable storage cabinet from IKEA,OFFLINE,47693.74,Furniture
+Cafe Coffee Day Soft Drink,Cafe Coffee Day,Swiggy,premium soft drink from Cafe Coffee Day,ONLINE,368.65,Food & Beverages
+Faber-Castell Desk Organizer,Faber-Castell,Reliance Smart,durable desk organizer from Faber-Castell,OFFLINE,10722.18,Office
+LG Induction Cooktop,LG,Flipkart,standard induction cooktop from LG,OFFLINE,35830.76,Home Appliances
+Nivia Sports Shoes,Nivia,Flipkart,compact sports shoes from Nivia,OFFLINE,1652.67,Sports
+Starbucks Snack Combo,Starbucks,Zomato,durable snack combo from Starbucks,OFFLINE,646.27,Food & Beverages
+Classic Travel Accessory,Classic,General Store,premium travel accessory from Classic,ONLINE,2704.99,Other
+W Running Shoes,W,Lifestyle,wireless running shoes from W,OFFLINE,28183.44,Fashion
+Hyundai Brake Pads,Hyundai,Honda Service Center,classic brake pads from Hyundai,ONLINE,33712.0,Vehicles
+Godrej Interio Study Table,Godrej Interio,Local Furniture Store,classic study table from Godrej Interio,OFFLINE,84067.25,Furniture
+Fitbit Protein Shaker,Fitbit,Decathlon,wireless protein shaker from Fitbit,ONLINE,9526.93,Sports & Fitness
+Cult Adjustable Dumbbell Set,Cult,Flipkart,new adjustable dumbbell set from Cult,OFFLINE,55611.88,Sports & Fitness
+Domino's Beverage,Domino's,McDonald's,durable beverage from Domino's,ONLINE,2657.22,Food & Beverages
+Decathlon Pull Up Bar,Decathlon,Cult Store,new pull up bar from Decathlon,OFFLINE,34350.11,Sports & Fitness
+Honda Wiper Blades,Honda,Bajaj Auto,professional wiper blades from Honda,OFFLINE,19123.09,Vehicles
+TVS Vehicle Insurance Accessory,TVS,Bajaj Auto,premium vehicle insurance accessory from TVS,OFFLINE,32964.09,Vehicles
+Nike Gym Gloves,Nike,Decathlon,classic gym gloves from Nike,ONLINE,4708.97,Sports
+Decathlon Gym Gloves,Decathlon,Sports Station,professional gym gloves from Decathlon,ONLINE,10515.37,Sports
+Zara Winter Sweater,Zara,Shoppers Stop,classic winter sweater from Zara,ONLINE,21063.19,Fashion
+Bajaj Car Floor Mats,Bajaj,Hyundai Service,standard car floor mats from Bajaj,ONLINE,76282.79,Vehicles
+IKEA Side Table,IKEA,Urban Ladder,durable side table from IKEA,OFFLINE,61503.43,Furniture
+Decathlon Pull Up Bar,Decathlon,Fitness Store,classic pull up bar from Decathlon,ONLINE,11079.96,Sports & Fitness
+Starbucks Dessert,Starbucks,McDonald's,classic dessert from Starbucks,ONLINE,3683.23,Food & Beverages
+Puma Skipping Rope,Puma,Decathlon,new skipping rope from Puma,ONLINE,71257.56,Sports
+Allen Solly Winter Sweater,Allen Solly,Amazon,classic winter sweater from Allen Solly,ONLINE,24236.32,Fashion
+Dell Printer,Dell,Amazon,durable printer from Dell,ONLINE,141238.54,Electronics
+IKEA Recliner,IKEA,Local Furniture Store,premium recliner from IKEA,ONLINE,61580.6,Furniture
+Nivia Treadmill,Nivia,Nike Store,compact treadmill from Nivia,OFFLINE,19881.23,Sports
+W Sunglasses,W,Lifestyle,daily use sunglasses from W,ONLINE,20831.71,Fashion
+HP Smartwatch,HP,Reliance Digital,durable smartwatch from HP,OFFLINE,141030.72,Electronics
+Urban Ladder Storage Cabinet,Urban Ladder,Local Furniture Store,professional storage cabinet from Urban Ladder,ONLINE,33286.24,Furniture
+Local Brand Decor Accessory,Local Brand,Local Store,premium decor accessory from Local Brand,OFFLINE,1690.8,Other
+Urban Ladder Office Chair,Urban Ladder,Home Centre,daily use office chair from Urban Ladder,ONLINE,65246.44,Furniture
+Portronics Earbuds Case,Portronics,Mi Store,wireless earbuds case from Portronics,OFFLINE,3406.26,Gadgets
+Haier Electric Kettle,Haier,Croma,new electric kettle from Haier,ONLINE,41217.2,Home Appliances
+IKEA Dining Table,IKEA,IKEA,durable dining table from IKEA,OFFLINE,90196.79,Furniture
+Staedtler Pen Set,Staedtler,Local Stationery,premium pen set from Staedtler,ONLINE,23111.39,Office
+H&M Sneakers,H&M,Ajio,wireless sneakers from H&M,ONLINE,15220.48,Fashion
+Levis Formal Trousers,Levis,Shoppers Stop,classic formal trousers from Levis,OFFLINE,24323.46,Fashion
+Lenovo Gaming Console,Lenovo,Amazon,premium gaming console from Lenovo,ONLINE,94092.15,Electronics
+Cafe Coffee Day Cafe Breakfast,Cafe Coffee Day,Zomato,classic cafe breakfast from Cafe Coffee Day,ONLINE,520.35,Food & Beverages
+Faber-Castell Desk Organizer,Faber-Castell,Reliance Smart,daily use desk organizer from Faber-Castell,ONLINE,23292.48,Office
+Nike Dress,Nike,Myntra,wireless dress from Nike,OFFLINE,11851.54,Fashion
+Biba Jacket,Biba,Lifestyle,classic jacket from Biba,ONLINE,694.63,Fashion
+Boldfit Resistance Tube Set,Boldfit,Decathlon,standard resistance tube set from Boldfit,OFFLINE,1422.74,Sports & Fitness
+Local Brand Utility Item,Local Brand,Amazon,daily use utility item from Local Brand,ONLINE,7795.1,Other
+HP Computer Mouse,HP,Amazon,portable computer mouse from HP,OFFLINE,112155.09,Electronics
+Faber-Castell Notebook,Faber-Castell,Flipkart,durable notebook from Faber-Castell,ONLINE,6420.08,Office
+Cafe Coffee Day Soft Drink,Cafe Coffee Day,Swiggy,professional soft drink from Cafe Coffee Day,ONLINE,2920.45,Food & Beverages
+Philips Room Heater,Philips,Vijay Sales,daily use room heater from Philips,OFFLINE,3772.54,Home Appliances
+Aashirvaad Rice,Aashirvaad,BigBasket,classic rice from Aashirvaad,OFFLINE,2576.8,Food & Groceries
+Cafe Coffee Day Beverage,Cafe Coffee Day,Swiggy,portable beverage from Cafe Coffee Day,OFFLINE,3869.83,Food & Beverages
+boAt Webcam,boAt,Croma,new webcam from boAt,ONLINE,7164.05,Gadgets
+Pilot Notebook,Pilot,Office Depot,professional notebook from Pilot,ONLINE,20166.6,Office
+Puma Basketball,Puma,Nike Store,new basketball from Puma,OFFLINE,18036.57,Sports
+Puma Kurta,Puma,Nike Store,portable kurta from Puma,ONLINE,14453.12,Fashion
+McDonald's Meal Order,McDonald's,Swiggy,durable meal order from McDonald's,ONLINE,477.11,Food & Beverages
+JBL Usb Microphone,JBL,Reliance Digital,daily use USB microphone from JBL,ONLINE,6884.64,Gadgets
+Fortune Household Essentials Pack,Fortune,Blinkit,durable household essentials pack from Fortune,ONLINE,1764.45,Food & Groceries
+JBL Wireless Charger,JBL,Mi Store,standard wireless charger from JBL,OFFLINE,1463.74,Gadgets
+Apple Computer Mouse,Apple,Croma,compact computer mouse from Apple,OFFLINE,83755.77,Electronics
+Yonex Cricket Bat,Yonex,Sports Station,premium cricket bat from Yonex,OFFLINE,32070.9,Sports
+Nivia Foam Roller,Nivia,Fitness Store,professional foam roller from Nivia,ONLINE,50810.36,Sports & Fitness
+Maruti Suzuki Bike Service,Maruti Suzuki,Hyundai Service,daily use bike service from Maruti Suzuki,OFFLINE,61137.84,Vehicles
+Dell Tablet,Dell,Samsung Store,daily use tablet from Dell,OFFLINE,39331.72,Electronics
+McDonald's Beverage,McDonald's,Local Cafe,new beverage from McDonald's,ONLINE,3175.64,Food & Beverages
+IKEA Shoe Cabinet,IKEA,Local Furniture Store,portable shoe cabinet from IKEA,OFFLINE,40564.79,Furniture
+Uniqlo Handbag,Uniqlo,Amazon,daily use handbag from Uniqlo,OFFLINE,5925.45,Fashion
+Nivia Yoga Mat,Nivia,Amazon,premium yoga mat from Nivia,ONLINE,13125.61,Sports
+Decathlon Football,Decathlon,Nike Store,portable football from Decathlon,ONLINE,21805.86,Sports
+Maruti Suzuki Dash Camera,Maruti Suzuki,Bajaj Auto,portable dash camera from Maruti Suzuki,OFFLINE,16412.42,Vehicles
+Pilot File Folder,Pilot,Office Depot,compact file folder from Pilot,OFFLINE,4228.85,Office
+Pepperfry Recliner,Pepperfry,Pepperfry,wireless recliner from Pepperfry,OFFLINE,66436.51,Furniture
+TP-Link Smart Plug,TP-Link,Mi Store,compact smart plug from TP-Link,OFFLINE,1129.85,Gadgets
+Hyundai Bike Service,Hyundai,Bajaj Auto,daily use bike service from Hyundai,ONLINE,61601.02,Vehicles
+JBL Usb Microphone,JBL,Flipkart,classic USB microphone from JBL,OFFLINE,13055.2,Gadgets
+ASUS Keyboard,ASUS,Amazon,premium keyboard from ASUS,ONLINE,137984.81,Electronics
+Urban Ladder Dining Table,Urban Ladder,Local Furniture Store,premium dining table from Urban Ladder,ONLINE,2885.3,Furniture
+ASUS Tablet,ASUS,Croma,professional tablet from ASUS,OFFLINE,22471.43,Electronics
+Canon Marker Set,Canon,Local Stationery,daily use marker set from Canon,ONLINE,19872.7,Office
+Puma Handbag,Puma,Shoppers Stop,durable handbag from Puma,ONLINE,12237.45,Fashion
+Subway Restaurant Dinner,Subway,McDonald's,daily use restaurant dinner from Subway,OFFLINE,1731.45,Food & Beverages
+Anker Wireless Charger,Anker,Croma,durable wireless charger from Anker,ONLINE,17239.25,Gadgets
+Pilot Office Supplies Pack,Pilot,Local Stationery,portable office supplies pack from Pilot,ONLINE,12247.85,Office
+Tata Dash Camera,Tata,Tata Motors,daily use dash camera from Tata,OFFLINE,7982.3,Vehicles
+Adidas Backpack,Adidas,Ajio,classic backpack from Adidas,OFFLINE,2918.22,Fashion
+Decathlon Cricket Bat,Decathlon,Sports Station,compact cricket bat from Decathlon,ONLINE,52939.97,Sports
+Puma Dumbbells,Puma,Sports Station,durable dumbbells from Puma,OFFLINE,37184.01,Sports
+Whirlpool Dishwasher,Whirlpool,Croma,professional dishwasher from Whirlpool,ONLINE,70314.91,Home Appliances
+Yonex Cycling Helmet,Yonex,Sports Station,standard cycling helmet from Yonex,OFFLINE,47132.58,Sports
+Uniqlo Handbag,Uniqlo,Shoppers Stop,standard handbag from Uniqlo,OFFLINE,7279.51,Fashion
+Bajaj Engine Oil Service,Bajaj,Honda Service Center,wireless engine oil service from Bajaj,OFFLINE,18392.73,Vehicles
+Philips Washing Machine,Philips,Vijay Sales,premium washing machine from Philips,OFFLINE,72958.85,Home Appliances
+Canon Ink Cartridge,Canon,Reliance Smart,compact ink cartridge from Canon,OFFLINE,17823.52,Office
+Allen Solly Winter Sweater,Allen Solly,Shoppers Stop,standard winter sweater from Allen Solly,ONLINE,3565.89,Fashion
+Fitbit Resistance Tube Set,Fitbit,Flipkart,portable resistance tube set from Fitbit,OFFLINE,2017.76,Sports & Fitness
+Wakefit Bed Frame,Wakefit,Urban Ladder,standard bed frame from Wakefit,OFFLINE,28368.47,Furniture
+Godrej Interio Shoe Cabinet,Godrej Interio,Home Centre,portable shoe cabinet from Godrej Interio,OFFLINE,8777.44,Furniture
+Britannia Milk,Britannia,DMart,daily use milk from Britannia,OFFLINE,4086.79,Food & Groceries
+TVS Car Tyre,TVS,Tata Motors,portable car tyre from TVS,OFFLINE,15545.26,Vehicles
+Generic General Household Item,Generic,Flipkart,wireless general household item from Generic,OFFLINE,11385.67,Other
+Acer Monitor,Acer,Vijay Sales,durable monitor from Acer,OFFLINE,119901.69,Electronics
+OnePlus Tablet,OnePlus,Vijay Sales,classic tablet from OnePlus,ONLINE,46355.29,Electronics
+Cult Adjustable Dumbbell Set,Cult,Cult Store,portable adjustable dumbbell set from Cult,OFFLINE,59055.92,Sports & Fitness
+Nivia Massage Gun,Nivia,Amazon,premium massage gun from Nivia,OFFLINE,57838.08,Sports & Fitness
+Local Brand Gift Item,Local Brand,Marketplace,new gift item from Local Brand,OFFLINE,1853.78,Other
+HP Stapler,HP,Office Depot,new stapler from HP,OFFLINE,3768.47,Office
+Classmate Office Supplies Pack,Classmate,Local Stationery,durable office supplies pack from Classmate,OFFLINE,7793.2,Office
+Local Brand Travel Accessory,Local Brand,Marketplace,classic travel accessory from Local Brand,ONLINE,10719.44,Other
+Godrej Air Cooler,Godrej,Croma,compact air cooler from Godrej,ONLINE,105985.05,Home Appliances
+Nike Badminton Racket,Nike,Sports Station,compact badminton racket from Nike,OFFLINE,13560.04,Sports
+Pilot Whiteboard,Pilot,Office Depot,new whiteboard from Pilot,OFFLINE,20521.0,Office
+Classic Miscellaneous Item,Classic,Flipkart,new miscellaneous item from Classic,OFFLINE,4486.82,Other
+Cafe Coffee Day Meal Order,Cafe Coffee Day,Local Cafe,wireless meal order from Cafe Coffee Day,OFFLINE,2775.48,Food & Beverages
+IKEA Dining Table,IKEA,Home Centre,standard dining table from IKEA,OFFLINE,93907.69,Furniture
+Haier Washing Machine,Haier,Amazon,classic washing machine from Haier,OFFLINE,34168.49,Home Appliances
+boAt Smart Bulb,boAt,Amazon,new smart bulb from boAt,ONLINE,6730.61,Gadgets
+TVS Car Service Package,TVS,Bajaj Auto,compact car service package from TVS,ONLINE,7066.02,Vehicles
+McDonald's Coffee,McDonald's,Zomato,standard coffee from McDonald's,OFFLINE,4109.92,Food & Beverages
+Haldiram's Sandwich,Haldiram's,Zomato,durable sandwich from Haldiram's,OFFLINE,3983.25,Food & Beverages
+Local Brand Miscellaneous Item,Local Brand,Local Store,new miscellaneous item from Local Brand,ONLINE,169.14,Other
+Prime Gift Item,Prime,Flipkart,professional gift item from Prime,OFFLINE,2008.15,Other
+TVS Dash Camera,TVS,Honda Service Center,wireless dash camera from TVS,ONLINE,42814.81,Vehicles
+Generic Decor Accessory,Generic,Local Store,daily use decor accessory from Generic,ONLINE,10200.14,Other
+Puma Cycling Helmet,Puma,Sports Station,durable cycling helmet from Puma,OFFLINE,4840.98,Sports
+Bajaj Helmet,Bajaj,Local Auto Store,portable helmet from Bajaj,OFFLINE,69298.13,Vehicles
+Haier Air Cooler,Haier,Home Centre,compact air cooler from Haier,ONLINE,14938.3,Home Appliances
+Cult Adjustable Dumbbell Set,Cult,Decathlon,portable adjustable dumbbell set from Cult,OFFLINE,23143.19,Sports & Fitness
+Adidas Yoga Mat,Adidas,Nike Store,professional yoga mat from Adidas,ONLINE,74001.22,Sports
+ASUS Monitor,ASUS,Flipkart,compact monitor from ASUS,ONLINE,24145.15,Electronics
+Decathlon Skipping Rope,Decathlon,Flipkart,durable skipping rope from Decathlon,OFFLINE,10157.27,Sports
+Urban Decor Accessory,Urban,Amazon,premium decor accessory from Urban,ONLINE,7293.63,Other
+Honda Engine Oil Service,Honda,Bajaj Auto,portable engine oil service from Honda,OFFLINE,20659.86,Vehicles
+Wakefit Office Chair,Wakefit,Pepperfry,portable office chair from Wakefit,ONLINE,21482.93,Furniture
+Britannia Rice,Britannia,Zepto,premium rice from Britannia,OFFLINE,3587.78,Food & Groceries
+Faber-Castell Stapler,Faber-Castell,Amazon,compact stapler from Faber-Castell,ONLINE,9738.7,Office
+Starbucks Beverage,Starbucks,McDonald's,classic beverage from Starbucks,OFFLINE,385.44,Food & Beverages
+Staedtler Ink Cartridge,Staedtler,Amazon,classic ink cartridge from Staedtler,ONLINE,15454.31,Office
+Classic Personal Care Item,Classic,Local Store,standard personal care item from Classic,ONLINE,7652.65,Other
+Voltas Air Fryer,Voltas,Croma,professional air fryer from Voltas,ONLINE,64020.13,Home Appliances
+Levis Winter Sweater,Levis,Lifestyle,professional winter sweater from Levis,OFFLINE,23621.76,Fashion
+Fortune Bread,Fortune,DMart,compact bread from Fortune,OFFLINE,1491.09,Food & Groceries
+Godrej Washing Machine,Godrej,Vijay Sales,daily use washing machine from Godrej,OFFLINE,14230.59,Home Appliances
+Acer Keyboard,Acer,Amazon,classic keyboard from Acer,ONLINE,52878.74,Electronics
+Domino's Pizza,Domino's,KFC,portable pizza from Domino's,OFFLINE,954.6,Food & Beverages
+TP-Link Charging Cable,TP-Link,Amazon,classic charging cable from TP-Link,ONLINE,5528.22,Gadgets
+Generic General Household Item,Generic,General Store,durable general household item from Generic,OFFLINE,8692.75,Other
+Dove Toothpaste,Dove,DMart,compact toothpaste from Dove,ONLINE,941.86,Food & Groceries
+Whirlpool Washing Machine,Whirlpool,Home Centre,premium washing machine from Whirlpool,ONLINE,11728.18,Home Appliances
+LG Printer,LG,Flipkart,compact printer from LG,ONLINE,138418.12,Electronics
+Wakefit Study Table,Wakefit,Local Furniture Store,premium study table from Wakefit,OFFLINE,81149.34,Furniture
+HP Marker Set,HP,Amazon,standard marker set from HP,ONLINE,5502.89,Office
+Tata Rice,Tata,Reliance Smart,classic rice from Tata,OFFLINE,1611.45,Food & Groceries
+Hyundai Wiper Blades,Hyundai,Local Auto Store,portable wiper blades from Hyundai,OFFLINE,28602.43,Vehicles
+McDonald's Cafe Breakfast,McDonald's,McDonald's,standard cafe breakfast from McDonald's,ONLINE,2451.76,Food & Beverages
+Prime Decor Accessory,Prime,Marketplace,portable decor accessory from Prime,ONLINE,114.4,Other
+Pepperfry Shoe Cabinet,Pepperfry,Home Centre,new shoe cabinet from Pepperfry,ONLINE,77954.03,Furniture
+Classic Utility Item,Classic,Local Store,classic utility item from Classic,OFFLINE,11459.21,Other
+Nilkamal Recliner,Nilkamal,Local Furniture Store,durable recliner from Nilkamal,ONLINE,80593.07,Furniture
+Domino's Cafe Breakfast,Domino's,Zomato,durable cafe breakfast from Domino's,ONLINE,1012.44,Food & Beverages
+Fitbit Exercise Mat,Fitbit,Cult Store,portable exercise mat from Fitbit,ONLINE,12827.51,Sports & Fitness
+Cosco Basketball,Cosco,Decathlon,daily use basketball from Cosco,ONLINE,27640.87,Sports
+Fortune Bread,Fortune,BigBasket,compact bread from Fortune,OFFLINE,92.35,Food & Groceries
+Aashirvaad Rice,Aashirvaad,Zepto,standard rice from Aashirvaad,ONLINE,2083.23,Food & Groceries
+Fitbit Adjustable Dumbbell Set,Fitbit,Amazon,professional adjustable dumbbell set from Fitbit,ONLINE,42899.77,Sports & Fitness
+Domino's Pizza,Domino's,Swiggy,professional pizza from Domino's,OFFLINE,3850.39,Food & Beverages
+Levis Sunglasses,Levis,Lifestyle,portable sunglasses from Levis,OFFLINE,3458.22,Fashion
+Bosch Water Purifier,Bosch,Vijay Sales,durable water purifier from Bosch,OFFLINE,46756.06,Home Appliances
+Canon Printer Paper,Canon,Reliance Smart,standard printer paper from Canon,ONLINE,4668.65,Office
+Adidas Basketball,Adidas,Decathlon,daily use basketball from Adidas,ONLINE,4363.76,Sports
+W Jeans,W,Ajio,compact jeans from W,ONLINE,9759.25,Fashion
+Cafe Coffee Day Soft Drink,Cafe Coffee Day,KFC,portable soft drink from Cafe Coffee Day,ONLINE,3908.05,Food & Beverages
+Nike Kurta,Nike,Ajio,compact kurta from Nike,ONLINE,22192.02,Fashion
+HP Desk Organizer,HP,Amazon,premium desk organizer from HP,ONLINE,24575.28,Office
+Godrej Microwave Oven,Godrej,Flipkart,compact microwave oven from Godrej,OFFLINE,32985.17,Home Appliances
+Classic Personal Care Item,Classic,Flipkart,classic personal care item from Classic,OFFLINE,1736.98,Other
+Toyota Engine Oil Service,Toyota,Honda Service Center,daily use engine oil service from Toyota,OFFLINE,31685.45,Vehicles
+Nike Football,Nike,Nike Store,classic football from Nike,OFFLINE,43587.19,Sports
+Decathlon Fitness Watch,Decathlon,Fitness Store,compact fitness watch from Decathlon,OFFLINE,39706.69,Sports & Fitness
+Haldiram's Meal Order,Haldiram's,KFC,daily use meal order from Haldiram's,OFFLINE,2293.79,Food & Beverages
+Lenovo Wireless Headphones,Lenovo,Croma,compact wireless headphones from Lenovo,OFFLINE,53305.06,Electronics
+Fortune Bread,Fortune,Local Grocery,daily use bread from Fortune,OFFLINE,2102.45,Food & Groceries
+Fortune Detergent,Fortune,Reliance Smart,professional detergent from Fortune,OFFLINE,5747.91,Food & Groceries
+TVS Dash Camera,TVS,Tata Motors,professional dash camera from TVS,OFFLINE,32341.8,Vehicles
+Domino's Soft Drink,Domino's,McDonald's,new soft drink from Domino's,OFFLINE,4370.17,Food & Beverages
+Adidas Yoga Mat,Adidas,Sports Station,portable yoga mat from Adidas,ONLINE,59268.64,Sports
+Dell Keyboard,Dell,Vijay Sales,durable keyboard from Dell,OFFLINE,22494.37,Electronics
+Haier Washing Machine,Haier,Amazon,new washing machine from Haier,ONLINE,37863.97,Home Appliances
+TP-Link Phone Stand,TP-Link,Reliance Digital,professional phone stand from TP-Link,OFFLINE,9680.86,Gadgets
+Everyday Key Holder,Everyday,General Store,durable key holder from Everyday,ONLINE,3710.58,Other
+LG Washing Machine,LG,Reliance Digital,premium washing machine from LG,ONLINE,40561.81,Home Appliances
+Generic Key Holder,Generic,Local Store,durable key holder from Generic,OFFLINE,5849.18,Other
+Nike Basketball,Nike,Sports Station,premium basketball from Nike,OFFLINE,10219.47,Sports
+KFC Meal Order,KFC,McDonald's,new meal order from KFC,OFFLINE,2977.25,Food & Beverages
+Acer Laptop,Acer,Reliance Digital,classic laptop from Acer,OFFLINE,141844.1,Electronics
+Staedtler Desk Organizer,Staedtler,Office Depot,compact desk organizer from Staedtler,OFFLINE,20750.08,Office
+Subway Cafe Breakfast,Subway,KFC,durable cafe breakfast from Subway,OFFLINE,4201.36,Food & Beverages
+Yonex Badminton Racket,Yonex,Sports Station,premium badminton racket from Yonex,ONLINE,43450.9,Sports
+Tata Helmet,Tata,Bajaj Auto,classic helmet from Tata,OFFLINE,66620.44,Vehicles
+Voltas Air Fryer,Voltas,Flipkart,compact air fryer from Voltas,ONLINE,64591.64,Home Appliances
+Cult Fitness Tracker,Cult,Cult Store,professional fitness tracker from Cult,OFFLINE,29266.41,Sports & Fitness
+Zara Dress,Zara,Myntra,standard dress from Zara,ONLINE,15934.42,Fashion
+Starbucks Burger Meal,Starbucks,McDonald's,daily use burger meal from Starbucks,ONLINE,152.72,Food & Beverages
+Biba Hoodie,Biba,Nike Store,durable hoodie from Biba,ONLINE,6362.35,Fashion
+Prime Gift Item,Prime,Flipkart,premium gift item from Prime,OFFLINE,8598.5,Other
+Godrej Interio Shoe Cabinet,Godrej Interio,IKEA,premium shoe cabinet from Godrej Interio,OFFLINE,24348.63,Furniture
+boAt Router,boAt,Mi Store,compact router from boAt,OFFLINE,3318.06,Gadgets
+McDonald's Biryani,McDonald's,Swiggy,portable biryani from McDonald's,OFFLINE,2061.22,Food & Beverages
+Voltas Air Cooler,Voltas,Flipkart,daily use air cooler from Voltas,ONLINE,89786.59,Home Appliances
+Garmin Adjustable Dumbbell Set,Garmin,Decathlon,portable adjustable dumbbell set from Garmin,OFFLINE,30102.87,Sports & Fitness
+Nestle Milk,Nestle,Reliance Smart,compact milk from Nestle,OFFLINE,327.41,Food & Groceries
+Whirlpool Air Cooler,Whirlpool,Vijay Sales,new air cooler from Whirlpool,OFFLINE,70483.71,Home Appliances
+Honda Car Floor Mats,Honda,Hyundai Service,wireless car floor mats from Honda,ONLINE,24164.47,Vehicles
+IKEA Bookshelf,IKEA,Home Centre,portable bookshelf from IKEA,ONLINE,70853.64,Furniture
+Prime Key Holder,Prime,Flipkart,standard key holder from Prime,ONLINE,2898.8,Other
+Generic Travel Accessory,Generic,Flipkart,classic travel accessory from Generic,OFFLINE,783.2,Other
+Bajaj Car Tyre,Bajaj,Tata Motors,compact car tyre from Bajaj,ONLINE,23040.17,Vehicles
+HP Printer Paper,HP,Reliance Smart,premium printer paper from HP,OFFLINE,13739.96,Office
+Maruti Suzuki Engine Oil Service,Maruti Suzuki,Tata Motors,premium engine oil service from Maruti Suzuki,OFFLINE,38612.44,Vehicles
+McDonald's Sandwich,McDonald's,Zomato,standard sandwich from McDonald's,ONLINE,564.07,Food & Beverages
+Puma Yoga Mat,Puma,Sports Station,daily use yoga mat from Puma,OFFLINE,31023.96,Sports
+Acer Keyboard,Acer,Flipkart,compact keyboard from Acer,ONLINE,14250.03,Electronics
+Prime Miscellaneous Purchase,Prime,General Store,daily use miscellaneous purchase from Prime,OFFLINE,2935.2,Other
+Anker Fast Charger,Anker,Croma,portable fast charger from Anker,ONLINE,14562.24,Gadgets
+Canon Pen Set,Canon,Flipkart,portable pen set from Canon,ONLINE,7780.24,Office
+Local Brand Miscellaneous Item,Local Brand,Marketplace,classic miscellaneous item from Local Brand,ONLINE,8851.53,Other
+Urban Ladder Coffee Table,Urban Ladder,Pepperfry,standard coffee table from Urban Ladder,ONLINE,35966.32,Furniture
+Fortune Vegetables,Fortune,Blinkit,standard vegetables from Fortune,ONLINE,4028.97,Food & Groceries
+Mahindra Dash Camera,Mahindra,Bajaj Auto,compact dash camera from Mahindra,ONLINE,65808.45,Vehicles
+Boldfit Fitness Watch,Boldfit,Fitness Store,durable fitness watch from Boldfit,ONLINE,21520.82,Sports & Fitness
+Samsung Room Heater,Samsung,Home Centre,premium room heater from Samsung,OFFLINE,35226.54,Home Appliances
+Nike Sports Shoes,Nike,Sports Station,premium sports shoes from Nike,ONLINE,31478.45,Sports
+Garmin Pull Up Bar,Garmin,Cult Store,portable pull up bar from Garmin,ONLINE,51351.74,Sports & Fitness
+Godrej Interio Study Table,Godrej Interio,Local Furniture Store,new study table from Godrej Interio,OFFLINE,53251.45,Furniture
+Samsung Wireless Headphones,Samsung,Vijay Sales,wireless wireless headphones from Samsung,OFFLINE,104150.1,Electronics
+Levis Jeans,Levis,Nike Store,classic jeans from Levis,OFFLINE,14872.12,Fashion
+Cafe Coffee Day Soft Drink,Cafe Coffee Day,Swiggy,new soft drink from Cafe Coffee Day,ONLINE,4302.43,Food & Beverages
+Faber-Castell Whiteboard,Faber-Castell,Flipkart,standard whiteboard from Faber-Castell,ONLINE,22471.66,Office
+Haier Air Cooler,Haier,Croma,standard air cooler from Haier,ONLINE,27205.36,Home Appliances
+Nike Running Shoes,Nike,Shoppers Stop,compact running shoes from Nike,ONLINE,20807.99,Fashion
+Whirlpool Electric Kettle,Whirlpool,Home Centre,compact electric kettle from Whirlpool,ONLINE,50338.68,Home Appliances
+LG Air Cooler,LG,Home Centre,wireless air cooler from LG,ONLINE,32757.2,Home Appliances
+Haldiram's Burger Meal,Haldiram's,Starbucks,wireless burger meal from Haldiram's,OFFLINE,2299.26,Food & Beverages
+TP-Link Smart Plug,TP-Link,Mi Store,daily use smart plug from TP-Link,OFFLINE,12624.66,Gadgets
+Apple Bluetooth Speaker,Apple,Amazon,durable bluetooth speaker from Apple,ONLINE,36623.03,Electronics
+Boldfit Resistance Tube Set,Boldfit,Cult Store,premium resistance tube set from Boldfit,ONLINE,17604.41,Sports & Fitness
+Philips Refrigerator,Philips,Amazon,wireless refrigerator from Philips,OFFLINE,106559.98,Home Appliances
+Surf Excel Rice,Surf Excel,Zepto,professional rice from Surf Excel,ONLINE,2737.26,Food & Groceries
+Biba Hoodie,Biba,Ajio,classic hoodie from Biba,ONLINE,4368.61,Fashion
+Godrej Dishwasher,Godrej,Home Centre,portable dishwasher from Godrej,ONLINE,27364.29,Home Appliances
+Surf Excel Vegetables,Surf Excel,Local Grocery,portable vegetables from Surf Excel,OFFLINE,83.21,Food & Groceries
+Generic Utility Item,Generic,Marketplace,premium utility item from Generic,OFFLINE,1952.0,Other
+Prime Utility Item,Prime,Flipkart,durable utility item from Prime,ONLINE,7664.06,Other
+Yonex Basketball,Yonex,Amazon,new basketball from Yonex,OFFLINE,14074.69,Sports
+Tata Vegetables,Tata,Zepto,premium vegetables from Tata,ONLINE,2092.54,Food & Groceries
+Noise Usb Microphone,Noise,Amazon,new USB microphone from Noise,ONLINE,6398.16,Gadgets
+Cafe Coffee Day Burger Meal,Cafe Coffee Day,Zomato,wireless burger meal from Cafe Coffee Day,ONLINE,1965.67,Food & Beverages
+Allen Solly Jeans,Allen Solly,Amazon,wireless jeans from Allen Solly,OFFLINE,7798.2,Fashion
+Bosch Room Heater,Bosch,Amazon,portable room heater from Bosch,OFFLINE,76114.04,Home Appliances
+Nilkamal Recliner,Nilkamal,IKEA,wireless recliner from Nilkamal,OFFLINE,34912.41,Furniture
+Samsung Gaming Console,Samsung,Samsung Store,professional gaming console from Samsung,OFFLINE,15279.8,Electronics
+Acer Printer,Acer,Flipkart,daily use printer from Acer,OFFLINE,12429.64,Electronics
+Godrej Interio Sofa,Godrej Interio,Pepperfry,daily use sofa from Godrej Interio,OFFLINE,11843.77,Furniture
+Prime Travel Accessory,Prime,Flipkart,professional travel accessory from Prime,OFFLINE,2323.64,Other
+Staedtler Document Scanner,Staedtler,Amazon,new document scanner from Staedtler,ONLINE,13056.29,Office
+Haldiram's Meal Order,Haldiram's,Starbucks,premium meal order from Haldiram's,OFFLINE,1107.64,Food & Beverages
+Fortune Household Essentials Pack,Fortune,Zepto,compact household essentials pack from Fortune,ONLINE,273.04,Food & Groceries
+Aashirvaad Toothpaste,Aashirvaad,Zepto,compact toothpaste from Aashirvaad,ONLINE,845.96,Food & Groceries
+Domino's Cafe Breakfast,Domino's,Zomato,standard cafe breakfast from Domino's,OFFLINE,668.21,Food & Beverages
+Boldfit Massage Gun,Boldfit,Cult Store,standard massage gun from Boldfit,ONLINE,32234.17,Sports & Fitness
+McDonald's Snack Combo,McDonald's,Local Cafe,portable snack combo from McDonald's,ONLINE,3927.38,Food & Beverages
+TP-Link Charging Cable,TP-Link,Reliance Digital,professional charging cable from TP-Link,OFFLINE,10118.9,Gadgets
+Haldiram's Beverage,Haldiram's,McDonald's,daily use beverage from Haldiram's,OFFLINE,3584.43,Food & Beverages
+Nivia Yoga Mat,Nivia,Flipkart,wireless yoga mat from Nivia,OFFLINE,58478.4,Sports
+Decathlon Protein Shaker,Decathlon,Amazon,wireless protein shaker from Decathlon,OFFLINE,14306.94,Sports & Fitness
+Classic Personal Care Item,Classic,Flipkart,new personal care item from Classic,OFFLINE,5527.21,Other
+Surf Excel Toothpaste,Surf Excel,Reliance Smart,daily use toothpaste from Surf Excel,ONLINE,4561.71,Food & Groceries
+Pepperfry Sofa,Pepperfry,IKEA,durable sofa from Pepperfry,ONLINE,41025.22,Furniture
+Classic Key Holder,Classic,Amazon,portable key holder from Classic,ONLINE,3948.68,Other
+Decathlon Pull Up Bar,Decathlon,Decathlon,durable pull up bar from Decathlon,ONLINE,7133.94,Sports & Fitness
+Starbucks Sandwich,Starbucks,Local Cafe,portable sandwich from Starbucks,ONLINE,3660.39,Food & Beverages
+JBL Usb Hub,JBL,Croma,portable USB hub from JBL,ONLINE,3166.82,Gadgets
+Pepperfry Bed Frame,Pepperfry,IKEA,premium bed frame from Pepperfry,ONLINE,43931.36,Furniture
+Nestle Toothpaste,Nestle,DMart,compact toothpaste from Nestle,ONLINE,251.13,Food & Groceries
+Aashirvaad Rice,Aashirvaad,Blinkit,classic rice from Aashirvaad,OFFLINE,2660.22,Food & Groceries
+IKEA Storage Cabinet,IKEA,Urban Ladder,professional storage cabinet from IKEA,OFFLINE,46570.48,Furniture
+Britannia Household Essentials Pack,Britannia,Reliance Smart,compact household essentials pack from Britannia,ONLINE,4416.71,Food & Groceries
+Decathlon Foam Roller,Decathlon,Fitness Store,professional foam roller from Decathlon,OFFLINE,55996.25,Sports & Fitness
+Classmate Pen Set,Classmate,Reliance Smart,portable pen set from Classmate,OFFLINE,11632.39,Office
+Wakefit Recliner,Wakefit,Urban Ladder,new recliner from Wakefit,ONLINE,49637.81,Furniture
+Pepperfry Shoe Cabinet,Pepperfry,Local Furniture Store,classic shoe cabinet from Pepperfry,ONLINE,28145.49,Furniture
+Cult Fitness Tracker,Cult,Fitness Store,new fitness tracker from Cult,ONLINE,36143.45,Sports & Fitness
+Dove Bread,Dove,DMart,premium bread from Dove,ONLINE,4558.83,Food & Groceries
+Britannia Shampoo,Britannia,Local Grocery,new shampoo from Britannia,ONLINE,4956.97,Food & Groceries
+Cult Fitness Watch,Cult,Decathlon,premium fitness watch from Cult,OFFLINE,10859.09,Sports & Fitness
+Everyday Personal Care Item,Everyday,General Store,professional personal care item from Everyday,OFFLINE,2553.29,Other
+Boldfit Protein Shaker,Boldfit,Fitness Store,premium protein shaker from Boldfit,OFFLINE,45982.08,Sports & Fitness
+Nestle Toothpaste,Nestle,Local Grocery,standard toothpaste from Nestle,ONLINE,781.48,Food & Groceries
+Nestle Household Essentials Pack,Nestle,Zepto,daily use household essentials pack from Nestle,ONLINE,4792.16,Food & Groceries
+McDonald's Pizza,McDonald's,Swiggy,professional pizza from McDonald's,OFFLINE,881.6,Food & Beverages
+Amul Groceries,Amul,Zepto,professional groceries from Amul,OFFLINE,186.06,Food & Groceries
+Generic Miscellaneous Purchase,Generic,Marketplace,portable miscellaneous purchase from Generic,OFFLINE,3101.93,Other
+Classic Decor Accessory,Classic,Marketplace,wireless decor accessory from Classic,ONLINE,1108.45,Other
+Urban Utility Item,Urban,General Store,portable utility item from Urban,ONLINE,1283.35,Other
+Allen Solly Cotton Shirt,Allen Solly,Nike Store,classic cotton shirt from Allen Solly,OFFLINE,7982.17,Fashion
+Nilkamal Shoe Cabinet,Nilkamal,Home Centre,premium shoe cabinet from Nilkamal,ONLINE,82963.14,Furniture
+Canon Pen Set,Canon,Local Stationery,portable pen set from Canon,OFFLINE,14912.18,Office
+Urban Gift Item,Urban,General Store,standard gift item from Urban,ONLINE,8171.98,Other
+Toyota Helmet,Toyota,Local Auto Store,classic helmet from Toyota,ONLINE,22518.58,Vehicles
+Pepperfry Bookshelf,Pepperfry,Urban Ladder,premium bookshelf from Pepperfry,ONLINE,67465.75,Furniture
+Toyota Bike Service,Toyota,Tata Motors,durable bike service from Toyota,ONLINE,27895.45,Vehicles
+Nivia Cricket Bat,Nivia,Sports Station,wireless cricket bat from Nivia,ONLINE,36820.13,Sports
+Decathlon Gym Bench,Decathlon,Fitness Store,professional gym bench from Decathlon,ONLINE,28673.52,Sports & Fitness
+Adidas Basketball,Adidas,Sports Station,portable basketball from Adidas,OFFLINE,60018.32,Sports
+TVS Bike Tyre,TVS,Hyundai Service,premium bike tyre from TVS,OFFLINE,21309.64,Vehicles
+Yonex Skipping Rope,Yonex,Sports Station,compact skipping rope from Yonex,ONLINE,29007.43,Sports
+Maruti Suzuki Car Tyre,Maruti Suzuki,Hyundai Service,premium car tyre from Maruti Suzuki,ONLINE,79301.11,Vehicles
+Yonex Cycling Helmet,Yonex,Amazon,classic cycling helmet from Yonex,ONLINE,44945.69,Sports
+Wakefit Dining Table,Wakefit,Pepperfry,classic dining table from Wakefit,ONLINE,79598.55,Furniture
+Everyday Travel Accessory,Everyday,Amazon,portable travel accessory from Everyday,ONLINE,10357.84,Other
+Dove Rice,Dove,BigBasket,premium rice from Dove,OFFLINE,4302.74,Food & Groceries
+Honda Bike Service,Honda,Hyundai Service,durable bike service from Honda,ONLINE,3456.2,Vehicles
+LG Laptop,LG,Flipkart,daily use laptop from LG,OFFLINE,87503.87,Electronics
+Pilot Notebook,Pilot,Amazon,classic notebook from Pilot,OFFLINE,21807.13,Office
+Hyundai Car Floor Mats,Hyundai,Bajaj Auto,wireless car floor mats from Hyundai,ONLINE,54875.61,Vehicles
+Fitbit Workout Gloves,Fitbit,Cult Store,durable workout gloves from Fitbit,OFFLINE,3137.62,Sports & Fitness
+Pepperfry Bookshelf,Pepperfry,Urban Ladder,classic bookshelf from Pepperfry,OFFLINE,9862.29,Furniture
+H&M Winter Sweater,H&M,Shoppers Stop,wireless winter sweater from H&M,OFFLINE,24004.64,Fashion
+Cafe Coffee Day Meal Order,Cafe Coffee Day,Local Cafe,premium meal order from Cafe Coffee Day,ONLINE,3168.87,Food & Beverages
+Britannia Milk,Britannia,Local Grocery,compact milk from Britannia,OFFLINE,3630.59,Food & Groceries
+W Jeans,W,Ajio,compact jeans from W,OFFLINE,9222.34,Fashion
+McDonald's Restaurant Dinner,McDonald's,Zomato,professional restaurant dinner from McDonald's,ONLINE,337.93,Food & Beverages
+Canon Whiteboard,Canon,Local Stationery,new whiteboard from Canon,ONLINE,14796.16,Office
+Whirlpool Air Cooler,Whirlpool,Reliance Digital,professional air cooler from Whirlpool,ONLINE,28920.78,Home Appliances
+TP-Link Power Bank,TP-Link,Mi Store,premium power bank from TP-Link,ONLINE,4559.79,Gadgets
+Levis Dress,Levis,Nike Store,daily use dress from Levis,ONLINE,12560.93,Fashion
+W Running Shoes,W,Myntra,portable running shoes from W,OFFLINE,29183.81,Fashion
+Portronics Fast Charger,Portronics,Flipkart,professional fast charger from Portronics,OFFLINE,4212.46,Gadgets
+Biba Sunglasses,Biba,Amazon,premium sunglasses from Biba,OFFLINE,6955.16,Fashion
+Generic Miscellaneous Item,Generic,Amazon,professional miscellaneous item from Generic,OFFLINE,7836.16,Other
+Cult Exercise Bike,Cult,Decathlon,standard exercise bike from Cult,OFFLINE,15266.18,Sports & Fitness
+HP Notebook,HP,Amazon,standard notebook from HP,ONLINE,9639.3,Office
+Nilkamal Wardrobe,Nilkamal,Urban Ladder,durable wardrobe from Nilkamal,OFFLINE,56375.19,Furniture
+Everyday Miscellaneous Item,Everyday,General Store,wireless miscellaneous item from Everyday,OFFLINE,2180.29,Other
+Nilkamal Wardrobe,Nilkamal,Home Centre,compact wardrobe from Nilkamal,OFFLINE,55112.57,Furniture
+Staedtler Pen Set,Staedtler,Flipkart,premium pen set from Staedtler,OFFLINE,9032.79,Office
+Subway Cafe Breakfast,Subway,Local Cafe,wireless cafe breakfast from Subway,ONLINE,2315.05,Food & Beverages
+Pepperfry Study Table,Pepperfry,Urban Ladder,professional study table from Pepperfry,ONLINE,22300.46,Furniture
+Pepperfry Wardrobe,Pepperfry,Pepperfry,compact wardrobe from Pepperfry,OFFLINE,34023.85,Furniture
+LG Tablet,LG,Flipkart,professional tablet from LG,ONLINE,119981.23,Electronics
+Adidas Jacket,Adidas,Shoppers Stop,premium jacket from Adidas,OFFLINE,21872.59,Fashion
+McDonald's Beverage,McDonald's,Zomato,compact beverage from McDonald's,OFFLINE,251.83,Food & Beverages
+boAt Smart Plug,boAt,Amazon,wireless smart plug from boAt,ONLINE,14542.32,Gadgets
+Toyota Car Battery,Toyota,Hyundai Service,compact car battery from Toyota,OFFLINE,39184.48,Vehicles
+Cosco Cycling Helmet,Cosco,Decathlon,durable cycling helmet from Cosco,ONLINE,36485.82,Sports
+Decathlon Badminton Racket,Decathlon,Decathlon,premium badminton racket from Decathlon,OFFLINE,11013.69,Sports
+HP Printer Paper,HP,Reliance Smart,new printer paper from HP,ONLINE,19363.72,Office
+W Cotton Shirt,W,Myntra,classic cotton shirt from W,ONLINE,4832.52,Fashion
+Godrej Refrigerator,Godrej,Reliance Digital,compact refrigerator from Godrej,ONLINE,49916.09,Home Appliances
+Sony Television,Sony,Vijay Sales,durable television from Sony,ONLINE,15001.17,Electronics
+Nivia Cricket Bat,Nivia,Sports Station,daily use cricket bat from Nivia,OFFLINE,8449.95,Sports
+HP Television,HP,Flipkart,wireless television from HP,ONLINE,140106.02,Electronics
+Staedtler Calculator,Staedtler,Flipkart,daily use calculator from Staedtler,OFFLINE,23097.03,Office
+Philips Vacuum Cleaner,Philips,Flipkart,daily use vacuum cleaner from Philips,OFFLINE,18831.68,Home Appliances
+McDonald's Biryani,McDonald's,Swiggy,standard biryani from McDonald's,ONLINE,413.93,Food & Beverages
+Logitech Phone Stand,Logitech,Mi Store,daily use phone stand from Logitech,ONLINE,1682.42,Gadgets
+Godrej Air Fryer,Godrej,Reliance Digital,premium air fryer from Godrej,OFFLINE,39918.76,Home Appliances
+boAt Smart Plug,boAt,Amazon,new smart plug from boAt,ONLINE,2733.6,Gadgets
+Mi Wireless Charger,Mi,Flipkart,durable wireless charger from Mi,ONLINE,3636.1,Gadgets
+TVS Car Tyre,TVS,Local Auto Store,professional car tyre from TVS,OFFLINE,23061.82,Vehicles
+Starbucks Dessert,Starbucks,Starbucks,portable dessert from Starbucks,ONLINE,2641.04,Food & Beverages
+Nivia Skipping Rope,Nivia,Nike Store,durable skipping rope from Nivia,OFFLINE,4320.88,Sports
+Nivia Resistance Bands,Nivia,Amazon,daily use resistance bands from Nivia,ONLINE,41184.04,Sports
+Britannia Bread,Britannia,BigBasket,daily use bread from Britannia,ONLINE,4872.17,Food & Groceries
+Nilkamal Dining Table,Nilkamal,Pepperfry,standard dining table from Nilkamal,ONLINE,47242.53,Furniture
+Nivia Badminton Racket,Nivia,Nike Store,classic badminton racket from Nivia,ONLINE,56109.68,Sports
+Amul Toothpaste,Amul,Blinkit,new toothpaste from Amul,ONLINE,5343.71,Food & Groceries
+Tata Car Battery,Tata,Hyundai Service,premium car battery from Tata,OFFLINE,78473.43,Vehicles
+Dell Printer,Dell,Samsung Store,wireless printer from Dell,OFFLINE,107208.95,Electronics
+Lenovo Camera,Lenovo,Amazon,wireless camera from Lenovo,OFFLINE,131755.71,Electronics
+Yonex Gym Gloves,Yonex,Sports Station,portable gym gloves from Yonex,ONLINE,40139.81,Sports
+Cosco Basketball,Cosco,Decathlon,professional basketball from Cosco,ONLINE,66771.18,Sports
+Tata Helmet,Tata,Tata Motors,classic helmet from Tata,ONLINE,23237.02,Vehicles
+Anker Power Bank,Anker,Mi Store,professional power bank from Anker,OFFLINE,2952.39,Gadgets
+Godrej Refrigerator,Godrej,Home Centre,portable refrigerator from Godrej,OFFLINE,11552.43,Home Appliances
+Biba Cotton Shirt,Biba,Shoppers Stop,professional cotton shirt from Biba,OFFLINE,3171.34,Fashion
+Samsung Washing Machine,Samsung,Home Centre,professional washing machine from Samsung,ONLINE,79794.88,Home Appliances
+Puma Dress,Puma,Amazon,compact dress from Puma,ONLINE,23092.84,Fashion
+Decathlon Gym Gloves,Decathlon,Amazon,classic gym gloves from Decathlon,ONLINE,70062.15,Sports
+Levis Backpack,Levis,Lifestyle,new backpack from Levis,OFFLINE,20602.55,Fashion
+Noise Charging Cable,Noise,Reliance Digital,daily use charging cable from Noise,OFFLINE,14369.68,Gadgets
+Urban Ladder Coffee Table,Urban Ladder,Local Furniture Store,wireless coffee table from Urban Ladder,ONLINE,74136.88,Furniture
+Haier Vacuum Cleaner,Haier,Flipkart,daily use vacuum cleaner from Haier,OFFLINE,107156.89,Home Appliances
+Classmate Stapler,Classmate,Local Stationery,professional stapler from Classmate,OFFLINE,701.37,Office
+Fitbit Massage Gun,Fitbit,Cult Store,classic massage gun from Fitbit,ONLINE,14396.95,Sports & Fitness
+Dove Vegetables,Dove,Reliance Smart,durable vegetables from Dove,ONLINE,2558.68,Food & Groceries
+Maruti Suzuki Vehicle Insurance Accessory,Maruti Suzuki,Bajaj Auto,durable vehicle insurance accessory from Maruti Suzuki,ONLINE,70777.06,Vehicles
+Generic Personal Care Item,Generic,General Store,new personal care item from Generic,ONLINE,11737.32,Other
+W Winter Sweater,W,Amazon,professional winter sweater from W,OFFLINE,24487.85,Fashion
+Bosch Water Purifier,Bosch,Home Centre,compact water purifier from Bosch,ONLINE,27119.12,Home Appliances
+Classmate Pen Set,Classmate,Amazon,classic pen set from Classmate,ONLINE,18264.83,Office
+Samsung Dishwasher,Samsung,Home Centre,daily use dishwasher from Samsung,OFFLINE,60711.21,Home Appliances
+IFB Water Purifier,IFB,Flipkart,professional water purifier from IFB,ONLINE,17450.26,Home Appliances
+KFC Dessert,KFC,Zomato,compact dessert from KFC,ONLINE,2871.04,Food & Beverages
+Pepperfry Study Table,Pepperfry,Urban Ladder,compact study table from Pepperfry,ONLINE,24200.42,Furniture
+Portronics Charging Cable,Portronics,Reliance Digital,portable charging cable from Portronics,OFFLINE,13653.16,Gadgets
+Wakefit Shoe Cabinet,Wakefit,Local Furniture Store,portable shoe cabinet from Wakefit,ONLINE,69882.1,Furniture
+Haldiram's Burger Meal,Haldiram's,KFC,classic burger meal from Haldiram's,ONLINE,3997.67,Food & Beverages
+Decathlon Skipping Rope,Decathlon,Sports Station,daily use skipping rope from Decathlon,ONLINE,64739.15,Sports
+Mahindra Helmet,Mahindra,Bajaj Auto,durable helmet from Mahindra,OFFLINE,15858.48,Vehicles
+Dove Wheat Flour,Dove,Blinkit,daily use wheat flour from Dove,OFFLINE,1875.3,Food & Groceries
+Classmate Desk Organizer,Classmate,Amazon,professional desk organizer from Classmate,OFFLINE,19173.21,Office
+Canon Stapler,Canon,Office Depot,professional stapler from Canon,ONLINE,8016.64,Office
+Dove Toothpaste,Dove,DMart,classic toothpaste from Dove,ONLINE,5125.72,Food & Groceries
+Haldiram's Biryani,Haldiram's,McDonald's,standard biryani from Haldiram's,OFFLINE,4284.46,Food & Beverages
+Nivia Gym Gloves,Nivia,Flipkart,new gym gloves from Nivia,ONLINE,4375.8,Sports
+IFB Air Fryer,IFB,Reliance Digital,daily use air fryer from IFB,ONLINE,85586.68,Home Appliances
+Samsung Monitor,Samsung,Amazon,daily use monitor from Samsung,ONLINE,12730.89,Electronics
+Puma Kurta,Puma,Ajio,portable kurta from Puma,ONLINE,11185.58,Fashion
+TVS Engine Oil Service,TVS,Hyundai Service,compact engine oil service from TVS,OFFLINE,6670.83,Vehicles
+Britannia Wheat Flour,Britannia,Blinkit,wireless wheat flour from Britannia,ONLINE,2711.9,Food & Groceries
+Britannia Shampoo,Britannia,BigBasket,wireless shampoo from Britannia,ONLINE,895.02,Food & Groceries
+Generic Travel Accessory,Generic,Local Store,daily use travel accessory from Generic,OFFLINE,1007.85,Other
+Tata Detergent,Tata,Zepto,premium detergent from Tata,ONLINE,3988.24,Food & Groceries
+ASUS Gaming Console,ASUS,Flipkart,durable gaming console from ASUS,OFFLINE,120656.62,Electronics
+Dove Rice,Dove,DMart,standard rice from Dove,OFFLINE,3812.03,Food & Groceries
+Puma Running Shoes,Puma,Ajio,premium running shoes from Puma,OFFLINE,6461.33,Fashion
+Honda Car Service Package,Honda,Bajaj Auto,daily use car service package from Honda,OFFLINE,41137.4,Vehicles
+Fortune Household Essentials Pack,Fortune,Zepto,daily use household essentials pack from Fortune,ONLINE,2673.62,Food & Groceries
+Levis Formal Trousers,Levis,Lifestyle,daily use formal trousers from Levis,OFFLINE,21747.54,Fashion
+Philips Air Fryer,Philips,Home Centre,new air fryer from Philips,OFFLINE,33125.55,Home Appliances
+Dell Keyboard,Dell,Croma,compact keyboard from Dell,ONLINE,61643.69,Electronics
+Mi Charging Cable,Mi,Amazon,compact charging cable from Mi,OFFLINE,8545.25,Gadgets
+IKEA Coffee Table,IKEA,Pepperfry,standard coffee table from IKEA,OFFLINE,9787.92,Furniture
+TP-Link Wireless Charger,TP-Link,Reliance Digital,standard wireless charger from TP-Link,ONLINE,12384.33,Gadgets
+Cult Protein Shaker,Cult,Fitness Store,professional protein shaker from Cult,OFFLINE,44345.8,Sports & Fitness
+Godrej Water Purifier,Godrej,Reliance Digital,wireless water purifier from Godrej,ONLINE,63668.5,Home Appliances
+Adidas Dress,Adidas,Nike Store,portable dress from Adidas,OFFLINE,2271.07,Fashion
+Sony Camera,Sony,Samsung Store,new camera from Sony,OFFLINE,96030.83,Electronics
+Wakefit Dining Table,Wakefit,Urban Ladder,new dining table from Wakefit,OFFLINE,93806.26,Furniture
+Subway Soft Drink,Subway,Starbucks,wireless soft drink from Subway,OFFLINE,2669.43,Food & Beverages
+Yonex Resistance Bands,Yonex,Decathlon,standard resistance bands from Yonex,OFFLINE,29019.73,Sports
+Starbucks Soft Drink,Starbucks,Starbucks,classic soft drink from Starbucks,OFFLINE,4332.53,Food & Beverages
+Levis Formal Trousers,Levis,Lifestyle,classic formal trousers from Levis,OFFLINE,3472.06,Fashion
+Decathlon Protein Shaker,Decathlon,Cult Store,professional protein shaker from Decathlon,OFFLINE,48306.36,Sports & Fitness
+Subway Dessert,Subway,McDonald's,standard dessert from Subway,OFFLINE,1566.23,Food & Beverages
+TVS Dash Camera,TVS,Local Auto Store,compact dash camera from TVS,OFFLINE,5840.54,Vehicles
+Everyday Key Holder,Everyday,General Store,standard key holder from Everyday,OFFLINE,8698.97,Other
+Wakefit Bed Frame,Wakefit,Urban Ladder,durable bed frame from Wakefit,ONLINE,6492.69,Furniture
+Classmate Office Supplies Pack,Classmate,Office Depot,new office supplies pack from Classmate,OFFLINE,24033.01,Office
+Voltas Induction Cooktop,Voltas,Amazon,portable induction cooktop from Voltas,OFFLINE,29604.16,Home Appliances
+Faber-Castell Pen Set,Faber-Castell,Flipkart,compact pen set from Faber-Castell,OFFLINE,2327.28,Office
+Pepperfry Office Chair,Pepperfry,Local Furniture Store,standard office chair from Pepperfry,OFFLINE,73763.93,Furniture
+Surf Excel Toothpaste,Surf Excel,BigBasket,daily use toothpaste from Surf Excel,OFFLINE,1543.26,Food & Groceries
+Generic Decor Accessory,Generic,Local Store,portable decor accessory from Generic,ONLINE,4884.61,Other
+TVS Brake Pads,TVS,Hyundai Service,portable brake pads from TVS,ONLINE,6467.1,Vehicles
+Adidas Cricket Bat,Adidas,Nike Store,new cricket bat from Adidas,ONLINE,50967.38,Sports
+Toyota Dash Camera,Toyota,Tata Motors,compact dash camera from Toyota,OFFLINE,45186.38,Vehicles
+KFC Biryani,KFC,KFC,compact biryani from KFC,ONLINE,4357.99,Food & Beverages
+Zara Running Shoes,Zara,Amazon,compact running shoes from Zara,OFFLINE,14282.21,Fashion
+Wakefit Bookshelf,Wakefit,Urban Ladder,wireless bookshelf from Wakefit,ONLINE,40259.4,Furniture
+Godrej Refrigerator,Godrej,Amazon,standard refrigerator from Godrej,ONLINE,71552.91,Home Appliances
+OnePlus Wireless Headphones,OnePlus,Flipkart,professional wireless headphones from OnePlus,ONLINE,41349.14,Electronics
+Cult Adjustable Dumbbell Set,Cult,Cult Store,portable adjustable dumbbell set from Cult,OFFLINE,14632.78,Sports & Fitness
+Honda Wiper Blades,Honda,Tata Motors,professional wiper blades from Honda,ONLINE,50759.02,Vehicles
+Nivia Gym Gloves,Nivia,Decathlon,compact gym gloves from Nivia,ONLINE,67538.04,Sports
+LG Vacuum Cleaner,LG,Flipkart,professional vacuum cleaner from LG,OFFLINE,42262.63,Home Appliances
+Kokuyo File Folder,Kokuyo,Flipkart,classic file folder from Kokuyo,OFFLINE,22934.43,Office
+Garmin Fitness Watch,Garmin,Cult Store,daily use fitness watch from Garmin,OFFLINE,8599.13,Sports & Fitness
+boAt Phone Stand,boAt,Amazon,compact phone stand from boAt,OFFLINE,861.71,Gadgets
+W Sneakers,W,Amazon,classic sneakers from W,ONLINE,2195.16,Fashion
+Fortune Groceries,Fortune,BigBasket,daily use groceries from Fortune,ONLINE,3279.4,Food & Groceries
+Cafe Coffee Day Biryani,Cafe Coffee Day,Local Cafe,durable biryani from Cafe Coffee Day,ONLINE,938.83,Food & Beverages
+boAt Wireless Charger,boAt,Croma,daily use wireless charger from boAt,OFFLINE,12226.37,Gadgets
+Zara Running Shoes,Zara,Myntra,professional running shoes from Zara,OFFLINE,19190.23,Fashion
+Garmin Resistance Tube Set,Garmin,Fitness Store,standard resistance tube set from Garmin,ONLINE,50267.54,Sports & Fitness
+Urban Key Holder,Urban,General Store,standard key holder from Urban,ONLINE,10769.19,Other
+HP Keyboard,HP,Samsung Store,portable keyboard from HP,OFFLINE,102602.34,Electronics
+Prime Storage Box,Prime,Flipkart,durable storage box from Prime,ONLINE,213.02,Other
+Puma Hoodie,Puma,Nike Store,compact hoodie from Puma,ONLINE,21949.66,Fashion
+Decathlon Badminton Racket,Decathlon,Nike Store,standard badminton racket from Decathlon,ONLINE,724.63,Sports
+Aashirvaad Household Essentials Pack,Aashirvaad,Reliance Smart,professional household essentials pack from Aashirvaad,ONLINE,1760.85,Food & Groceries
+Samsung Smartwatch,Samsung,Flipkart,wireless smartwatch from Samsung,OFFLINE,29378.04,Electronics
+Fortune Rice,Fortune,Reliance Smart,professional rice from Fortune,OFFLINE,5163.52,Food & Groceries
+JBL Fast Charger,JBL,Reliance Digital,professional fast charger from JBL,OFFLINE,8562.63,Gadgets
+Nivia Foam Roller,Nivia,Flipkart,standard foam roller from Nivia,OFFLINE,14202.32,Sports & Fitness
+Bajaj Wiper Blades,Bajaj,Tata Motors,compact wiper blades from Bajaj,OFFLINE,8929.62,Vehicles
+Acer Bluetooth Speaker,Acer,Croma,compact bluetooth speaker from Acer,OFFLINE,103875.61,Electronics
+Starbucks Biryani,Starbucks,KFC,professional biryani from Starbucks,OFFLINE,935.37,Food & Beverages
+Pilot Ink Cartridge,Pilot,Local Stationery,standard ink cartridge from Pilot,OFFLINE,14988.62,Office
+Urban Travel Accessory,Urban,Marketplace,compact travel accessory from Urban,OFFLINE,830.06,Other
+Puma Dumbbells,Puma,Flipkart,portable dumbbells from Puma,OFFLINE,33182.97,Sports
+Puma Basketball,Puma,Amazon,durable basketball from Puma,ONLINE,4216.91,Sports
+Boldfit Fitness Watch,Boldfit,Cult Store,new fitness watch from Boldfit,OFFLINE,47422.25,Sports & Fitness
+Zara Hoodie,Zara,Lifestyle,durable hoodie from Zara,ONLINE,5093.67,Fashion
+Britannia Groceries,Britannia,DMart,new groceries from Britannia,ONLINE,3874.52,Food & Groceries
+Nike Treadmill,Nike,Amazon,classic treadmill from Nike,ONLINE,51952.6,Sports

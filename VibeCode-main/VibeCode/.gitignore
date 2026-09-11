@@ -1,0 +1,19 @@
+# Secrets — never commit API keys or credentials
+backend/.env
+
+# Dependencies
+node_modules/
+
+# Uploads & generated files
+backend/uploads/receipts/*
+!backend/uploads/receipts/.gitkeep
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

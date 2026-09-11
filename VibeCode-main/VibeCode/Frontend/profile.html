@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile & Settings — SmartPurchase & Warranty AI</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="dashboard.css" />
+  <link rel="stylesheet" href="profile.css" />
+</head>
+<body>
+
+  <!-- Floating Background Ambient Shapes -->
+  <div class="geo-container">
+    <div class="geo-shape geo-1"></div>
+    <div class="geo-shape geo-2"></div>
+    <div class="geo-shape geo-3"></div>
+    <div class="geo-shape geo-4"></div>
+    <div class="geo-grid"></div>
+  </div>
+
+  <div class="app-shell" id="appShell">
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-logo"><i class="fa-solid fa-shield-halved"></i></div>
+        <div class="brand-title-wrap">
+          <span class="brand-name">SmartPurchaseAI</span>
+          <small class="brand-sub">AI Purchase Intelligence</small>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <a href="dashboard.html" class="nav-link"><i class="fa-solid fa-house"></i> <span>Dashboard</span></a>
+        <a href="products.html" class="nav-link"><i class="fa-solid fa-vault"></i> <span>Purchases & Vault</span></a>
+        <a href="products.html?action=add" class="nav-link"><i class="fa-solid fa-receipt"></i> <span>Scan Receipt</span></a>
+        <a href="dashboard.html#analyticsSection" class="nav-link"><i class="fa-solid fa-chart-line"></i> <span>Expense Analytics</span></a>
+        <a href="claims.html" class="nav-link"><i class="fa-solid fa-file-signature"></i> <span>Warranty Claims</span></a>
+        <a href="notifications.html" class="nav-link"><i class="fa-solid fa-bell"></i> <span>Notifications</span></a>
+        <button type="button" class="nav-link nav-link-btn" id="copilotNavBtn"><i class="fa-solid fa-wand-magic-sparkles"></i> <span>Purchase Copilot</span></button>
+        <a href="documents.html" class="nav-link"><i class="fa-solid fa-folder-open"></i> <span>Documents & Receipts</span></a>
+        <a href="contact.html" class="nav-link"><i class="fa-solid fa-circle-question"></i> <span>Support</span></a>
+        <a href="profile.html" class="nav-link active"><i class="fa-solid fa-gear"></i> <span>Settings</span></a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <!-- MongoDB Compass Connection Status -->
+        <div class="db-status-pill" id="dbStatusPill" title="MongoDB Compass Connection Health">
+          <span class="status-dot"></span>
+          <span id="dbStatusText">MongoDB: smart_warranty_db</span>
+        </div>
+
+        <button id="sidebarThemeToggle" class="sidebar-action-btn">
+          <i class="fa-solid fa-moon" id="sidebarThemeIcon"></i>
+          <span id="sidebarThemeLabel">Dark Theme</span>
+        </button>
+
+        <button id="sidebarLogoutBtn" class="sidebar-action-btn logout">
+          <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          <span>Log Out</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+
+      <!-- Top Header -->
+      <header class="top-header">
+        <div class="page-title-wrap">
+          <h1 class="page-title"><i class="fa-solid fa-user-gear"></i> Profile & Settings</h1>
+          <p class="page-subtitle">Manage your account details, password and WarrantyVault preferences.</p>
+        </div>
+
+        <div class="header-right-corner">
+          <div class="corner-dropdown-wrap" id="profileCornerWrap">
+            <button class="profile-corner-btn" id="profilePillBtn" title="Account Menu">
+              <img id="userAvatarHeader" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Avatar" class="avatar-sm" />
+              <div class="profile-btn-info">
+                <span class="profile-header-name" id="userName">User</span>
+                <span class="profile-header-role" id="userRole">USER</span>
+              </div>
+              <i class="fa-solid fa-chevron-down caret-icon"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <!-- Profile Grid -->
+      <div class="profile-grid">
+
+        <!-- Profile Hero Card -->
+        <div class="card glass profile-hero-card">
+          <div class="profile-hero-top">
+            <div class="avatar-large" id="profileAvatarInitials">U</div>
+            <div class="profile-hero-info">
+              <h2 id="profileName">Loading...</h2>
+              <p id="profileEmail">---</p>
+              <div class="profile-badges">
+                <span class="role-pill-badge" id="profileRoleBadge">USER</span>
+                <span class="member-since" id="profileMemberSince"><i class="fa-regular fa-calendar"></i> Member</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile-stats">
+            <div class="profile-stat-box">
+              <span class="profile-stat-value" id="statPurchases">0</span>
+              <span class="profile-stat-label">Purchases</span>
+            </div>
+            <div class="profile-stat-box">
+              <span class="profile-stat-value" id="statSpend">$0</span>
+              <span class="profile-stat-label">Total Spend</span>
+            </div>
+            <div class="profile-stat-box">
+              <span class="profile-stat-value" id="statWarranties">0</span>
+              <span class="profile-stat-label">Active Warranties</span>
+            </div>
+            <div class="profile-stat-box">
+              <span class="profile-stat-value" id="statNotifs">0</span>
+              <span class="profile-stat-label">Unread Alerts</span>
+            </div>
+          </div>
+
+          <div class="profile-quick-links">
+            <a href="dashboard.html" class="profile-link-btn"><i class="fa-solid fa-house"></i> Go to Dashboard</a>
+            <a href="notifications.html" class="profile-link-btn"><i class="fa-solid fa-bell"></i> Open Notification Center</a>
+            <a href="products.html" class="profile-link-btn"><i class="fa-solid fa-vault"></i> My Purchases Vault</a>
+          </div>
+        </div>
+
+        <!-- Edit Account Details Card -->
+        <div class="card glass profile-edit-card">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-id-card" style="color: #60a5fa;"></i> Account Details</h3>
+          </div>
+
+          <form id="profileUpdateForm">
+            <div class="field">
+              <label for="editName"><i class="fa-solid fa-user"></i> Full Name</label>
+              <input type="text" id="editName" required placeholder="Your full name" />
+            </div>
+
+            <div class="field">
+              <label for="editEmail"><i class="fa-solid fa-envelope"></i> Email Address</label>
+              <input type="email" id="editEmail" disabled style="opacity: 0.6; cursor: not-allowed;" />
+              <small class="field-hint">Email is used for login and cannot be changed.</small>
+            </div>
+
+            <div class="field">
+              <label for="editRole"><i class="fa-solid fa-shield-halved"></i> Account Role</label>
+              <input type="text" id="editRole" disabled style="opacity: 0.6; cursor: not-allowed;" />
+            </div>
+
+            <div class="field">
+              <label for="editNewPassword"><i class="fa-solid fa-key"></i> New Password</label>
+              <input type="password" id="editNewPassword" placeholder="Leave blank to keep current password (min 8 chars)" />
+            </div>
+
+            <div class="field">
+              <label for="editConfirmPassword"><i class="fa-solid fa-key"></i> Confirm New Password</label>
+              <input type="password" id="editConfirmPassword" placeholder="Re-enter the new password" />
+              <small class="field-hint" id="passwordMatchHint" style="display: none; color: #F43F5E;">Passwords do not match.</small>
+            </div>
+
+            <button type="submit" class="btn-save profile-save-btn" id="profileSaveBtn">
+              <i class="fa-solid fa-floppy-disk"></i> Save Changes
+            </button>
+          </form>
+        </div>
+
+        <!-- Preferences Card -->
+        <div class="card glass profile-prefs-card">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-sliders" style="color: #34d399;"></i> Preferences</h3>
+          </div>
+
+          <div class="pref-row">
+            <div class="pref-info">
+              <strong>Appearance</strong>
+              <span>Switch between dark and light theme</span>
+            </div>
+            <button class="pref-toggle-btn" id="themePrefToggle">
+              <i class="fa-solid fa-moon" id="themePrefIcon"></i>
+              <span id="themePrefLabel">Dark</span>
+            </button>
+          </div>
+
+          <div class="pref-row">
+            <div class="pref-info">
+              <strong>Currency Display</strong>
+              <span>Prices shown in your preferred currency</span>
+            </div>
+            <select class="pref-select" id="currencySelect">
+              <option value="INR" selected>INR (₹) — Rupee</option>
+              <option value="USD">USD ($)</option>
+              <option value="EUR">EUR (€)</option>
+              <option value="GBP">GBP (£)</option>
+              <option value="AED">AED (د.إ)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Session / Danger Card -->
+        <div class="card glass profile-session-card">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-lock" style="color: #F43F5E;"></i> Session</h3>
+          </div>
+          <p class="session-text">You are currently signed in on this device. Signing out clears your local session and returns you to the login page.</p>
+          <button class="btn-cancel session-logout-btn" id="profileLogoutBtn">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i> Sign Out of WarrantyVault
+          </button>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/toast.js"></script>
+  <script src="js/route-guard.js"></script>
+  <script src="js/components/chatbot.js"></script>
+  <script src="js/components/ui-helpers.js"></script>
+  <script src="profile.js"></script>
+</body>
+</html>

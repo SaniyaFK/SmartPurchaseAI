@@ -1,0 +1,43 @@
+{
+  "modelVersion": "ml-02-v1",
+  "target": "next_month_spend",
+  "selectedModel": "LinearRegression",
+  "selectionCriteria": "Lowest RMSE on test set (primary); MAE and R\u00b2 as supporting metrics",
+  "splitStrategy": "80/20 random split, random_state=42",
+  "trainingRows": 1200,
+  "testingRows": 300,
+  "featureNames": [
+    "previous_month_spend",
+    "spend_2_months_ago",
+    "spend_3_months_ago",
+    "avg_3_month_spend",
+    "purchase_count",
+    "avg_purchase_amount",
+    "online_purchase_ratio",
+    "electronics_spend",
+    "fashion_spend",
+    "food_spend",
+    "home_spend",
+    "other_spend"
+  ],
+  "models": {
+    "LinearRegression": {
+      "mae": 894.4308,
+      "mse": 2009447.6518,
+      "rmse": 1417.5499,
+      "r2": 0.9701
+    },
+    "RandomForestRegressor": {
+      "mae": 938.8782,
+      "mse": 2056648.8886,
+      "rmse": 1434.1021,
+      "r2": 0.9694
+    }
+  },
+  "selectedModelMetrics": {
+    "mae": 894.4308,
+    "mse": 2009447.6518,
+    "rmse": 1417.5499,
+    "r2": 0.9701
+  }
+}

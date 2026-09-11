@@ -1,0 +1,146 @@
+{
+  "0": {
+    "cluster_id": 0,
+    "name": "Frequent Household & Grocery Spender",
+    "description": "High transaction volume focused on regular food, groceries, daily essentials, and household items.",
+    "characteristics": [
+      "High Purchase Frequency",
+      "Grocery & Everyday Essentials",
+      "Moderate Ticket Size"
+    ],
+    "size": 602,
+    "percentage": 40.13,
+    "feature_means": {
+      "purchase_count": 29.8821,
+      "monthly_spend": 16165.7353,
+      "avg_purchase_amount": 582.4967,
+      "online_purchase_ratio": 0.5749,
+      "electronics_spend": 0.1061,
+      "fashion_spend": 0.1229,
+      "food_spend": 0.4483,
+      "home_spend": 0.1076,
+      "other_spend": 0.2151,
+      "avg_days_between_purchases": 1.1714
+    },
+    "feature_medians": {
+      "purchase_count": 28.0,
+      "monthly_spend": 14639.555,
+      "avg_purchase_amount": 517.88,
+      "online_purchase_ratio": 0.5695,
+      "electronics_spend": 0.101,
+      "fashion_spend": 0.1205,
+      "food_spend": 0.4335,
+      "home_spend": 0.105,
+      "other_spend": 0.194,
+      "avg_days_between_purchases": 1.0714
+    }
+  },
+  "1": {
+    "cluster_id": 1,
+    "name": "Frequent Online Fashion & Lifestyle Buyer",
+    "description": "Regular purchases driven primarily by fashion, apparel, lifestyle products, and high online order ratio.",
+    "characteristics": [
+      "Fashion & Lifestyle Centric",
+      "Strong Online Preference",
+      "Consistent Monthly Activity"
+    ],
+    "size": 294,
+    "percentage": 19.6,
+    "feature_means": {
+      "purchase_count": 16.4082,
+      "monthly_spend": 30218.5619,
+      "avg_purchase_amount": 2037.5896,
+      "online_purchase_ratio": 0.7723,
+      "electronics_spend": 0.1136,
+      "fashion_spend": 0.4593,
+      "food_spend": 0.1647,
+      "home_spend": 0.1148,
+      "other_spend": 0.1477,
+      "avg_days_between_purchases": 2.023
+    },
+    "feature_medians": {
+      "purchase_count": 17.0,
+      "monthly_spend": 30542.7,
+      "avg_purchase_amount": 1828.185,
+      "online_purchase_ratio": 0.763,
+      "electronics_spend": 0.111,
+      "fashion_spend": 0.4665,
+      "food_spend": 0.165,
+      "home_spend": 0.114,
+      "other_spend": 0.12,
+      "avg_days_between_purchases": 1.7647
+    }
+  },
+  "2": {
+    "cluster_id": 2,
+    "name": "Premium VIP Multi-Category Spender",
+    "description": "Top-tier purchasing volume spread across premium electronics, luxury items, and multi-category goods.",
+    "characteristics": [
+      "Top Tier Total Spend",
+      "Multi-Category Diversity",
+      "High Spending Power"
+    ],
+    "size": 255,
+    "percentage": 17.0,
+    "feature_means": {
+      "purchase_count": 11.6902,
+      "monthly_spend": 141009.9605,
+      "avg_purchase_amount": 13857.7062,
+      "online_purchase_ratio": 0.6726,
+      "electronics_spend": 0.3312,
+      "fashion_spend": 0.1953,
+      "food_spend": 0.1187,
+      "home_spend": 0.1915,
+      "other_spend": 0.1633,
+      "avg_days_between_purchases": 2.9883
+    },
+    "feature_medians": {
+      "purchase_count": 12.0,
+      "monthly_spend": 136132.76,
+      "avg_purchase_amount": 12159.82,
+      "online_purchase_ratio": 0.685,
+      "electronics_spend": 0.336,
+      "fashion_spend": 0.198,
+      "food_spend": 0.119,
+      "home_spend": 0.193,
+      "other_spend": 0.12,
+      "avg_days_between_purchases": 2.5
+    }
+  },
+  "3": {
+    "cluster_id": 3,
+    "name": "Balanced Everyday Retail Shopper",
+    "description": "Steady, well-balanced spending distribution across retail categories with moderate purchase frequency.",
+    "characteristics": [
+      "Balanced Spending",
+      "Moderate Purchase Volume",
+      "Mixed Category Activity"
+    ],
+    "size": 349,
+    "percentage": 23.27,
+    "feature_means": {
+      "purchase_count": 9.2092,
+      "monthly_spend": 54711.5123,
+      "avg_purchase_amount": 6795.3659,
+      "online_purchase_ratio": 0.7283,
+      "electronics_spend": 0.4925,
+      "fashion_spend": 0.0905,
+      "food_spend": 0.1526,
+      "home_spend": 0.1209,
+      "other_spend": 0.1435,
+      "avg_days_between_purchases": 3.8298
+    },
+    "feature_medians": {
+      "purchase_count": 9.0,
+      "monthly_spend": 55500.49,
+      "avg_purchase_amount": 6127.28,
+      "online_purchase_ratio": 0.734,
+      "electronics_spend": 0.493,
+      "fashion_spend": 0.085,
+      "food_spend": 0.155,
+      "home_spend": 0.121,
+      "other_spend": 0.12,
+      "avg_days_between_purchases": 3.3333
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "modelName": "purchase_behavior_kmeans",
+  "modelVersion": "1.0.0",
+  "algorithm": "KMeans",
+  "scaler": "StandardScaler",
+  "randomState": 42,
+  "selectedK": 4,
+  "featureNames": [
+    "purchase_count",
+    "monthly_spend",
+    "avg_purchase_amount",
+    "online_purchase_ratio",
+    "electronics_spend",
+    "fashion_spend",
+    "food_spend",
+    "home_spend",
+    "other_spend",
+    "avg_days_between_purchases"
+  ],
+  "datasetRows": 1500,
+  "datasetColumns": 12,
+  "datasetPath": "C:\\Users\\Kuwari Tufail\\OneDrive - Work\\OneDrive\\Desktop\\VibeCode-main\\VibeCode-main\\VibeCode\\ml-service\\data\\ML_04_purchase_behavior_clustering.csv",
+  "trainedAt": "2026-09-11T10:56:34.837802"
+}

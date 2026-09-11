@@ -1,0 +1,35 @@
+{
+  "modelName": "LinearRegression",
+  "modelVersion": "ml-02-v1",
+  "target": "next_month_spend",
+  "featureNames": [
+    "previous_month_spend",
+    "spend_2_months_ago",
+    "spend_3_months_ago",
+    "avg_3_month_spend",
+    "purchase_count",
+    "avg_purchase_amount",
+    "online_purchase_ratio",
+    "electronics_spend",
+    "fashion_spend",
+    "food_spend",
+    "home_spend",
+    "other_spend"
+  ],
+  "featureDefinitions": {
+    "previous_month_spend": "Total purchase spend in month M-1 (most recent complete month)",
+    "spend_2_months_ago": "Total purchase spend in month M-2",
+    "spend_3_months_ago": "Total purchase spend in month M-3",
+    "avg_3_month_spend": "Arithmetic mean of previous_month_spend, spend_2_months_ago, spend_3_months_ago",
+    "purchase_count": "Count of all purchase records in M-1",
+    "avg_purchase_amount": "previous_month_spend / purchase_count (0 if purchase_count == 0)",
+    "online_purchase_ratio": "Fraction of M-1 purchases with purchaseType == 'ONLINE' (0.0 to 1.0)",
+    "electronics_spend": "Sum of M-1 spend where category == 'Electronics'",
+    "fashion_spend": "Sum of M-1 spend where category == 'Fashion'",
+    "food_spend": "Sum of M-1 spend where category in ['Food & Beverages', 'Food & Groceries']",
+    "home_spend": "Sum of M-1 spend where category in ['Home Appliances', 'Furniture']",
+    "other_spend": "Sum of M-1 spend in all remaining categories"
+  },
+  "datasetName": "ML_02_spending_forecasting.csv",
+  "trainedAt": "2026-09-10T18:29:49.283274Z"
+}

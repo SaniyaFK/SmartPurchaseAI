@@ -1,0 +1,19 @@
+{
+  "modelName": "IsolationForest",
+  "modelVersion": "ml-03-v1",
+  "algorithm": "IsolationForest",
+  "features": [
+    "purchase_amount",
+    "user_monthly_spend",
+    "category_average_purchase",
+    "purchase_count_last_30_days",
+    "days_since_last_purchase",
+    "amount_to_monthly_spend_ratio",
+    "amount_to_category_average_ratio"
+  ],
+  "contamination": 0.0947,
+  "trainingRecordCount": 1500,
+  "datasetName": "ML_03_spending_anomaly_detection.csv",
+  "randomState": 42,
+  "trainingDate": "2026-09-10T18:56:28.817810Z"
+}
