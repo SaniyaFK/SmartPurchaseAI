@@ -14,24 +14,136 @@
 </head>
 <body>
 
-  <!-- LIGHT/DARK THEME TOGGLE SWITCH -->
-  <button class="theme-toggle-btn" id="themeToggle" type="button">
-    <i class="fa-solid fa-moon" id="themeIcon"></i>
-    <span id="themeLabel">Dark Theme</span>
-  </button>
+  <!-- ==================================================== -->
+  <!-- 🌟 HERO AESTHETIC ANIMATED LANDING PAGE (STAGE 1)     -->
+  <!-- ==================================================== -->
+  <section class="landing-stage" id="landingStage">
+    <!-- Top Navigation Bar -->
+    <header class="landing-header">
+      <div class="landing-brand">
+        <div class="brand-icon-halo">
+          <i class="fa-solid fa-shield-halved"></i>
+        </div>
+        <span class="brand-title">SmartPurchase<span class="brand-ai-badge">AI</span></span>
+      </div>
+      
+      <div class="landing-header-actions">
+        <button class="theme-toggle-btn landing-theme-toggle" id="themeToggle" type="button" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+          <span id="themeLabel">Dark Theme</span>
+        </button>
+        <button class="landing-nav-signin-btn" id="landingNavSignIn" type="button">
+          <i class="fa-solid fa-arrow-right-to-bracket"></i> <span>Sign In</span>
+        </button>
+      </div>
+    </header>
 
-  <!-- GEOMETRIC ANIMATED BACKGROUND -->
-  <div class="geo-container">
-    <div class="geo-grid"></div>
-    <div class="geo-shape geo-1"></div>
-    <div class="geo-shape geo-2"></div>
-    <div class="geo-shape geo-3"></div>
-    <div class="geo-shape geo-4"></div>
+    <!-- Main Hero Container -->
+    <div class="landing-hero-container">
+      <!-- Ambient Glow Orbs -->
+      <div class="hero-glow-orb orb-center"></div>
+      <div class="hero-glow-orb orb-top-left"></div>
+      <div class="hero-glow-orb orb-bottom-right"></div>
+
+      <!-- AI Status Pill -->
+      <div class="hero-pill-badge animate-entrance" style="--delay: 0.1s;">
+        <span class="pulse-beacon"></span>
+        <span class="pill-text"><i class="fa-solid fa-wand-magic-sparkles"></i> Multimodal AI &amp; RAG Warranty Intelligence</span>
+      </div>
+
+      <!-- Centered Animated Product Name (Swift In From Right) -->
+      <div class="hero-title-wrapper animate-title-from-right">
+        <h1 class="landing-hero-title" id="landingHeroTitle">
+          <span class="title-brand-text">SmartPurchase</span>
+          <span class="title-ai-gradient">AI</span>
+        </h1>
+      </div>
+
+      <!-- Supporting Tagline -->
+      <p class="landing-hero-tagline animate-entrance" style="--delay: 0.35s;">
+        Your purchases. Your warranties. One intelligent vault.
+      </p>
+
+      <!-- Prominent Call-To-Action Group -->
+      <div class="landing-cta-group animate-entrance" style="--delay: 0.55s;">
+        <button class="hero-cta-btn primary-vault-btn" id="enterVaultBtn" type="button">
+          <span class="btn-text">Enter Vault</span>
+          <div class="btn-icon-circle">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div class="btn-shine"></div>
+        </button>
+        
+        <button class="hero-cta-btn secondary-glass-btn" id="getStartedBtn" type="button">
+          <i class="fa-solid fa-sparkles"></i>
+          <span>Get Started</span>
+        </button>
+      </div>
+
+      <!-- Live Feature Highlight Chips -->
+      <div class="hero-features-grid animate-entrance" style="--delay: 0.7s;">
+        <div class="feature-chip glass" id="featChip1">
+          <div class="chip-icon blue"><i class="fa-solid fa-receipt"></i></div>
+          <div class="chip-content">
+            <strong>Multimodal OCR Scanner</strong>
+            <span>Instant bill &amp; policy extraction</span>
+          </div>
+        </div>
+
+        <div class="feature-chip glass" id="featChip2">
+          <div class="chip-icon purple"><i class="fa-solid fa-brain"></i></div>
+          <div class="chip-content">
+            <strong>RAG Financial Copilot</strong>
+            <span>Gemini context-aware advice</span>
+          </div>
+        </div>
+
+        <div class="feature-chip glass" id="featChip3">
+          <div class="chip-icon green"><i class="fa-solid fa-shield-halved"></i></div>
+          <div class="chip-content">
+            <strong>Return &amp; Warranty Radar</strong>
+            <span>Automated deadline countdowns</span>
+          </div>
+        </div>
+
+        <div class="feature-chip glass" id="featChip4">
+          <div class="chip-icon pink"><i class="fa-solid fa-file-shield"></i></div>
+          <div class="chip-content">
+            <strong>1-Click AI Claim Generator</strong>
+            <span>Formal consumer dispute letters</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Micro Metrics Footer -->
+    <footer class="landing-footer animate-entrance" style="--delay: 0.85s;">
+      <div class="footer-stat">
+        <i class="fa-solid fa-shield-check" style="color: #34d399;"></i>
+        <span>Protected Spend: <strong>₹3.4L+</strong></span>
+      </div>
+      <span class="footer-dot">•</span>
+      <div class="footer-stat">
+        <i class="fa-solid fa-bolt" style="color: #60a5fa;"></i>
+        <span>AI Engine: <strong>Gemini Multimodal</strong></span>
+      </div>
+      <span class="footer-dot">•</span>
+      <div class="footer-stat">
+        <i class="fa-solid fa-lock" style="color: #a78bfa;"></i>
+        <span>Bank-Grade Encryption</span>
+      </div>
+    </footer>
+  </section>
+
+  <!-- ==================================================== -->
+  <!-- 🔐 EXISTING AUTH & VAULT PORTAL (STAGE 2)            -->
+  <!-- ==================================================== -->
+  <div class="card-back-bar" id="cardBackBar">
+    <button class="back-to-landing-btn" id="backToLandingBtn" type="button">
+      <i class="fa-solid fa-arrow-left"></i> <span>Back to Overview</span>
+    </button>
   </div>
 
- 
-
-  <!-- AUTH CARD -->
   <div class="card" id="card">
 
     <!-- DYNAMIC PANEL -->

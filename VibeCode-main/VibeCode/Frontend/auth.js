@@ -72,30 +72,56 @@ document.addEventListener('DOMContentLoaded', async () => {
     yearSelect.addEventListener('change', updateDays);
   }
 
-  // --- 3. PANEL TOGGLING ---
+  // --- 3. LANDING PAGE & VAULT PANEL TRANSITIONS ---
   const card = document.getElementById('card');
+  const enterVaultBtn = document.getElementById('enterVaultBtn');
+  const getStartedBtn = document.getElementById('getStartedBtn');
+  const landingNavSignIn = document.getElementById('landingNavSignIn');
+  const backToLandingBtn = document.getElementById('backToLandingBtn');
   const toSignupBtn = document.getElementById('toSignup');
   const toLoginBtn = document.getElementById('toLogin');
   const mobileToggles = document.querySelectorAll('.mobile-toggle');
 
-  toSignupBtn?.addEventListener('click', () => card.classList.add('signup-mode'));
-  toLoginBtn?.addEventListener('click', () => card.classList.remove('signup-mode'));
+  function openVault(mode = 'login') {
+    if (mode === 'signup') {
+      card?.classList.add('signup-mode');
+    } else {
+      card?.classList.remove('signup-mode');
+    }
+    document.body.classList.add('in-vault-mode');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 
-  // Landing hero CTA button -> scroll to card + switch to signup
-  document.getElementById('landingGetStarted')?.addEventListener('click', () => {
-    card.classList.add('signup-mode');
-    document.getElementById('card')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-  });
+  function closeVaultToLanding() {
+    document.body.classList.remove('in-vault-mode');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  enterVaultBtn?.addEventListener('click', () => openVault('login'));
+  landingNavSignIn?.addEventListener('click', () => openVault('login'));
+  getStartedBtn?.addEventListener('click', () => openVault('signup'));
+  backToLandingBtn?.addEventListener('click', closeVaultToLanding);
+
+  toSignupBtn?.addEventListener('click', () => card?.classList.add('signup-mode'));
+  toLoginBtn?.addEventListener('click', () => card?.classList.remove('signup-mode'));
 
   mobileToggles.forEach(btn => {
     btn.addEventListener('click', () => {
       if (btn.dataset.to === 'signup') {
-        card.classList.add('signup-mode');
+        card?.classList.add('signup-mode');
       } else {
-        card.classList.remove('signup-mode');
+        card?.classList.remove('signup-mode');
       }
     });
   });
+
+  // URL query parameter routing for direct navigation
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get('view') === 'signup' || urlParams.get('mode') === 'signup') {
+    openVault('signup');
+  } else if (urlParams.get('view') === 'login' || urlParams.get('mode') === 'login') {
+    openVault('login');
+  }
 
   // --- 4. EYE TOGGLES ---
   const eyeButtons = document.querySelectorAll('.toggle-eye');
